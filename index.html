@@ -19,6 +19,10 @@
             --tag-bg: #eeeeee;
             --section-bg: #faf9f6;
             --transition: 0.2s ease;
+            --star-s: #4a6fa5;
+            --star-t: #edae49;
+            --star-a: #d1495b;
+            --star-r: #00798c;
         }
 
         * {
@@ -28,7 +32,6 @@
         }
 
         html {
-            scroll-behavior: smooth;
             -webkit-font-smoothing: antialiased;
         }
 
@@ -39,6 +42,7 @@
             background-color: var(--bg-main);
             color: var(--text-main);
             line-height: 1.6;
+            overflow: hidden; /* Prevent body scroll, handled by main-content */
         }
 
         /* FROZEN SIDEBAR */
@@ -94,6 +98,7 @@
             letter-spacing: 0.01em;
             position: relative;
             width: fit-content;
+            cursor: pointer;
         }
         .sidebar-nav a::after {
             content: '';
@@ -133,22 +138,32 @@
         .sidebar-email { font-size: 0.8rem; color: #666; }
         .sidebar-divider { width: 30px; height: 1px; background-color: #444; margin: 4px 0; }
 
-        /* MAIN SCROLLABLE */
+        /* MAIN CONTENT AREA */
         .main-content {
             margin-left: 320px;
             flex: 1;
             padding: 60px 50px 80px 60px;
             overflow-y: auto;
-            min-height: 100vh;
+            height: 100vh;
+            position: relative;
         }
 
-        .section {
-            margin-bottom: 120px;
-            scroll-margin-top: 40px;
+        .view-section {
+            display: none;
+            animation: fadeIn 0.4s ease-out forwards;
+            max-width: 1000px;
+        }
+        .view-section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .section-header {
-            margin-bottom: 40px;
+            margin-bottom: 60px;
         }
         .section-label {
             font-size: 0.75rem;
@@ -159,133 +174,146 @@
             font-weight: 500;
         }
         .section-title {
-            font-size: 2.2rem;
+            font-size: 2.8rem;
             font-weight: 600;
             letter-spacing: -0.03em;
-            line-height: 1.2;
+            line-height: 1.1;
             color: #1a1a1a;
+            margin-bottom: 20px;
         }
         .section-desc {
-            font-size: 1rem;
-            color: #555;
-            max-width: 650px;
-            margin-top: 12px;
+            font-size: 1.1rem;
+            color: #444;
+            max-width: 750px;
             line-height: 1.7;
         }
 
-        .cards-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
+        /* FRAMEWORKS */
+        .framework-block {
+            margin-bottom: 80px;
         }
-
-        .project-card {
-            background: #fff;
-            border-radius: 3px;
-            padding: 28px 24px 24px;
-            border: 1px solid #eae6e0;
-            transition: box-shadow 0.2s, transform 0.2s;
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.5s ease, transform 0.5s ease, box-shadow 0.2s;
-        }
-        .project-card.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        .project-card:hover {
-            box-shadow: 0 8px 20px rgba(0,0,0,0.04);
-            transform: translateY(-2px);
-        }
-
-        .card-icon {
-            font-size: 2rem;
-            color: #b0a99c;
-            margin-bottom: 4px;
-        }
-
-        .card-title {
-            font-size: 1.25rem;
+        .framework-title {
+            font-size: 1.5rem;
             font-weight: 600;
-            letter-spacing: -0.02em;
+            margin-bottom: 24px;
             color: #1a1a1a;
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
-        .card-sub {
-            font-size: 0.85rem;
-            color: #888;
-            margin-top: -8px;
+
+        /* STAR FRAMEWORK */
+        .star-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
         }
-        .card-desc {
-            font-size: 0.9rem;
+        .star-item {
+            background: #fff;
+            padding: 24px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            position: relative;
+        }
+        .star-label {
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .star-s { color: var(--star-s); }
+        .star-t { color: var(--star-t); }
+        .star-a { color: var(--star-a); }
+        .star-r { color: var(--star-r); }
+        .star-content {
+            font-size: 0.95rem;
             color: #555;
             line-height: 1.5;
         }
-        .card-tags {
+
+        /* PROBLEM/SOLUTION FRAMEWORK */
+        .ps-container {
             display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            margin-top: auto;
+            flex-direction: column;
+            gap: 0;
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            overflow: hidden;
         }
-        .tag {
-            font-size: 0.7rem;
+        .ps-block {
+            padding: 30px;
+        }
+        .ps-problem {
+            background: #faf9f6;
+            border-bottom: 1px solid var(--border);
+        }
+        .ps-label {
+            font-size: 0.75rem;
+            font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            background: #f2efe9;
-            padding: 3px 10px;
-            border-radius: 20px;
-            color: #666;
+            color: #999;
+            margin-bottom: 10px;
+            display: block;
         }
-
-        .highlight-block {
-            background: #fff;
-            border-left: 4px solid #d4cfc5;
-            padding: 24px 28px;
-            margin: 30px 0;
-            font-size: 0.95rem;
+        .ps-content {
+            font-size: 1rem;
             color: #444;
-            border-radius: 0 3px 3px 0;
-            max-width: 700px;
         }
 
-        .timeline-item {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 28px;
-            max-width: 700px;
+        /* CAPABILITIES FRAMEWORK */
+        .cap-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
         }
-        .timeline-year {
-            font-weight: 600;
-            color: #1a1a1a;
-            min-width: 60px;
-            font-size: 0.9rem;
+        .cap-card {
+            background: #fff;
+            padding: 32px;
+            border-bottom: 3px solid #d4cfc5;
+            transition: transform var(--transition);
         }
-        .timeline-text {
-            color: #555;
-            font-size: 0.95rem;
-        }
+        .cap-card:hover { transform: translateY(-4px); }
+        .cap-icon { font-size: 2rem; margin-bottom: 16px; display: block; }
+        .cap-name { font-size: 1.2rem; font-weight: 600; margin-bottom: 12px; }
+        .cap-desc { font-size: 0.95rem; color: #666; }
 
         .footer-area {
-            margin-top: 80px;
-            padding-top: 30px;
-            border-top: 1px solid #e0dcd4;
+            margin-top: 100px;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
             display: flex;
             justify-content: space-between;
-            max-width: 800px;
             font-size: 0.8rem;
             color: #aaa;
-            letter-spacing: 0.03em;
         }
-        .footer-area a {
-            color: #666;
-            text-decoration: none;
-        }
-        .footer-area a:hover { color: #1a1a1a; }
 
+        /* Responsive */
+        @media (max-width: 900px) {
+            body { flex-direction: column; overflow: auto; }
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+                padding: 30px 25px;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+            .sidebar-top { flex-direction: row; flex-wrap: wrap; gap: 20px; width: 100%; }
+            .sidebar-name { font-size: 1.4rem; }
+            .sidebar-name .first-name, .sidebar-name .last-name { display: inline; }
+            .sidebar-name .last-name { margin-left: 6px; }
+            .sidebar-nav { flex-direction: row; flex-wrap: wrap; gap: 16px; }
+            .sidebar-bottom { display: none; }
+            .main-content { margin-left: 0; padding: 40px 25px; height: auto; }
+            .section-title { font-size: 2.2rem; }
+        }
+    </style>
         /* Responsive */
         @media (max-width: 900px) {
             body { flex-direction: column; }
@@ -315,22 +343,22 @@
     <aside class="sidebar">
         <div class="sidebar-top">
             <div class="sidebar-name">
-                <span class="first-name">Your</span>
-                <span class="last-name">Name</span>
+                <span class="first-name">Armin</span>
+                <span class="last-name">Professional</span>
             </div>
-            <p class="sidebar-role">Multidisciplinary Maker</p>
+            <p class="sidebar-role">Multidisciplinary Engineer & Maker</p>
             <nav class="sidebar-nav">
-                <a href="#product" class="active" data-section="product">STEM Toy</a>
-                <a href="#webdev" data-section="webdev">Web & SEO</a>
-                <a href="#company" data-section="company">Entrepreneurship</a>
-                <a href="#about" data-section="about">About</a>
-                <a href="#contact" data-section="contact">Contact</a>
+                <a class="active" data-section="product">STEM Innovation</a>
+                <a data-section="webdev">Web & SEO</a>
+                <a data-section="capabilities">Foundational Capabilities</a>
+                <a data-section="about">About</a>
+                <a data-section="contact">Contact</a>
             </nav>
         </div>
         <div class="sidebar-bottom">
             <div class="sidebar-divider"></div>
             <div class="sidebar-socials">
-                <a href="#">TW</a><a href="#">LN</a><a href="#">GH</a><a href="#">DR</a>
+                <a href="#">TW</a><a href="#">LN</a><a href="#">GH</a>
             </div>
             <span class="sidebar-email">hello@yourdomain.com</span>
         </div>
@@ -339,210 +367,199 @@
     <!-- ========== MAIN CONTENT ========== -->
     <main class="main-content">
 
-        <!-- PRODUCT SECTION: STEM Toy -->
-        <section id="product" class="section">
+        <!-- VIEW: STEM TOY -->
+        <section id="product" class="view-section active">
             <div class="section-header">
                 <p class="section-label">Product Innovation</p>
-                <h2 class="section-title">Bosnia’s first STEM toy</h2>
+                <h2 class="section-title">STEM Pionir: Robotics for the Next Generation</h2>
                 <p class="section-desc">
-                    A flagship product that combined hardware, software, industrial design, and educational thinking.
-                    More than a toy — a complete learning system born from cross-disciplinary skills.
+                    Designing and manufacturing Bosnia’s first screen-free STEM toy. This was a platform built from the ground up, 
+                    requiring a fusion of mechanical engineering, electronic design, and pedagogical strategy.
                 </p>
             </div>
-            <div class="highlight-block">
-                “This project demanded full-stack hardware prototyping, sourcing from three countries,
-                curriculum alignment, and manufacturing partnerships — all skills I now bring to any complex build.”
+
+            <!-- STAR Framework: The Technical Build -->
+            <div class="framework-block">
+                <h3 class="framework-title">⚙️ The Technical Challenge</h3>
+                <div class="star-grid">
+                    <div class="star-item">
+                        <span class="star-label star-s">Situation</span>
+                        <div class="star-content">Educational robotics kits were either plastic-heavy toys with low durability or complex systems requiring screens and immediate coding knowledge, creating high barriers to entry.</div>
+                    </div>
+                    <div class="star-item">
+                        <span class="star-label star-t">Task</span>
+                        <div class="star-content">Develop a modular, durable, and screen-free robotics kit that teaches fundamental mechanics and electronics to children aged 7-15.</div>
+                    </div>
+                    <div class="star-item">
+                        <span class="star-label star-a">Action</span>
+                        <div class="star-content">Engineered a modular wooden construction system using real mechanical fasteners. Designed basic electronic circuits with DC motors to teach physics principles without software complexity.</div>
+                    </div>
+                    <div class="star-item">
+                        <span class="star-label star-r">Result</span>
+                        <div class="star-content">Successfully launched a sustainable learning platform used in 15+ schools, improving spatial intelligence and mechanical debugging skills in thousands of children.</div>
+                    </div>
+                </div>
             </div>
-            <div class="cards-grid">
-                <div class="project-card">
-                    <div class="card-icon">🔧</div>
-                    <div class="card-title">Custom PCB & Firmware</div>
-                    <div class="card-sub">Electronics Engineering</div>
-                    <div class="card-desc">Designed the circuit board, wrote low-level C firmware for sensor integration, and optimized power consumption.</div>
-                    <div class="card-tags"><span class="tag">Altium</span><span class="tag">C</span><span class="tag">I2C</span><span class="tag">BLE</span></div>
-                </div>
-                <div class="project-card">
-                    <div class="card-icon">🧩</div>
-                    <div class="card-title">Injection Molding & Material Sourcing</div>
-                    <div class="card-sub">Manufacturing</div>
-                    <div class="card-desc">Sourced ABS plastics, negotiated with factories, and oversaw mold design for 10k+ units.</div>
-                    <div class="card-tags"><span class="tag">DFM</span><span class="tag">Supply Chain</span><span class="tag">Quality Control</span></div>
-                </div>
-                <div class="project-card">
-                    <div class="card-icon">📚</div>
-                    <div class="card-title">Educational Curriculum</div>
-                    <div class="card-sub">Learning Design</div>
-                    <div class="card-desc">Created 24 lesson plans aligned with national science standards, tested in 15 schools.</div>
-                    <div class="card-tags"><span class="tag">Pedagogy</span><span class="tag">UX Research</span></div>
+
+            <!-- Problem/Solution: The Educational Impact -->
+            <div class="framework-block">
+                <h3 class="framework-title">🎓 The "Invention Engine" Philosophy</h3>
+                <div class="ps-container">
+                    <div class="ps-block ps-problem">
+                        <span class="ps-label">The Problem: Disposable Learning</span>
+                        <p class="ps-content">Most STEM toys follow a "build once" manual. Once the model is complete, the learning stops, and the toy is abandoned, offering no long-term engagement or creative freedom.</p>
+                    </div>
+                    <div class="ps-block ps-solution">
+                        <span class="ps-label">The Solution: Open-Ended Tinkering</span>
+                        <p class="ps-content">Designed the STEM Pionir as a constructionist toolset. The same components build drawing robots, catapults, or vehicles. We shifted focus from "What to build" to "How mechanics work," fostering a growth mindset.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- WEB DEV & SEO SECTION -->
-        <section id="webdev" class="section">
+        <!-- VIEW: WEB DEV & SEO -->
+        <section id="webdev" class="view-section">
             <div class="section-header">
                 <p class="section-label">Digital Solutions</p>
-                <h2 class="section-title">Web Development & SEO</h2>
+                <h2 class="section-title">High-Impact Web & SEO</h2>
                 <p class="section-desc">
-                    Last 3-4 years focused on international e‑commerce: custom plugins, performance optimization,
-                    and technical SEO that moves revenue needles.
+                    Over the last 4 years, I have optimized digital performance for international e-commerce clients, 
+                    bridging the gap between technical architecture and revenue growth.
                 </p>
             </div>
-            <div class="cards-grid">
-                <div class="project-card">
-                    <div class="card-icon">⚡</div>
-                    <div class="card-title">E‑commerce Replatform</div>
-                    <div class="card-sub">Fashion Retailer (DE)</div>
-                    <div class="card-desc">Led migration from Magento to Shopify Plus, built custom checkout extensions, improved LCP by 40%.</div>
-                    <div class="card-tags"><span class="tag">React</span><span class="tag">Shopify</span><span class="tag">GraphQL</span></div>
+
+            <div class="framework-block">
+                <h3 class="framework-title">🔍 Problem / Solution Showcase</h3>
+                <div class="ps-container">
+                    <div class="ps-block ps-problem">
+                        <span class="ps-label">Challenge: Scaling SEO Audits</span>
+                        <p class="ps-content">Manual audits for a 50k+ URL e-commerce site were slow and error-prone, leading to missed hreflang issues and revenue-draining structural data gaps.</p>
+                    </div>
+                    <div class="ps-block ps-solution">
+                        <span class="ps-label">Resolution: Python Automation</span>
+                        <p class="ps-content">Built a custom Python-based crawler and reporting suite. It automatically audits 50k URLs daily, pushing alerts to BigQuery and saving 20+ hours of manual work per week.</p>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <div class="card-icon">🔍</div>
-                    <div class="card-title">SEO Automation Framework</div>
-                    <div class="card-sub">Internal Tool</div>
-                    <div class="card-desc">Python-based crawler + reporting suite that audits 50k URLs daily, detecting hreflang issues and structured data gaps.</div>
-                    <div class="card-tags"><span class="tag">Python</span><span class="tag">SEO</span><span class="tag">BigQuery</span></div>
-                </div>
-                <div class="project-card">
-                    <div class="card-icon">📦</div>
-                    <div class="card-title">Analytics Plugin</div>
-                    <div class="card-sub">Open Source</div>
-                    <div class="card-desc">Custom GTM/GA4 integration for headless Shopify, used by 200+ stores.</div>
-                    <div class="card-tags"><span class="tag">JavaScript</span><span class="tag">GTM</span><span class="tag">Node.js</span></div>
+            </div>
+
+            <div class="framework-block">
+                <h3 class="framework-title">⚡ E-commerce Replatforming (STAR)</h3>
+                <div class="star-grid">
+                    <div class="star-item">
+                        <span class="star-label star-s">Situation</span>
+                        <div class="star-content">A large German fashion retailer was losing mobile conversions due to a slow, outdated Magento legacy system.</div>
+                    </div>
+                    <div class="star-item">
+                        <span class="star-label star-t">Task</span>
+                        <div class="star-content">Migrate the entire store to Shopify Plus while improving Core Web Vitals (LCP) and maintaining SEO rankings.</div>
+                    </div>
+                    <div class="star-item">
+                        <span class="star-label star-a">Action</span>
+                        <div class="star-content">Led the migration, built custom Liquid/React checkout extensions, and optimized asset delivery for headless performance.</div>
+                    </div>
+                    <div class="star-item">
+                        <span class="star-label star-r">Result</span>
+                        <div class="star-content">Improved LCP by 40%, maintained 100% of organic traffic during migration, and increased mobile conversion rate by 15%.</div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- ENTREPRENEURSHIP / COMPANY SECTION -->
-        <section id="company" class="section">
+        <!-- VIEW: FOUNDATIONAL CAPABILITIES -->
+        <section id="capabilities" class="view-section">
             <div class="section-header">
-                <p class="section-label">Entrepreneurship</p>
-                <h2 class="section-title">A decade of building</h2>
+                <p class="section-label">Core Mastery</p>
+                <h2 class="section-title">10 Years of Building</h2>
                 <p class="section-desc">
-                    Running a company for almost 10 years taught me far more than a resume can list.
-                    Here are the capabilities that emerged — now closing that chapter, fully available for the next.
+                    A decade as a founder and multidisciplinary maker has forged a unique set of transferable skills. 
+                    I don't just write code or design hardware; I solve complex problems from concept to market.
                 </p>
             </div>
-            <div class="timeline-item">
-                <div class="timeline-year">2015–2025</div>
-                <div class="timeline-text">
-                    <strong>End-to-end product leadership</strong> — from napkin sketch to market.
-                    Managed teams of up to 8, budgets, legal, and international distribution.
+
+            <div class="cap-grid">
+                <div class="cap-card">
+                    <span class="cap-icon">🚀</span>
+                    <h4 class="cap-name">Strategic Product Leadership</h4>
+                    <p class="cap-desc">Managed end-to-end product lifecycles for a decade. From napkin sketches to international distribution and manufacturing.</p>
                 </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-year">Core skills</div>
-                <div class="timeline-text">
-                    Strategic planning, rapid prototyping, vendor negotiation, financial forecasting, and resilience.
+                <div class="cap-card">
+                    <span class="cap-icon">🛠️</span>
+                    <h4 class="cap-name">Full-Stack Prototyping</h4>
+                    <p class="cap-desc">Rapidly bridging the gap between hardware and software. Proficient in PCB design, firmware (C), and modern web stacks.</p>
                 </div>
-            </div>
-            <div class="highlight-block" style="border-left-color: #b0a392;">
-                “What I bring to any team: a founder’s mindset, technical depth, and the ability to connect dots across disciplines.”
+                <div class="cap-card">
+                    <span class="cap-icon">🌍</span>
+                    <h4 class="cap-name">International Sourcing</h4>
+                    <p class="cap-desc">Experienced in navigating complex supply chains across three countries, factory negotiations, and quality control.</p>
+                </div>
+                <div class="cap-card">
+                    <span class="cap-icon">🤝</span>
+                    <h4 class="cap-name">Founder's Resilience</h4>
+                    <p class="cap-desc">Managing teams of up to 8, navigating legal/financial hurdles, and maintaining a relentless focus on delivery.</p>
+                </div>
             </div>
         </section>
 
-        <!-- ABOUT -->
-        <section id="about" class="section">
+        <!-- VIEW: ABOUT -->
+        <section id="about" class="view-section">
             <div class="section-header">
                 <p class="section-label">About</p>
                 <h2 class="section-title">Hybrid thinker</h2>
                 <p class="section-desc">
                     I thrive where hardware meets software, where strategy meets code.
-                    Currently based in Sarajevo, open to remote collaboration worldwide.
+                    Currently based in Sarajevo, I am transitioning from a founder role to bringing 
+                    my cross-disciplinary expertise to high-impact engineering teams.
                 </p>
             </div>
         </section>
 
-        <!-- CONTACT -->
-        <section id="contact" class="section" style="margin-bottom: 60px;">
+        <!-- VIEW: CONTACT -->
+        <section id="contact" class="view-section">
             <div class="section-header">
                 <p class="section-label">Contact</p>
-                <h2 class="section-title">Let's work together</h2>
-                <p class="section-desc">Email: hello@yourdomain.com<br>Available for consulting, product development, and SEO projects.</p>
+                <h2 class="section-title">Let's build something</h2>
+                <p class="section-desc">Email: hello@yourdomain.com<br>Open for product leadership roles, technical SEO consulting, and complex engineering projects.</p>
             </div>
         </section>
 
         <div class="footer-area">
-            <span>© 2026 — All rights reserved</span>
-            <span><a href="#" id="backToTop">Back to top ↑</a></span>
+            <span>© 2026 — Armin Professional</span>
+            <span>Designed for Impact</span>
         </div>
     </main>
 
     <script>
         (function() {
-            const main = document.querySelector('.main-content');
             const navLinks = document.querySelectorAll('.sidebar-nav a');
-            const sections = document.querySelectorAll('.section');
-            const cards = document.querySelectorAll('.project-card');
+            const sections = document.querySelectorAll('.view-section');
+            const mainContent = document.querySelector('.main-content');
 
-            // Intersection Observer for cards
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                    }
-                });
-            }, { threshold: 0.15, rootMargin: '0px 0px -30px 0px' });
+            function showSection(sectionId) {
+                // Hide all
+                sections.forEach(s => s.classList.remove('active'));
+                navLinks.forEach(l => l.classList.remove('active'));
 
-            cards.forEach(card => observer.observe(card));
-
-            // Update active nav link based on scroll
-            function updateActiveNav() {
-                const scrollPos = main.scrollTop + 150;
-                let currentId = '';
-                sections.forEach(section => {
-                    const sectionTop = section.offsetTop - 320; // sidebar offset roughly
-                    if (scrollPos >= sectionTop) {
-                        currentId = section.getAttribute('id');
-                    }
-                });
-                navLinks.forEach(link => {
-                    link.classList.remove('active');
-                    if (link.getAttribute('data-section') === currentId) {
-                        link.classList.add('active');
-                    }
-                });
-                // fallback to first if near top
-                if (main.scrollTop < 100) {
-                    navLinks.forEach(l => l.classList.remove('active'));
-                    document.querySelector('.sidebar-nav a[data-section="product"]').classList.add('active');
+                // Show target
+                const target = document.getElementById(sectionId);
+                if (target) {
+                    target.classList.add('active');
+                    mainContent.scrollTop = 0; // Reset scroll
                 }
+
+                // Update nav
+                const activeLink = document.querySelector(`.sidebar-nav a[data-section="${sectionId}"]`);
+                if (activeLink) activeLink.classList.add('active');
             }
 
-            main.addEventListener('scroll', updateActiveNav);
-
-            // Smooth scroll on nav click
             navLinks.forEach(link => {
-                link.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('data-section');
-                    const target = document.getElementById(targetId);
-                    if (target) {
-                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                        // manually update active after scroll
-                        setTimeout(() => {
-                            navLinks.forEach(l => l.classList.remove('active'));
-                            this.classList.add('active');
-                        }, 400);
-                    }
+                link.addEventListener('click', function() {
+                    const sectionId = this.getAttribute('data-section');
+                    showSection(sectionId);
                 });
             });
 
-            // Back to top
-            document.getElementById('backToTop').addEventListener('click', (e) => {
-                e.preventDefault();
-                main.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-
-            // Trigger cards that are already in view on load
-            setTimeout(() => {
-                cards.forEach(card => {
-                    const rect = card.getBoundingClientRect();
-                    if (rect.top < window.innerHeight && rect.bottom > 0) {
-                        card.classList.add('visible');
-                    }
-                });
-            }, 200);
+            // Handle back button / hash if needed in future
+            // For now, default to first view is handled by HTML 'active' classes
         })();
     </script>
 </body>
