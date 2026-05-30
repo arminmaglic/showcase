@@ -219,36 +219,11 @@ body {
     font-weight: 500;
 }
 
-.hero-stats-table {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    border-top: 1px solid var(--border);
-    padding-top: 30px;
-    margin-bottom: 40px;
-    max-width: 400px;
-}
-
-.stat-row {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.9rem;
-}
-
-.stat-label {
-    color: #999;
-    font-weight: 500;
-}
-
-.stat-value {
-    color: #444;
-    font-weight: 600;
-}
-
 .hero-bio {
     font-size: 1.15rem;
     color: #555;
     line-height: 1.6;
+    margin-bottom: 40px;
 }
 
 .hero-visual-side {
@@ -306,7 +281,7 @@ body {
 }
 
 .expertise-area {
-    margin-top: 100px;
+    margin-top: 60px;
     border-top: 1px solid var(--border);
     padding-top: 40px;
 }
@@ -321,7 +296,7 @@ body {
 }
 
 .expertise-item {
-    flex: 1 1 33.333%;
+    flex: 1 1 50%;
     padding: 20px 30px;
     font-family: 'Space Mono', monospace, 'Courier New';
     font-size: 0.85rem;
@@ -331,11 +306,11 @@ body {
     background: #fff;
     color: #1a1a1a;
 }
-.expertise-item:nth-child(3n) { border-right: none; }
-.expertise-item:nth-last-child(-n+3) { border-bottom: none; }
+.expertise-item:nth-child(2n) { border-right: none; }
+.expertise-item:nth-last-child(-n+2) { border-bottom: none; }
 
 .cta-area {
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -389,10 +364,14 @@ body {
 }
 
 /* Responsive CTA */
+@media (max-width: 1000px) {
+    .hero-container { flex-direction: column; height: auto; padding-bottom: 60px; }
+    .hero-visual-side { order: -1; margin-bottom: 40px; }
+}
+
 @media (max-width: 768px) {
-    .expertise-item { flex: 1 1 50%; }
-    .expertise-item:nth-child(2n) { border-right: none; }
-    .expertise-item:nth-child(3n) { border-right: 1px solid var(--border); }
+    .expertise-item { flex: 1 1 100%; border-right: none; }
+    .expertise-item:nth-last-child(1) { border-bottom: none; }
     .cta-area { flex-direction: column; }
     .cta-button-container { justify-content: flex-start; }
 }
