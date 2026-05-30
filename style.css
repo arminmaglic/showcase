@@ -43,7 +43,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 320px;
+    width: 200px;
     height: 100vh;
     background-color: var(--bg-sidebar);
     color: var(--text-sidebar);
@@ -133,7 +133,7 @@ body {
 
 /* MAIN CONTENT AREA */
 .main-content {
-    margin-left: 320px;
+    margin-left: 200px;
     flex: 1;
     padding: 60px 50px 80px 60px;
     overflow-y: auto;
@@ -220,7 +220,7 @@ body {
 }
 
 .hero-bio {
-    font-size: 1.15rem;
+    font-size: 0.9rem;
     color: #555;
     line-height: 1.6;
     margin-bottom: 40px;
@@ -281,25 +281,23 @@ body {
 }
 
 .expertise-area {
-    margin-top: 60px;
     border-top: 1px solid var(--border);
-    padding-top: 40px;
 }
 
 .expertise-table {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 0;
     border: 1px solid var(--border);
     border-radius: 4px;
-    overflow: hidden;
+	flex-direction: row;
 }
 
 .expertise-item {
     flex: 1 1 50%;
-    padding: 20px 30px;
+    padding: 3px 5px;
     font-family: 'Space Mono', monospace, 'Courier New';
-    font-size: 0.85rem;
+    font-size: 0.7rem;
     text-transform: lowercase;
     border-right: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
