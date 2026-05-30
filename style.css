@@ -275,6 +275,63 @@ body {
 .cap-name { font-size: 1.2rem; font-weight: 600; margin-bottom: 12px; }
 .cap-desc { font-size: 0.95rem; color: #666; }
 
+/* SHOWCASE FRAMEWORK (for plugins/tools) */
+.framework-showcase {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.showcase-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
+}
+.showcase-meta {
+    text-align: right;
+}
+.showcase-client {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+.showcase-tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.tag {
+    font-size: 0.7rem;
+    background: var(--tag-bg);
+    padding: 4px 10px;
+    border-radius: 100px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.showcase-features {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.feature-item {
+    display: flex;
+    gap: 12px;
+    font-size: 0.95rem;
+    color: #444;
+}
+.feature-icon {
+    color: var(--star-r);
+    font-weight: bold;
+}
+
 .footer-area {
     margin-top: 100px;
     padding-top: 40px;
