@@ -205,7 +205,7 @@ body {
 }
 
 .hero-headline {
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1.05;
     letter-spacing: -0.04em;
@@ -294,6 +294,107 @@ body {
 @keyframes rotate {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
+}
+
+/* EXPERTISE & CTA */
+.label-mono {
+    font-family: 'Space Mono', monospace, 'Courier New';
+    font-size: 0.75rem;
+    color: #999;
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+}
+
+.expertise-area {
+    margin-top: 100px;
+    border-top: 1px solid var(--border);
+    padding-top: 40px;
+}
+
+.expertise-table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.expertise-item {
+    flex: 1 1 33.333%;
+    padding: 20px 30px;
+    font-family: 'Space Mono', monospace, 'Courier New';
+    font-size: 0.85rem;
+    text-transform: lowercase;
+    border-right: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    background: #fff;
+    color: #1a1a1a;
+}
+.expertise-item:nth-child(3n) { border-right: none; }
+.expertise-item:nth-last-child(-n+3) { border-bottom: none; }
+
+.cta-area {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.sub-message {
+    flex: 2;
+}
+
+.sub-message-text {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.cta-button-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cta-button {
+    background-color: #eb4d23;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background-color: #ff5e36;
+}
+
+.cta-text {
+    font-family: 'Space Mono', monospace, 'Courier New';
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.cta-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Responsive CTA */
+@media (max-width: 768px) {
+    .expertise-item { flex: 1 1 50%; }
+    .expertise-item:nth-child(2n) { border-right: none; }
+    .expertise-item:nth-child(3n) { border-right: 1px solid var(--border); }
+    .cta-area { flex-direction: column; }
+    .cta-button-container { justify-content: flex-start; }
 }
 
 /* FRAMEWORKS */
