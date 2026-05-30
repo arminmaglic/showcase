@@ -364,7 +364,7 @@ body {
 /* Responsive CTA */
 @media (max-width: 1000px) {
     .hero-container { flex-direction: column; height: auto; padding-bottom: 60px; }
-    .hero-visual-side { order: -1; margin-bottom: 40px; }
+    .hero-visual-side { order: 0; margin-bottom: 40px; }
 }
 
 @media (max-width: 768px) {
