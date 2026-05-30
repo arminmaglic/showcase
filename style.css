@@ -181,6 +181,121 @@ body {
     line-height: 1.7;
 }
 
+/* HERO SECTION (HOME) */
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70vh;
+    gap: 60px;
+    padding-top: 20px;
+}
+
+.hero-text-side {
+    flex: 1;
+    max-width: 650px;
+}
+
+.hero-intro-label {
+    font-size: 0.8rem;
+    font-family: monospace;
+    color: var(--star-s);
+    margin-bottom: 24px;
+    letter-spacing: 0.1em;
+}
+
+.hero-headline {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+}
+
+.highlight-text {
+    color: var(--text-muted);
+    font-style: italic;
+    font-weight: 500;
+}
+
+.hero-stats-table {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-top: 1px solid var(--border);
+    padding-top: 30px;
+    margin-bottom: 40px;
+    max-width: 400px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+
+.stat-label {
+    color: #999;
+    font-weight: 500;
+}
+
+.stat-value {
+    color: #444;
+    font-weight: 600;
+}
+
+.hero-bio {
+    font-size: 1.15rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.hero-visual-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-visual-placeholder {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visual-orb {
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(135deg, #e8e5df 0%, #d4cfc5 100%);
+    border-radius: 50%;
+    filter: blur(2px);
+    box-shadow: 20px 20px 60px #d9d6ce, -20px -20px 60px #ffffff;
+    animation: float 6s ease-in-out infinite;
+}
+
+.visual-ring {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 50%;
+    animation: rotate 12s linear infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
 /* FRAMEWORKS */
 .framework-block {
     margin-bottom: 80px;
