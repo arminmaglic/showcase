@@ -250,6 +250,14 @@
                         if (navLink) navLink.style.display = 'none';
                     }
                 }
+
+                // Hide navigation items based on persona configuration
+                if (config.hidden_nav && Array.isArray(config.hidden_nav)) {
+                    config.hidden_nav.forEach(sectionId => {
+                        const navLink = document.querySelector(`.sidebar-nav a[data-section="${sectionId}"]`);
+                        if (navLink) navLink.style.display = 'none';
+                    });
+                }
             }
         } catch (err) {
             console.error('Error initializing portfolio:', err);
