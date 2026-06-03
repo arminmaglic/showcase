@@ -378,7 +378,6 @@ body {
 .cta-button-container {
     flex: 1;
     display: flex;
-    justify-content: flex-end;
 }
 
 .cta-button {

@@ -920,6 +920,7 @@
     },
 
     "#contact .section-label": { "en": "Contact", "bs": "Kontakt" },
-    "#contact .section-title": { "en": "Let's build something", "bs": "Izgradimo nešto zajedno" }
+    "#contact .section-title": { "en": "Let's build something", "bs": "Izgradimo nešto zajedno" },
+    "#contact .section-desc": { "en": "Email: armin.maglic@gmail.com", "bs": "E-mail: armin.maglic@gmail.com" }
   }
 }
