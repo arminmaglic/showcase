@@ -1,0 +1,868 @@
+{
+  "BA": "bs",
+  "HR": "bs",
+  "RS": "bs",
+  "ME": "bs",
+  "translations": {
+    ".sidebar-role": {
+      "en": "Multidisciplinary Engineer & Maker",
+      "bs": "Multidisciplinarni inženjer i kreator"
+    },
+    ".sidebar-nav a[data-section='home']": {
+      "en": "Home",
+      "bs": "Početna"
+    },
+    ".sidebar-nav a[data-section='webdev']": {
+      "en": "Web Dev",
+      "bs": "Web Razvoj"
+    },
+    ".sidebar-nav a[data-section='seo']": {
+      "en": "SEO & Search Psychology",
+      "bs": "SEO i psihologija pretrage"
+    },
+    ".sidebar-nav a[data-section='product']": {
+      "en": "Product Innovation",
+      "bs": "Inovacija proizvoda"
+    },
+    ".sidebar-nav a[data-section='capabilities']": {
+      "en": "Core Mastery",
+      "bs": "Temeljna stručnost"
+    },
+    ".sidebar-nav a[data-section='about']": {
+      "en": "About",
+      "bs": "O meni"
+    },
+    ".sidebar-nav a[data-section='contact']": {
+      "en": "Contact",
+      "bs": "Kontakt"
+    },
+    ".hero-headline": {
+      "en": "Armin Maglić is an engineer and maker giving shape to ideas through software, hardware, and strategic growth.",
+      "bs": "Armin Maglić je inženjer i kreator koji daje oblik idejama kroz softver, hardver i strateški rast."
+    },
+    ".hero-bio": {
+      "en": "Four years of freelance experience with international clients across LA, Paris, Duisburg, and Berlin, paired with local market knowledge in Bosnia and Herzegovina. I specialize in e-commerce websites with SEO at the foundation—building systems that drive real business outcomes.",
+      "bs": "Četiri godine iskstva frilensera s međunarodnim klijentima iz Los Angelesa, Pariza, Duisburga i Berlina, uz duboko poznavanje lokalnog tržišta u Bosni i Hercegovini. Specijaliziran sam za e-commerce web stranice sa SEO-om kao temeljem—gradim sisteme koji donose stvarne poslovne rezultate."
+    },
+    ".hero-intro-label": {
+      "en": "[hello]",
+      "bs": "[zdravo]"
+    },
+    ".label-mono": {
+      "en": "[expertise]",
+      "bs": "[stručnost]"
+    },
+    ".expertise-item:nth-child(1)": { "en": "semantic seo", "bs": "semantički seo" },
+    ".expertise-item:nth-child(2)": { "en": "web dev", "bs": "web razvoj" },
+    ".expertise-item:nth-child(3)": { "en": "product design", "bs": "dizajn proizvoda" },
+    ".expertise-item:nth-child(4)": { "en": "rapid prototyping", "bs": "brza izrada prototipa" },
+    ".expertise-item:nth-child(5)": { "en": "growth strategy", "bs": "strategija rasta" },
+    ".sub-message .label-mono": { "en": "[read-me]", "bs": "[pročitaj-me]" },
+    ".sub-message-text": {
+      "en": "If you think I can help you build something, or if you just want to meet, drop me an email.",
+      "bs": "Ako mislite da vam mogu pomoći da nešto izgradite, ili ako se samo želite upoznati, pošaljite mi e-mail."
+    },
+    ".cta-text": { "en": "GET IN TOUCH", "bs": "STUPITE U KONTAKT" },
+    ".scroll-hint-text": { "en": "scroll to explore", "bs": "scroll za istraživanje" },
+
+    "#product .section-label": { "en": "Product Innovation", "bs": "Inovacija proizvoda" },
+    "#product .section-title": {
+      "en": "STEM Pionir: Robotics for the Next Generation",
+      "bs": "STEM Pionir: Robotika za sljedeću generaciju"
+    },
+    "#product .section-desc": {
+      "en": "Designing and manufacturing Bosnia's first screen-free STEM toy. This was a platform built from the ground up, requiring a fusion of mechanical engineering, electronic design, and pedagogical strategy.",
+      "bs": "Dizajniranje i proizvodnja prve bosanske STEM igračke bez ekrana. Ovo je bila platforma izgrađena od nule, koja je zahtijevala spoj mašinskog inženjeringa, dizajna elektronike i pedagoške strategije."
+    },
+
+    "#tea-recipe .framework-title": { "en": "🍵 Tea Recipe Management Plugin", "bs": "🍵 Dodatak za upravljanje receptima čaja" },
+    "#tea-recipe .showcase-title-area .ps-content": {
+      "en": "Custom WordPress Tool for Production Operations",
+      "bs": "Prilagođeni WordPress alat za proizvodne operacije"
+    },
+    "#tea-recipe > p.ps-content": {
+      "en": "A specialized internal system designed to bridge the gap between production recipes and real-time inventory costs. It automates financial tracking for tea blends while providing employees with a digital logging interface for food safety compliance.",
+      "bs": "Specijalizirani interni sistem dizajniran da premosti jaz između recepata za proizvodnju i troškova zaliha u realnom vremenu. Automatizuje finansijsko praćenje mješavina čaja uz pružanje zaposlenicima digitalnog interfejsa za prijavu u skladu sa sigurnošću hrane."
+    },
+
+    "#siegmann-ai .framework-title": { "en": "🖼️ SiegmannStock AI Vision & Auto-Pricing Pipeline", "bs": "🖼️ SiegmannStock AI Vision i cjevovod za automatsko određivanje cijena" },
+    "#siegmann-ai .showcase-title-area .ps-content": {
+      "en": "Production AI Asset Enrichment for WooCommerce",
+      "bs": "Proizvodno obogaćivanje AI imovine za WooCommerce"
+    },
+    "#siegmann-ai > p.ps-content": {
+      "en": "Automated suite that classifies, scores, and prices stock photography at scale using multi-modal AI. Replaced manual categorization with a rule-based scoring engine that evaluates images across conceptual, commercial, and technical axes.",
+      "bs": "Automatizovani paket koji klasifikuje, ocenjuje i određuje cene stock fotografija u velikom obimu koristeći multimodalni AI. Zamenjena ručna kategorizacija mehanizmom za bodovanje zasnovanim na pravilima koji procjenjuje slike kroz konceptualne, komercijalne i tehničke ose."
+    },
+
+    "#sublimoss .framework-title": { "en": "🌿 MySuperNutri / Sublimoss DTC Architecture", "bs": "🌿 MySuperNutri / Sublimoss DTC Arhitektura" },
+    "#sublimoss .showcase-title-area .ps-content": {
+      "en": "Brand Build & Conversion Strategy for French Wellness Market",
+      "bs": "Izgradnja brenda i strategija konverzije za francusko wellness tržište"
+    },
+    "#sublimoss > p.ps-content": {
+      "en": "End-to-end page architecture for a French sea moss brand. Translated complex nutritional specs into high-conversion narratives using psychological clustering and lean design principles.",
+      "bs": "Arhitektura stranice od kraja do kraja za francuski brend morske mahovine. Prevedene složene nutritivne specifikacije u narative visoke konverzije koristeći psihološko klasterisanje i principe lean dizajna."
+    },
+
+    "#rawear-crm .framework-title": { "en": "💼 B2B RAWEAR: Sales Intelligence CRM", "bs": "💼 B2B RAWEAR: CRM za prodajnu inteligenciju" },
+    "#rawear-crm .showcase-title-area .ps-content": {
+      "en": "Behavioral Psychology + AI-Powered B2B Outreach System",
+      "bs": "Bihevioralna psihologija + B2B sistem dohvata vođen AI-om"
+    },
+    "#rawear-crm > p.ps-content": {
+      "en": "Full-Stack CRM combining behavioral psychology with AI-powered sales intelligence for hyper-personalized B2B outreach. Analyzes fear patterns, identifies cognitive hooks, and maps behavioral signals to optimal sales strategies.",
+      "bs": "Full-Stack CRM koji kombinuje bihevioralnu psihologiju sa prodajnom inteligencijom na bazi AI-a za hiper-personalizovan B2B doseg. Analizira obrasce straha, identifikuje kognitivne kuke i mapira bihevioralne signale do optimalnih prodajnih strategija."
+    },
+
+    "#content-pipeline .framework-title": { "en": "🧠 AI-Powered Content Intelligence Pipeline", "bs": "🧠 AI-pokretani cjevovod za sadržajnu inteligenciju" },
+    "#content-pipeline .showcase-title-area .ps-content": {
+      "en": "Production Infrastructure • herbomarais.fr",
+      "bs": "Proizvodna infrastruktura • herbomarais.fr"
+    },
+    "#content-pipeline > p.ps-content": {
+      "en": "Production infrastructure that transforms content production into a compounding data asset. Captures psychological intelligence that generic AI cannot synthesize and competitors cannot buy.",
+      "bs": "Proizvodna infrastruktura koja transformiše proizvodnju sadržaja u podatkovnu imovinu koja se akumulira. Bilježi psihološku inteligenciju koju generički AI ne može sintetizirati i koju konkurenti ne mogu kupiti."
+    },
+
+    "#semantic-search .framework-title": { "en": "🔍 WooCommerce Semantic Search Plugin", "bs": "🔍 WooCommerce dodatak za semantičku pretragu" },
+    "#semantic-search .showcase-title-area .ps-content": {
+      "en": "AI-Powered Vector Search with Intent Parsing",
+      "bs": "Vektorska pretraga vođena AI-om sa analizom namjere"
+    },
+    "#semantic-search > p.ps-content": {
+      "en": "Custom plugin replacing keyword search with semantic vector search. Uses AI embeddings to match queries based on meaning, mood, and emotional intent rather than literal keywords.",
+      "bs": "Prilagođeni dodatak koji zamjenjuje pretragu ključnih riječi semantičkom vektorskom pretragom. Koristi AI ugradnje za podudaranje upita na osnovu značenja, raspoloženja i emocionalne namjere umjesto doslovnih ključnih riječi."
+    },
+
+    "#stem-toy-technical .framework-title": { "en": "⚙️ The Technical Challenge", "bs": "⚙️ Tehnički izazov" },
+    "#stem-toy-technical .star-s": { "en": "Situation", "bs": "Situacija" },
+    "#stem-toy-technical .star-t": { "en": "Task", "bs": "Zadatak" },
+    "#stem-toy-technical .star-a": { "en": "Action", "bs": "Akcija" },
+    "#stem-toy-technical .star-r": { "en": "Result", "bs": "Rezultat" },
+
+    "#stem-toy-impact .framework-title": { "en": "🎓 The \"Invention Engine\" Philosophy", "bs": "🎓 Filozofija \"Motora izuma\"" },
+
+    ".filter-btn:nth-child(1)": { "en": "All", "bs": "Sve" },
+    ".filter-btn:nth-child(2)": { "en": "Plugins", "bs": "DODACI" },
+    ".filter-btn:nth-child(3)": { "en": "AI & Vision", "bs": "AI i vid" },
+    ".filter-btn:nth-child(4)": { "en": "Schema & SEO", "bs": "Šema i SEO" },
+    ".filter-btn:nth-child(5)": { "en": "Integrations", "bs": "Integracije" },
+    ".filter-btn:nth-child(6)": { "en": "Widgets", "bs": "Vidžeti" },
+
+    "#stem-toy-technical .star-content:nth-child(2)": {
+      "en": "Educational robotics kits were either plastic-heavy toys with low durability or complex systems requiring screens and immediate coding knowledge, creating high barriers to entry.",
+      "bs": "Edukativni robotiki setovi su bili ili igračke od plastike sa niskom trajnošću ili složeni sistemi koji zahtijevaju ekrane i trenutno poznavanje kodiranja, što je stvaralo visoke prepreke za ulazak."
+    },
+    "#stem-toy-technical .star-item:nth-child(2) .star-content": {
+      "en": "Develop a modular, durable, and screen-free robotics kit that teaches fundamental mechanics and electronics to children aged 7-15.",
+      "bs": "Razviti modularan, trajan i robotiki set bez ekrana koji uči osnovne mehanike i elektroniku djeci uzrasta 7-15 godina."
+    },
+    "#stem-toy-technical .star-item:nth-child(3) .star-content": {
+      "en": "Engineered a modular wooden construction system using real mechanical fasteners. Designed basic electronic circuits with DC motors to teach physics principles without software complexity.",
+      "bs": "Projektovao modularni drveni konstrukcijski sistem koristeći prave mehaničke spojnice. Dizajnirao osnovna elektronska kola sa DC motorima za učenje principa fizike bez softverske kompleksnosti."
+    },
+    "#stem-toy-technical .star-item:nth-child(4) .star-content": {
+      "en": "Successfully launched a sustainable learning platform used in 15+ schools, improving spatial intelligence and mechanical debugging skills in thousands of children.",
+      "bs": "Uspješno lansirao održivu platformu za učenje korištenu u 15+ škola, poboljšavajući prostornu inteligenciju i mehaničke vještine otklanjanja grešaka u hiljadama djece."
+    },
+
+    "#stem-toy-impact .ps-label:nth-child(1)": {
+      "en": "The Problem: Disposable Learning",
+      "bs": "Problem: Jednokratno učenje"
+    },
+    "#stem-toy-impact .ps-block:nth-child(1) .ps-content": {
+      "en": "Most STEM toys follow a \"build once\" manual. Once the model is complete, the learning stops, and the toy is abandoned, offering no long-term engagement or creative freedom.",
+      "bs": "Većina STEM igračaka prati \"izgradi jednom\" priručnik. Jednom kada je model završen, učenje staje, a igračka se napušta, ne nudeći dugoročnu angažovanost ili kreativnu slobodu."
+    },
+    "#stem-toy-impact .ps-block:nth-child(2) .ps-label": {
+      "en": "The Solution: Open-Ended Tinkering",
+      "bs": "Rješenje: Otvoreno eksperimentisanje"
+    },
+    "#stem-toy-impact .ps-block:nth-child(2) .ps-content": {
+      "en": "Designed the STEM Pionir as a constructionist toolset. The same components build drawing robots, catapults, or vehicles. Shifting focus from \"What to build\" to \"How mechanics work,\" fostering a growth mindset.",
+      "bs": "Dizajnirao STEM Pionir kao konstruktivistički alat. Isti komponente grade robote za crtanje, katapulte ili vozila. Pomicanje fokisa sa \"Šta izgraditi\" na \"Kako mehanika radi,\" razvijajući mentalitet rasta."
+    },
+
+    "#webdev .section-label": { "en": "Engineering", "bs": "Inženjering" },
+    "#webdev .section-title": { "en": "Web development", "bs": "Web razvoj" },
+    "#webdev .section-desc": {
+      "en": "Building production WordPress plugins, AI-powered search systems, and semantic SEO infrastructure. My focus is on scalable e-commerce architectures, API integrations, and tools that reduce operational overhead.",
+      "bs": "Izrada produkcijskih WordPress dodataka, sistema pretrage na bazi AI i semantičke SEO infrastrukture. Moj fokus je na skalabilnim e-commerce arhitekturama, API integracijama i alatima koji smanjuju operativne troškove."
+    },
+
+    "#about .section-desc": { "en": "Background & Approach", "bs": "Pozadina i pristup" },
+
+    ".about-intro": {
+      "en": "I specialize in building and scaling e-commerce websites with SEO at the foundation—not as an afterthought, but as the core architecture. I spent the last decade founding, building, and scaling products, bringing that founder's ownership mindset to high-performance engineering teams.",
+      "bs": "Specijaliziran sam za izgradnju i skaliranje e-commerce web stranica sa SEO-om kao temeljem—ne kao naknadna misao, već kao osnovna arhitektura. Prošlu deceniju proveo sam osnivajući, gradeći i skalirajući proizvode, donoseći mentalitet vlasništva osnivača visoko-performantnim inženjerskim timovima."
+    },
+    ".about-differentiator .about-subtitle": { "en": "What Sets Me Apart", "bs": "Šta me izdvaja" },
+    ".about-differentiator .about-text": {
+      "en": "I don't just execute features—I've lived with the consequences of bad technical decisions. I've managed technical debt as a founder managing real customer impact, not as a developer inheriting someone else's problems.",
+      "bs": "Ne samo izvršavam funkcije—živio sam sa posljedicama loših tehničkih odluka. Upravljao sam tehničkim dugom kao osnivač koji upravlja stvarnim uticajem na kupce, a ne kao programer koji nasljeđuje tuđe probleme."
+    },
+    ".about-background .about-subtitle": { "en": "Background", "bs": "Pozadina" },
+    ".about-background .about-text:nth-child(2)": {
+      "en": "It started with taking things apart. As a kid, I dismantled every toy I owned to understand what was inside. When my father rigged a sewing machine motor to generate electricity during power outages during the war, something clicked. I needed to know how systems worked—from the inside out.",
+      "bs": "Počelo je rastavljanjem stvari. Kao dijete, rastavio sam svaku igračku koju sam imao da bih razumijeo šta je unutra. Kad je otac prilagodio motor za šivenje da generiše struju za vrijeme nestanka struje tokom rata, nešto se kliknulo. Morao sam znati kako sistemi rade—iznutra navan."
+    },
+    ".about-background .about-text:nth-child(3)": {
+      "en": "That curiosity never left. I launched Bosnia's first STEM toy product, led youth organizations, and built e-commerce platforms. Each experience taught me the same lesson: technical skill without business context is just clever engineering that doesn't matter.",
+      "bs": "Ta radoznalost nikada nije napustila. Lansirao sam prvi bosanski STEM proizvod, vodio omladinske organizacije i gradio e-commerce platforme. Svako iskustvo naučilo mi je istu lekciju: tehnička vještina bez poslovnog konteksta je samo pametno inženjering koji nema važnosti."
+    },
+    ".about-workstyle .about-subtitle": { "en": "How I Work", "bs": "Kako radim" },
+    ".about-workstyle .about-text:nth-child(2)": {
+      "en": "I value autonomy, ownership, and direct communication. Running organizations taught me that the best work happens when you understand the business behind the code. I don't just build features—I ask what problem we're actually solving and for whom.",
+      "bs": "Cijenim autonomiju, vlasništvo i direktnu komunikaciju. Vođenje organizacija naučilo me da se najbolji rad događa kada razumijete biznis iza koda. Ne samo gradim funkcije—pitam se koji problem zapravo rješavamo i za koga."
+    },
+    ".about-workstyle .about-text:nth-child(3)": {
+      "en": "I prefer autonomy over hand-holding, but I ask questions instead of making assumptions. Technical decisions should be guided by business impact, not technical convenience.",
+      "bs": "Preferiram autonomiju umjesto držanja za ruku, ali postavljam pitanja umjesto da pravim pretpostavke. Tehničke odluke bi trebale biti vođene poslovnim uticajem, a ne tehničkom pogodnošću."
+    },
+    ".about-personal .about-subtitle": { "en": "Beyond the Code", "bs": "Iza koda" },
+    ".about-personal .about-text:nth-child(2)": {
+      "en": "When I'm not coding, you'll find me exploring how search psychology influences buying decisions or researching why certain products succeed while others fail. I'm obsessed with understanding what happens in that moment before someone clicks—the thinking they don't yet know they're doing.",
+      "bs": "Kad ne kodiram, pronaći ćete me kako istražujem kako psihologija pretrage utiče na odluke o kupovini ili istražujem zašto određeni proizvodi uspijevaju dok drugi ne uspijevaju. Opsednut sam razumijevanjem šta se dešava u tom trenutku prije nego neko klikne—mišljenje koje još uvijek ne znaju da rade."
+    },
+    ".about-personal .about-text:nth-child(3)": {
+      "en": "I also mentor young entrepreneurs and speak at youth leadership programs. Passing forward what I've learned matters as much as building things.",
+      "bs": "Takođe mentorujem mlade poduzetnike i govorim na programima omladinskog vođstva. Proslijeđivanje onoga što sam naučio jednako je važno kao i gradeći stvari."
+    },
+    ".about-personal .about-text:nth-child(4)": {
+      "en": "Currently based in Sarajevo, open to opportunities where I can bring both technical depth and business awareness to meaningful work.",
+      "bs": "Trenutno baziran u Sarajevu, otvoren za prilike gdje mogu donijeti i tehničku dubinu i poslovnu svijest značajnom radu."
+    },
+
+    "#seo .section-label": { "en": "Growth", "bs": "Rast" },
+    "#seo .section-title": { "en": "SEO & Search Psychology", "bs": "SEO i psihologija pretrage" },
+    "#seo .section-desc": { "en": "Search Is About Decisions, Not Keywords.", "bs": "Pretraga je o odlukama, ne ključnim riječima." },
+
+    "#seo-problem .framework-title": {
+      "en": "The Problem: Random Content Creates Random Results",
+      "bs": "Problem: Nasumični sadržaj stvara nasumične rezultate"
+    },
+    "#seo-problem .ps-content": {
+      "en": "Traditional SEO teaches you to chase individual terms. Write for keywords. Build links. Hope. That approach treats search engines like slot machines — when the real engine is an LLM reading your site the same way a human analyst reads a document. It follows structure. It verifies facts. It remembers consistency.",
+      "bs": "Tradicionalni SEO teči da juriš pojedinačne terme. Piši za ključne riječi. Gradi linkove. Nadaš. Taj pristup tretira pretraživače kao apariate za sreću — kada je pravi motor LLM koji čita vaš sajt na isti način kao što ljudski analitičar čita dokument. Prati strukturu. Provjerava činjenice. Pamti konzistentnost."
+    },
+    ".comparison-wrong .comparison-label": { "en": "❌ Traditional Approach", "bs": "❌ Tradicionalni pristup" },
+    ".comparison-wrong .comparison-text": {
+      "en": "Keywords placed by chance, blog posts published in bursts, competitors outranking with thinner content",
+      "bs": "Ključne riječi postavljene slučajno, blog objave objavljene na mahove, konkurenti rangiraju više sa tanjim sadržajem"
+    },
+    ".comparison-right .comparison-label": { "en": "✓ My Approach", "bs": "✓ Moj pristup" },
+    ".comparison-right .comparison-text": {
+      "en": "Structured authority, semantic networks, predictable growth built on machine-readable truth",
+      "bs": "Strukturirani autoritet, semantičke mreže, predvidljiv rast izgrađen na mašinski čitivoj istini"
+    },
+    "#seo .positioning-text": {
+      "en": "Most SEO focuses on ranking pages. I focus on understanding why people search in the first place. The goal isn't traffic — the goal is becoming the safest decision in the customer's mind.",
+      "bs": "Većina SEO-a fokusira se na rangiranje stranica. Ja se fokusiram na razumijevanje zašto ljudi uopšte pretražuju. Cilj nije saobraćaj — cilj je postati najsigurnija odluka u umu kupca."
+    },
+    "#seo .positioning-subtext": {
+      "en": "I don't optimize websites for algorithms. I design search experiences that help both humans and machines arrive at the same conclusion: this is the right answer.",
+      "bs": "Ne optimizujem web stranice za algoritme. Dizajniram iskustva pretrage koja pomažu i ljudima i mašinama da dođu do istog zaključka: ovo je tačan odgovor."
+    },
+    "#seo .four-pillars-section .framework-title": { "en": "What I Actually Do", "bs": "Šta zapravo radim" },
+    "#seo .pillar-card:nth-child(1) .pillar-title": { "en": "Search Psychology", "bs": "Psihologija pretrage" },
+    "#seo .pillar-card:nth-child(1) .pillar-desc": {
+      "en": "Understanding what triggers a search, what questions appear next, what creates trust, what creates doubt, and what makes users choose one brand over another",
+      "bs": "Razumijevanje šta pokreće pretragu, koja pitanja se sljedeća pojavljuju, šta stvara povjerenje, šta stvara sumnju i šta navodi korisnike da izaberu jedan brend umjesto drugog"
+    },
+    "#seo .pillar-card:nth-child(2) .pillar-title": { "en": "Information Architecture", "bs": "Arhitektura informacija" },
+    "#seo .pillar-card:nth-child(2) .pillar-desc": {
+      "en": "Designing topical maps, internal linking systems, knowledge hubs, and contextual pathways where every page has a purpose and every link has a reason",
+      "bs": "Dizajniranje tematskih mapa, internih sistema linkovanja, hubova znanja i kontekstualnih puteva gdje svaka stranica ima svrhu a svaki link ima razlog"
+    },
+    "#seo-machine .framework-title": { "en": "What the Machine Doesn't See", "bs": "Šta mašina ne vidi" },
+    "#seo-machine .ps-content": {
+      "en": "Every search has a visible layer (the query) and a hidden layer (the psychological reality). Traditional SEO optimizes for the query. I optimize for the reality.",
+      "bs": "Svaka pretraga ima vidljivi sloj (upit) i skriveni sloj (psihološka realnost). Tradicionalni SEO optimizuje za upit. Ja optimizujem za realnost."
+    },
+    "#seo-nothing-random .framework-title": { "en": "Nothing is Random", "bs": "Ništa nije nasumično" },
+    "#seo-nothing-random .ps-content": {
+      "en": "In modern SEO, every word, link, heading, and URL is a deliberate signal. Search engines read your site like an analyst reads a document—they follow structure, verify facts, and remember consistency.",
+      "bs": "U modernom SEO-u, svaka riječ, link, naslov i URL je namjenski signal. Pretraživači čitaju vaš sajt kao analitičar čita dokument—prate strukturu, provjeravaju činjenice i pamte konzistentnost."
+    },
+
+    "#seo .framework-block:nth-of-type(1) .framework-title": {
+      "en": "The Problem: Random Content Creates Random Results",
+      "bs": "Problem: Nasumični sadržaj stvara nasumične rezultate"
+    },
+    "#seo .framework-block:nth-of-type(1) .ps-content": {
+      "en": "Traditional SEO teaches you to chase individual terms. Write for keywords. Build links. Hope. That approach treats search engines like slot machines — when the real engine is an LLM reading your site the same way a human analyst reads a document. It follows structure. It verifies facts. It remembers consistency.",
+      "bs": "Tradicionalni SEO teči da juriš pojedinačne termine. Piši za ključne riječi. Gradi linkove. Nadaš. Taj pristup tretira pretraživače kao apariate za sreću — kada je pravi motor LLM koji čita vaš sajt na isti način kao što ljudski analitičar čita dokument. Prati strukturu. Provjerava činjenice. Pamti konzistentnost."
+    },
+    ".comparison-wrong .comparison-label": { "en": "❌ Traditional Approach", "bs": "❌ Tradicionalni pristup" },
+    ".comparison-wrong .comparison-text": {
+      "en": "Keywords placed by chance, blog posts published in bursts, competitors outranking with thinner content",
+      "bs": "Ključne riječi postavljene slučajno, blog objave objavljene na mahove, konkurenti rangiraju više sa tanjim sadržajem"
+    },
+    ".comparison-right .comparison-label": { "en": "✓ My Approach", "bs": "✓ Moj pristup" },
+    ".comparison-right .comparison-text": {
+      "en": "Structured authority, semantic networks, predictable growth built on machine-readable truth",
+      "bs": "Strukturirani autoritet, semantičke mreže, predvidljiv rast izgrađen na mašinski čitivoj istini"
+    },
+
+    "#seo .positioning-text": {
+      "en": "Most SEO focuses on ranking pages. I focus on understanding why people search in the first place. The goal isn't traffic — the goal is becoming the safest decision in the customer's mind.",
+      "bs": "Većina SEO-a fokusira se na rangiranje stranica. Ja se fokusiram na razumijevanje zašto ljudi uopšte pretražuju. Cilj nije saobraćaj — cilj je postati najsigurnija odluka u umu kupca."
+    },
+    "#seo .positioning-subtext": {
+      "en": "I don't optimize websites for algorithms. I design search experiences that help both humans and machines arrive at the same conclusion: this is the right answer.",
+      "bs": "Ne optimizujem web stranice za algoritme. Dizajniram iskustva pretrage koja pomažu i ljudima i mašinama da dođu do istog zaključka: ovo je tačan odgovor."
+    },
+
+    "#seo .four-pillars-section .framework-title": { "en": "What I Actually Do", "bs": "Šta zapravo radim" },
+    "#seo .pillar-card:nth-child(1) .pillar-title": { "en": "Search Psychology", "bs": "Psihologija pretrage" },
+    "#seo .pillar-card:nth-child(1) .pillar-desc": {
+      "en": "Understanding what triggers a search, what questions appear next, what creates trust, what creates doubt, and what makes users choose one brand over another",
+      "bs": "Razumijevanje šta pokreće pretragu, koja pitanja se sljedeća pojavljuju, šta stvara povjerenje, šta stvara sumnju i šta navodi korisnike da izaberu jedan brend umjesto drugog"
+    },
+    "#seo .pillar-card:nth-child(2) .pillar-title": { "en": "Information Architecture", "bs": "Arhitektura informacija" },
+    "#seo .pillar-card:nth-child(2) .pillar-desc": {
+      "en": "Designing topical maps, internal linking systems, knowledge hubs, and contextual pathways where every page has a purpose and every link has a reason",
+      "bs": "Dizajniranje tematskih mapa, internih sistema linkovanja, hubova znanja i kontekstualnih puteva gdje svaka stranica ima svrhu a svaki link ima razlog"
+    },
+
+    "#seo .framework-block:nth-of-type(3) .framework-title": { "en": "What the Machine Doesn't See", "bs": "Šta mašina ne vidi" },
+    "#seo .framework-block:nth-of-type(3) .ps-content": {
+      "en": "Every search has a visible layer (the query) and a hidden layer (the psychological reality). Traditional SEO optimizes for the query. I optimize for the reality.",
+      "bs": "Svaka pretraga ima vidljivi sloj (upit) i skriveni sloj (psihološka realnost). Tradicionalni SEO optimizuje za upit. Ja optimizujem za realnost."
+    },
+    ".case-study-query": { "en": "The Search: \"hiking shoes\"", "bs": "Pretraga: \"planinarske cipele\"" },
+    ".reveal-title:nth-of-type(1)": { "en": "What traditional SEO sees:", "bs": "Šta tradicionalni SEO vidi:" },
+    ".reveal-content:nth-of-type(1)": { "en": "A query for hiking footwear needing product specs and filtering options", "bs": "Upit za planinarsku obuću koja zahtijeva specifikacije proizvoda i opcije filtriranja" },
+    ".reveal-title:nth-of-type(2)": { "en": "What's actually happening:", "bs": "Šta se zapravo dešava:" },
+    ".reveal-content:nth-of-type(2)": {
+      "en": "A person who agreed to a trail before knowing what \"trail\" meant, now fearing:",
+      "bs": "Osoba koja se složila za stazu prije nego što je znala šta \"staza\" znači, sada se boji:"
+    },
+    ".exit-label": { "en": "The Exit Behavior:", "bs": "Ponašanje izlaza:" },
+    ".exit-content": {
+      "en": "She bounces back to Google and types \"do I really need hiking shoes for Zion\"",
+      "bs": "Vraća se na Google i kucá \"zaista trebam li planinarske cipele za Zion\""
+    },
+    ".exit-insight": { "en": "That's not a UX problem. That's an unresolved anomalous state of knowledge.", "bs": "To nije UX problem. To je neriješeno anomalno stanje znanja." },
+    ".approach-wrong .approach-label": { "en": "❌ Optimize for the Query (Q4)", "bs": "❌ Optimizuj za upit (Q4)" },
+    ".approach-wrong .approach-desc": { "en": "140 products filtered by Gore-Tex and EVA midsoles", "bs": "140 proizvoda filtrirano po Gore-Texu i EVA đonovima" },
+    ".approach-wrong .approach-result": { "en": "Result: Bounce, no conversion", "bs": "Rezultat: Odlazak, bez konverzije" },
+    ".approach-right .approach-label": { "en": "✓ Optimize for the Why (Q1)", "bs": "✓ Optimizuj za zašto (Q1)" },
+    ".approach-right .approach-desc": {
+      "en": "One headline: \"Don't ruin your trip with the wrong boots\" + Three questions to diagnose actual need",
+      "bs": "Jedna naslov: \"Ne pokvarite svoje putovanje pogrešnim čizmama\" + Tri pitanja za dijagnozu stvarne potrebe"
+    },
+    ".approach-right .approach-result": { "en": "Result: Conversion", "bs": "Rezultat: Konverzija" },
+
+    "#capabilities .section-title": { "en": "10 Years of Building", "bs": "10 godina izgradnje" },
+    "#capabilities .section-desc": {
+      "en": "A decade as a founder and multidisciplinary maker has forged a unique set of transferable skills. I don't just write code or design hardware; I solve complex problems from concept to market.",
+      "bs": "Decenija kao osnivač i multidisciplinarni kreator kovao je jedinstveni set prenosivih vještina. Ne samo pišem kod ili dizajniram hardver; rješavam složene probleme od koncepta do tržišta."
+    },
+
+    "#capabilities .cap-card:nth-child(1) .cap-name": { "en": "Strategic Product Leadership", "bs": "Strateško vođstvo proizvoda" },
+    "#capabilities .cap-card:nth-child(1) .cap-desc": {
+      "en": "Managed end-to-end product lifecycles for a decade. From napkin sketches to international distribution and manufacturing.",
+      "bs": "Upravljano cijelim životnim ciklusom proizvoda deceniju. Od skica na salištku do internacionalne distribucije i proizvodnje."
+    },
+    "#capabilities .cap-card:nth-child(2) .cap-name": { "en": "Full-Stack Prototyping", "bs": "Full-stack prototipiranje" },
+    "#capabilities .cap-card:nth-child(2) .cap-desc": {
+      "en": "Rapidly bridging the gap between hardware and software. Proficient in PCB design, firmware (C), and modern web stacks.",
+      "bs": "Brzo premošćivanje jaza između hardvera i softvera. Vešt u PCB dizajnu, firmware-u (C) i modernim web stackovima."
+    },
+    "#capabilities .cap-card:nth-child(3) .cap-name": { "en": "International Sourcing", "bs": "Međunarodno snabdijevanje" },
+    "#capabilities .cap-card:nth-child(3) .cap-desc": {
+      "en": "Experienced in navigating complex supply chains across three countries, factory negotiations, and quality control.",
+      "bs": "Iskustvo u navigaciji složenih lanaca snabdijevanja kroz tri zemlje, pregovore sa fabrikama i kontrolu kvaliteta."
+    },
+    "#capabilities .cap-card:nth-child(4) .cap-name": { "en": "Technical Ownership & Estimation", "bs": "Tehničko vlasništvo i procjena" },
+    "#capabilities .cap-card:nth-child(4) .cap-desc": {
+      "en": "Running my own products taught me how to estimate development tasks accurately, manage technical debt, write clean self-documenting OOP code, and set up robust CI/CD pipelines for seamless deployments.",
+      "bs": "Vođenje sopstvenih proizvoda naučilo me kako tačno procijeniti razvojne zadatke, upravljati tehničkim dugom, pisati čist samodokumentujući OOP kod i postaviti robusne CI/CD cjevovode za besprijekorne implementacije."
+    },
+
+    "#about .section-title": { "en": "Who I Am", "bs": "Ko sam ja" },
+    "#about .section-desc": { "en": "", "bs": "" },
+
+    "#seo .section-label": { "en": "Growth", "bs": "Rast" },
+
+    "#about .section-label": { "en": "About", "bs": "O meni" },
+    "#about .section-title": { "en": "Background & Approach", "bs": "Pozadina i pristup" },
+
+    "#webdev .section-label": { "en": "Web Development", "bs": "Web razvoj" },
+    "#webdev .section-title": { "en": "Engineering Portfolio", "bs": "Inženjerski portfolio" },
+    "#webdev .section-desc": { "en": "Selected projects and technical work.", "bs": "Odabrani projekti i tehnički radovi." },
+
+    "#capabilities .section-label": { "en": "Core Mastery", "bs": "Temeljna stručnost" },
+    "#capabilities .section-title": { "en": "Technical Foundations", "bs": "Tehnički temelji" },
+    "#capabilities .section-desc": { "en": "The core capabilities that ground all my work.", "bs": "Temeljne sposobnosti na kojima počiva sav moj rad." },
+
+    "#contact .section-label": { "en": "Contact", "bs": "Kontakt" },
+    "#contact .section-title": { "en": "Let's build something", "bs": "Izgradimo nešto zajedno" },
+    "#contact .section-desc": { "en": "Email: armin.maglic@gmail.com\nOpen for e-commerce, SEO, and technical strategy roles.", "bs": "E-mail: armin.maglic@gmail.com\nOtvoren za e-commerce, SEO i uloge tehničke strategije." },
+
+    "#seo .framework-block:nth-of-type(4) .framework-title": { "en": "Nothing is Random", "bs": "Ništa nije nasumično" },
+    "#seo .framework-block:nth-of-type(4) .ps-content": {
+      "en": "In modern SEO, every word, link, heading, and URL is a deliberate signal. Search engines read your site like an analyst reads a document—they follow structure, verify facts, and remember consistency.",
+      "bs": "U modernom SEO-u, svaka riječ, link, naslov i URL je namjenski signal. Pretraživači čitaju vaš sajt kao analitičar čita dokument—prate strukturu, provjeravaju činjenice i pamte konzistentnost."
+    },
+
+    "#woo-cart-widget .framework-title": { "en": "🛒 WooCommerce Cart Widget", "bs": "🛒 WooCommerce widget korpe" },
+    "#woo-cart-widget .showcase-title-area .ps-content": { "en": "Customizable WooCommerce Widget with Elementor Integration", "bs": "Prilagođivi WooCommerce widget sa Elementor integracijom" },
+    "#woo-cart-widget .showcase-meta .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+
+    "#hiboutik-sync .framework-title": { "en": "🔄 Hiboutik WooCommerce Sync", "bs": "🔄 Hiboutik WooCommerce sinhronizacija" },
+    "#hiboutik-sync .showcase-title-area .ps-content": { "en": "POS to WooCommerce Product & Stock Synchronization", "bs": "POS do WooCommerce sinhronizacija proizvoda i zaliha" },
+    "#hiboutik-sync .showcase-meta .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+
+    "#image-seo-metadata-processor .framework-title": { "en": "🤖 Image SEO Metadata Processor", "bs": "🤖 Procesor SEO metapodataka slika" },
+    "#image-seo-metadata-processor .showcase-title-area .ps-content": { "en": "Parallel Batch SEO Metadata Generation with Gemini 2.5 Flash", "bs": "Paralelna batch generacija SEO metapodataka sa Gemini 2.5 Flash" },
+    "#image-seo-metadata-processor .showcase-meta .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+
+    "#image-metadata-tool .framework-title": { "en": "📸 Image Metadata Tool", "bs": "📸 Alat za metapodatke slika" },
+    "#image-metadata-tool .showcase-title-area .ps-content": { "en": "Automated SEO Metadata Enrichment for E-Commerce Images", "bs": "Automatizovano obogaćenje SEO metapodataka za e-commerce slike" },
+    "#image-metadata-tool .showcase-meta .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+
+    "#stock-multiplier .framework-title": { "en": "📦 Stock Multiplier", "bs": "📦 Množitelj zaliha" },
+    "#stock-multiplier .showcase-title-area .ps-content": { "en": "Bulk & Variable Stock Control for WooCommerce", "bs": "Kontrola zaliha u velikim količinama i varijablama za WooCommerce" },
+    "#stock-multiplier .showcase-meta .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+
+    "#musa-app .framework-title": { "en": "🏛️ Musa App", "bs": "🏛️ Musa aplikacija" },
+    "#musa-app .showcase-title-area .ps-content": { "en": "Local Museum Experience — Dedicated to a Famous Bosnian Poet", "bs": "Iskustvo lokalnog muzeja — Posvećeno poznatom bosanskom pjesniku" },
+    "#musa-app .showcase-meta .showcase-client": { "en": "Local Museum", "bs": "Lokalni muzej" },
+
+    "#client-request-dashboard .framework-title": { "en": "📊 Client Request Dashboard", "bs": "📊 Dashboard zahtjeva klijenata" },
+    "#client-request-dashboard .showcase-title-area .ps-content": { "en": "WordPress Admin Dashboard for Product Request Tracking", "bs": "WordPress admin dashboard za praćenje zahtjeva proizvoda" },
+    "#client-request-dashboard .showcase-meta .showcase-client": { "en": "Client: herbomarais.fr", "bs": "Klijent: herbomarais.fr" },
+
+    "#enhanced-schema-generator .framework-title": { "en": "🔗 Enhanced Schema Generator", "bs": "🔗 Poboljšani generator šeme" },
+    "#enhanced-schema-generator .showcase-title-area .ps-content": { "en": "Semantic JSON-LD & Knowledge Graph Schema for WooCommerce/WordPress", "bs": "Semantički JSON-LD i šema grafa znanja za WooCommerce/WordPress" },
+    "#enhanced-schema-generator .showcase-meta .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+
+    "#product-filter-widget .framework-title": { "en": "🔍 Product Filter Widget", "bs": "🔍 Widget za filtriranje proizvoda" },
+    "#product-filter-widget .showcase-title-area .ps-content": { "en": "Customizable Sidebar Product Filtering for WooCommerce", "bs": "Prilagođeno filtriranje proizvoda u sidebar-u za WooCommerce" },
+    "#product-filter-widget .showcase-meta .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+
+    "#expiry-dashboard .framework-title": { "en": "⏰ Expiry Dashboard", "bs": "⏰ Dashboard isteka" },
+    "#expiry-dashboard .showcase-title-area .ps-content": { "en": "DLUO Tracking & Automatic Discount Engine for WooCommerce", "bs": "Praćenje DLUO-a i motor automatskog popusta za WooCommerce" },
+    "#expiry-dashboard .showcase-meta .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+
+    "#review-invitation .framework-title": { "en": "⭐ Review Invitation", "bs": "⭐ Poziv na recenziju" },
+    "#review-invitation .showcase-title-area .ps-content": { "en": "Automated Post-Purchase Review Requests for WooCommerce", "bs": "Automatizovani zahtjevi za recenziju nakon kupovine za WooCommerce" },
+    "#review-invitation .showcase-meta .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+
+    "#loss-record .framework-title": { "en": "📉 Loss Record", "bs": "📉 Evidencija gubitaka" },
+    "#loss-record .showcase-title-area .ps-content": { "en": "Inventory Loss Tracking for Dried Herbs & Powders", "bs": "Praćenje gubitka zaliha za suhe biljke i prahove" },
+    "#loss-record .showcase-meta .showcase-client": { "en": "Client: herbomarais.fr", "bs": "Klijent: herbomarais.fr" },
+
+    "#seo-url-analyzer .framework-title": { "en": "🔎 SEO URL Analyzer", "bs": "🔎 SEO URL analyzer" },
+    "#seo-url-analyzer .showcase-title-area .ps-content": { "en": "WooCommerce URL SEO Audit & Conflict Detection", "bs": "WooCommerce SEO audit URL-a i detekcija konflikata" },
+    "#seo-url-analyzer .showcase-meta .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+
+    "#shoptimizer-semantic-seo .framework-title": { "en": "🧠 Shoptimizer Semantic SEO", "bs": "🧠 Shoptimizer semantički SEO" },
+    "#shoptimizer-semantic-seo .showcase-title-area .ps-content": { "en": "Entity-First Structured Data & JSON-LD Generation for WordPress", "bs": "Entitet-prva strukturirana podataka i generacija JSON-LD za WordPress" },
+    "#shoptimizer-semantic-seo .showcase-meta .showcase-client": { "en": "Client: soulpeddler.de", "bs": "Klijent: soulpeddler.de" },
+
+    "#tea-recipe > p.ps-content:nth-of-type(2)": {
+      "en": "A specialized internal system designed to bridge the gap between production recipes and real-time inventory costs. It automates financial tracking for tea blends while providing employees with a digital logging interface for food safety compliance. Built with WordPress actions for plugin compatibility and HMAC webhooks for secure inventory updates.",
+      "bs": "Specijalizirani interni sistem dizajniran da premosti jaz između recepata za proizvodnju i troškova zaliha u realnom vremenu. Automatizuje finansijsko praćenje mješavina čaja uz pružanje zaposlenicima digitalnog interfejsa za prijavu u skladu sa sigurnošću hrane. Izgrađen sa WordPress akcijama za kompatibilnost dodataka i HMAC webhook-ovima za sigurne ažuriranja zaliha."
+    },
+
+    "#tea-recipe .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Hiboutik API Sync: Real-time cost fetching for ingredient precision.",
+      "bs": "Hiboutik API sinhronizacija: Preuzimanje troškova u realnom vremenu za preciznost sastojaka."
+    },
+    "#tea-recipe .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Production Logging: Digital lot/DLUO tracking for safety audits.",
+      "bs": "Proizvodno logovanje: Digitalno praćenje lot/DLUO-a za sigurnosne audite."
+    },
+    "#tea-recipe .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Dynamic Costing: Automatic calculation of total price per 100g.",
+      "bs": "Dinamičko koštanjje: Automatski proračun ukupne cijene po 100g."
+    },
+
+    "#siegmann-ai > p.ps-content:nth-of-type(2)": {
+      "en": "Automated suite that classifies, scores, and prices stock photography at scale using multi-modal AI. Replaced manual categorization with a rule-based scoring engine that evaluates images across conceptual, commercial, and technical axes.",
+      "bs": "Automatizovani paket koji klasifikuje, ocenjuje i određuje cene stock fotografija u velikom obimu koristeći multimodalni AI. Zamenjena ručna kategorizacija mehanizmom za bodovanje zasnovanim na pravilima koji procjenjuje slike kroz konceptualne, komercijalne i tehničke ose."
+    },
+    "#siegmann-ai .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Multimodal Classification: Images tagged with mood, style, and conceptual attributes.",
+      "bs": "Multimodalna klasifikacija: Slike označene s raspoloženjem, stilom i konceptualnim atributima."
+    },
+    "#siegmann-ai .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "AI Scoring Engine: Rule-based evaluation across commercial and technical dimensions.",
+      "bs": "AI motor bodovanja: Evaluacija zasnovana na pravilima kroz komercijalne i tehničke dimenzije."
+    },
+    "#siegmann-ai .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Auto-Pricing: Dynamic price assignment based on image quality scores.",
+      "bs": "Automatsko određivanje cijena: Dinamičko dodjeljivanje cijena na osnovu ocjena kvaliteta slike."
+    },
+
+    "#sublimoss > p.ps-content:nth-of-type(2)": {
+      "en": "End-to-end page architecture for a French sea moss brand. Translated complex nutritional specs into high-conversion narratives using psychological clustering and lean design principles.",
+      "bs": "Arhitektura stranice od kraja do kraja za francuski brend morske mahovine. Prevedene složene nutritivne specifikacije u narative visoke konverzije koristeći psihološko klasterisanje i principe lean dizajna."
+    },
+    "#sublimoss .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Psychological Clustering: Grouped products by use-case rather than category.",
+      "bs": "Psihološko klasterisanje: Grupisani proizvodi po slučaju upotrebe umjesto kategorije."
+    },
+    "#sublimoss .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Narrative Architecture: Product descriptions address specific customer fears.",
+      "bs": "Narrativna arhitektura: Opisi proizvoda adresiraju specifične strahove kupaca."
+    },
+    "#sublimoss .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Conversion Testing: Validated messaging through A/B testing on high-traffic pages.",
+      "bs": "Testiranje konverzije: Validirane poruke kroz A/B testiranje na stranicama sa saobraćajem."
+    },
+
+    "#rawear-crm > p.ps-content:nth-of-type(2)": {
+      "en": "Full-Stack CRM combining behavioral psychology with AI-powered sales intelligence for hyper-personalized B2B outreach. Analyzes fear patterns, identifies cognitive hooks, and maps behavioral signals to optimal sales strategies.",
+      "bs": "Full-Stack CRM koji kombinuje bihevioralnu psihologiju sa prodajnom inteligencijom na bazi AI-a za hiper-personalizovan B2B doseg. Analizira obrasce straha, identifikuje kognitivne kuke i mapira bihevioralne signale do optimalnih prodajnih strategija."
+    },
+    "#rawear-crm .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Fear Pattern Detection: AI analysis identifies customer anxieties before contact.",
+      "bs": "Detekcija obrazaca straha: AI analiza identifikuje anksioznosti kupca prije kontakta."
+    },
+    "#rawear-crm .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Cognitive Hook Mapping: Sales triggers matched to psychological profiles.",
+      "bs": "Mapiranje kognitivnih kuki: Prodajni okidači upareni sa psihološkim profilima."
+    },
+    "#rawear-crm .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Behavioral Signal Tracking: Monitors engagement patterns across touchpoints.",
+      "bs": "Praćenje bihevioralnih signala: Monitorira obrasce angažovanja kroz tačke dodira."
+    },
+
+    "#content-pipeline > p.ps-content:nth-of-type(2)": {
+      "en": "Production infrastructure that transforms content production into a compounding data asset. Captures psychological intelligence that generic AI cannot synthesize and competitors cannot buy.",
+      "bs": "Proizvodna infrastruktura koja transformiše proizvodnju sadržaja u podatkovnu imovinu koja se akumulira. Bilježi psihološku inteligenciju koju generički AI ne može sintetizirati i koju konkurenti ne mogu kupiti."
+    },
+    "#content-pipeline .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "14-Step Automated Pipeline: Content production, optimization, and deployment.",
+      "bs": "14-step automatizovani cjevovod: Proizvodnja sadržaja, optimizacija i implementacija."
+    },
+    "#content-pipeline .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Schema Enrichment: Auto-generates structured data for search visibility.",
+      "bs": "Obogaćenje šeme: Auto-generiše strukturirane podatke za vidljivost u pretrazi."
+    },
+    "#content-pipeline .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Psychological Tagging: Captures intent signals competitors miss.",
+      "bs": "Psihološko tagovanje: Bilježi signale namjere koje konkurenti propuštaju."
+    },
+
+    "#woo-cart-widget .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Elementor Compatible: Seamless integration with popular page builder.",
+      "bs": "Kompatibilan sa Elementor-om: Bezbolna integracija sa popularnim page builder-om."
+    },
+    "#woo-cart-widget .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Customizable Design: Full control over cart appearance and layout.",
+      "bs": "Prilagođivi dizajn: Potpuna kontrola nad izgledom i layoutom korpe."
+    },
+    "#woo-cart-widget .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Ajax Updates: Real-time cart updates without page refresh.",
+      "bs": "Ajax ažuriranja: Ažuriranja korpe u realnom vremenu bez osvježavanja stranice."
+    },
+
+    "#hiboutik-sync .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Product Sync: One-way sync from Hiboutik into WooCommerce with variable-product support.",
+      "bs": "Sinhronizacija proizvoda: Jednosmjerna sinhronizacija iz Hiboutik-a u WooCommerce sa podrškom za varijabilne proizvode."
+    },
+    "#hiboutik-sync .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Stock Sync: Real-time inventory updates from POS to web store.",
+      "bs": "Sinhronizacija zaliha: Ažuriranja zaliha u realnom vremenu iz POS-a do web prodavnice."
+    },
+    "#hiboutik-sync .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Error Handling: Robust error recovery and logging for sync failures.",
+      "bs": "Rukovanje greškama: Robustna oporavak i logovanje za neuspjele sinhronizacije."
+    },
+    "#hiboutik-sync .feature-item:nth-child(4) span:nth-child(2)": {
+      "en": "Custom Webhooks: Extensible webhook system for event-driven actions.",
+      "bs": "Prilagođeni webhook-ovi: Proširivi sistem webhook-ova za radnje vođene događajima."
+    },
+
+    "#image-seo-metadata-processor .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Batch Processing: Parallel metadata generation with Gemini 2.5 Flash.",
+      "bs": "Batch procesiranje: Paralelna generacija metapodataka sa Gemini 2.5 Flash."
+    },
+    "#image-seo-metadata-processor .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Title Generation: SEO-optimized titles generated at scale.",
+      "bs": "Generacija naslova: SEO-optimizovani naslovi generisani u velikom obimu."
+    },
+    "#image-seo-metadata-processor .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Alt Text Creation: Descriptive alt text for accessibility and SEO.",
+      "bs": "Kreiranje alt teksta: Deskriptivni alt tekst za pristupačnost i SEO."
+    },
+    "#image-seo-metadata-processor .feature-item:nth-child(4) span:nth-child(2)": {
+      "en": "Caption Generation: Product captions with persuasive language.",
+      "bs": "Generacija caption-a: Caption-i proizvoda sa uvjerljivim jezikom."
+    },
+
+    "#image-metadata-tool .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "AI Vision Analysis: Object detection and scene understanding.",
+      "bs": "AI vizuelna analiza: Detekcija objekata i razumijevanje scene."
+    },
+    "#image-metadata-tool .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Semantic Tagging: Meaningful tags beyond simple labels.",
+      "bs": "Semantičko tagovanje: Značajne oznake iznad jednostavnih labela."
+    },
+    "#image-metadata-tool .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "SEO Integration: Direct WordPress media library integration.",
+      "bs": "SEO integracija: Direktna integracija sa WordPress medijskom bibliotekom."
+    },
+    "#image-metadata-tool .feature-item:nth-child(4) span:nth-child(2)": {
+      "en": "Batch Processing: Process multiple images simultaneously.",
+      "bs": "Batch procesiranje: Obrada više slika istovremeno."
+    },
+
+    "#stock-multiplier .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Bulk Stock Updates: Update multiple products at once.",
+      "bs": "Bulk ažuriranja zaliha: Ažuriranje više proizvoda odjednom."
+    },
+    "#stock-multiplier .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Variable Product Support: Handle stock by variation.",
+      "bs": "Podrška za varijabilne proizvode: Upravljanje zalihama po varijaciji."
+    },
+    "#stock-multiplier .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Quick Entry Interface: Streamlined data entry for efficiency.",
+      "bs": "Interfejs za brzi unos: Optimiziran unos podataka za efikasnost."
+    },
+
+    "#musa-app .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Museum Guide: Interactive guide for museum visitors.",
+      "bs": "Vodič kroz muzej: Interaktivni vodič za posjetioce muzeja."
+    },
+    "#musa-app .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Poet Biography: Life and work of Musa Ćazim Ćatić.",
+      "bs": "Biografija pjesnika: Život i rad Muse Ćazima Ćatića."
+    },
+    "#musa-app .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Cultural Heritage: Preservation of Bosnian literary history.",
+      "bs": "Kulturno nasljeđe: Očuvanje bosanske književne historije."
+    },
+
+    "#client-request-dashboard .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Request Tracking: Track all client product requests in one place.",
+      "bs": "Praćenje zahtjeva: Pratite sve zahtjeve proizvoda klijenata na jednom mjestu."
+    },
+    "#client-request-dashboard .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Admin Dashboard: WordPress admin interface for management.",
+      "bs": "Admin dashboard: WordPress admin interfejs za upravljanje."
+    },
+    "#client-request-dashboard .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "AJAX Updates: Real-time updates without page refresh.",
+      "bs": "Ajax ažuriranja: Ažuriranja u realnom vremenu bez osvježavanja stranice."
+    },
+    "#client-request-dashboard .feature-item:nth-child(4) span:nth-child(2)": {
+      "en": "Status Notifications: Email notifications for request updates.",
+      "bs": "Notifikacije statusa: Email notifikacije za ažuriranja zahtjeva."
+    },
+
+    "#enhanced-schema-generator .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "JSON-LD Generation: Automatic structured data generation.",
+      "bs": "Generacija JSON-LD: Automatska generacija strukturiranih podataka."
+    },
+    "#enhanced-schema-generator .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Knowledge Graph: Entity-first schema for search engines.",
+      "bs": "Graf znanja: Entitet-prva šema za pretraživače."
+    },
+    "#enhanced-schema-generator .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "WooCommerce Support: Product schema for e-commerce.",
+      "bs": "WooCommerce podrška: Šema proizvoda za e-commerce."
+    },
+    "#enhanced-schema-generator .feature-item:nth-child(4) span:nth-child(2)": {
+      "en": "Validation: Schema.org compliance validation.",
+      "bs": "Validacija: Validacija usklađenosti sa Schema.org."
+    },
+
+    "#product-filter-widget .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Sidebar Filtering: Filter products by attributes.",
+      "bs": "Filtriranje u sidebar-u: Filtrirajte proizvode po atributima."
+    },
+    "#product-filter-widget .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "AJAX Filter: Instant filtering without page reload.",
+      "bs": "Ajax filter: Trenutno filtriranje bez ponovnog učitavanja stranice."
+    },
+    "#product-filter-widget .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Customizable: Match your site's design and layout.",
+      "bs": "Prilagođiv: Uokririte se sa dizajnom i layoutom vašeg sajta."
+    },
+
+    "#expiry-dashboard .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "DLUO Tracking: Track expiration dates for all products.",
+      "bs": "Praćenje DLUO-a: Pratite datume isteka za sve proizvode."
+    },
+    "#expiry-dashboard .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Auto Discounts: Automatic discounts based on expiration dates.",
+      "bs": "Auto popusti: Automatski popusti na osnovu datuma isteka."
+    },
+    "#expiry-dashboard .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Dashboard View: Visual overview of all expiring products.",
+      "bs": "Prikaz dashboard-a: Vizuelni pregled svih proizvoda koji ističu."
+    },
+
+    "#review-invitation .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Automated Emails: Review request emails after purchase.",
+      "bs": "Automatizovani email-ovi: Email-ovi za zahtjev recenzije nakon kupovine."
+    },
+    "#review-invitation .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Customizable Timing: Set when to send review requests.",
+      "bs": "Prilagođeno vrijeme: Postavite kada poslati zahtjeve za recenziju."
+    },
+    "#review-invitation .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "WooCommerce Integration: Seamless plugin integration.",
+      "bs": "WooCommerce integracija: Bezbolna integracija dodatka."
+    },
+
+    "#loss-record .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Loss Tracking: Record inventory loss for dried herbs and powders.",
+      "bs": "Praćenje gubitaka: Evidentirajte gubitak zaliha za suhe biljke i prahove."
+    },
+    "#loss-record .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Reason Codes: Track why loss occurred.",
+      "bs": "Šifre razloga: Pratite zašto je došlo do gubitka."
+    },
+    "#loss-record .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Reporting: Generate loss reports for analysis.",
+      "bs": "Izvještavanje: Generišite izvještaje o gubitcima za analizu."
+    },
+
+    "#seo-url-analyzer .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "URL Audit: Analyze WooCommerce URLs for SEO issues.",
+      "bs": "URL audit: Analizirajte WooCommerce URL-ove za SEO probleme."
+    },
+    "#seo-url-analyzer .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Conflict Detection: Find conflicting URL patterns.",
+      "bs": "Detekcija konflikata: Pronađite konfliktno URL obrasce."
+    },
+    "#seo-url-analyzer .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Recommendations: Get SEO improvement suggestions.",
+      "bs": "Preporuke: Dobijte prijedloge za SEO unapređenje."
+    },
+
+    "#shoptimizer-semantic-seo .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Entity-First Schema: Generate structured data for entities.",
+      "bs": "Entitet-prva šema: Generišite strukturirane podatke za entitete."
+    },
+    "#shoptimizer-semantic-seo .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "JSON-LD Output: Clean schema markup output.",
+      "bs": "JSON-LD izlaz: Čist izlaz šema markupa."
+    },
+    "#shoptimizer-semantic-seo .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "WordPress Integration: Native WordPress plugin.",
+      "bs": "WordPress integracija: Nativni WordPress dodatak."
+    },
+    "#shoptimizer-semantic-seo .feature-item:nth-child(4) span:nth-child(2)": {
+      "en": "Schema.org Compliant: Follows latest standards.",
+      "bs": "Usklađen sa Schema.org: Prati najnovije standarde."
+    },
+
+    "#tea-recipe .showcase-client": { "en": "Client: herbomarais.fr", "bs": "Klijent: herbomarais.fr" },
+    "#siegmann-ai .showcase-client": { "en": "Client: SiegmannStock.com", "bs": "Klijent: SiegmannStock.com" },
+    "#sublimoss .showcase-client": { "en": "Project: Sublimoss (Sea Moss Gel)", "bs": "Projekat: Sublimoss (Gel od morske mahovine)" },
+    "#rawear-crm .showcase-client": { "en": "Full-Stack CRM Dashboard", "bs": "Full-Stack CRM dashboard" },
+    "#content-pipeline .showcase-client": { "en": "14-Step Automated System", "bs": "14-step automatizovani sistem" },
+    "#woo-cart-widget .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+    "#hiboutik-sync .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+    "#image-seo-metadata-processor .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+    "#image-metadata-tool .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+    "#stock-multiplier .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+    "#musa-app .showcase-client": { "en": "Local Museum", "bs": "Lokalni muzej" },
+    "#client-request-dashboard .showcase-client": { "en": "Client: herbomarais.fr", "bs": "Klijent: herbomarais.fr" },
+    "#enhanced-schema-generator .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+    "#product-filter-widget .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+    "#expiry-dashboard .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+    "#review-invitation .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+    "#loss-record .showcase-client": { "en": "Client: herbomarais.fr", "bs": "Klijent: herbomarais.fr" },
+    "#seo-url-analyzer .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
+    "#shoptimizer-semantic-seo .showcase-client": { "en": "Client: soulpeddler.de", "bs": "Klijent: soulpeddler.de" },
+
+    "#rawear-crm .showcase-client": { "en": "Full-Stack CRM Dashboard", "bs": "Full-Stack CRM dashboard" },
+
+    ".tag": { "en": "", "bs": "" },
+    "#tea-recipe .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
+    "#tea-recipe .tag:nth-child(2)": { "en": "PHP", "bs": "PHP" },
+    "#tea-recipe .tag:nth-child(3)": { "en": "AJAX", "bs": "AJAX" },
+    "#tea-recipe .tag:nth-child(4)": { "en": "API Integration", "bs": "API integracija" },
+    "#tea-recipe .tag:nth-child(5)": { "en": "Inventory", "bs": "Zalihe" },
+    "#tea-recipe .tag:nth-child(6)": { "en": "Deployment & DevOps", "bs": "Implementacija i DevOps" },
+
+    "#siegmann-ai .tag:nth-child(1)": { "en": "GLM-4.5V", "bs": "GLM-4.5V" },
+    "#siegmann-ai .tag:nth-child(2)": { "en": "Vision AI", "bs": "Vision AI" },
+    "#siegmann-ai .tag:nth-child(3)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#siegmann-ai .tag:nth-child(4)": { "en": "Python", "bs": "Python" },
+
+    "#sublimoss .tag:nth-child(1)": { "en": "DTC E-commerce", "bs": "DTC E-commerce" },
+    "#sublimoss .tag:nth-child(2)": { "en": "Semantic SEO", "bs": "Semantički SEO" },
+    "#sublimoss .tag:nth-child(3)": { "en": "Copywriting", "bs": "Copywriting" },
+
+    "#rawear-crm .tag:nth-child(1)": { "en": "PHP", "bs": "PHP" },
+    "#rawear-crm .tag:nth-child(2)": { "en": "MySQL", "bs": "MySQL" },
+    "#rawear-crm .tag:nth-child(3)": { "en": "AI Integration", "bs": "AI integracija" },
+    "#rawear-crm .tag:nth-child(4)": { "en": "Behavioral Analysis", "bs": "Bihevioralna analiza" },
+    "#rawear-crm .tag:nth-child(5)": { "en": "Web Scraping", "bs": "Web skrejping" },
+
+    "#content-pipeline .tag:nth-child(1)": { "en": "Python", "bs": "Python" },
+    "#content-pipeline .tag:nth-child(2)": { "en": "Semantic SEO", "bs": "Semantički SEO" },
+    "#content-pipeline .tag:nth-child(3)": { "en": "Behavioral Data", "bs": "Bihevioralni podaci" },
+    "#content-pipeline .tag:nth-child(4)": { "en": "LLM Agents", "bs": "LLM agenti" },
+
+    "#woo-cart-widget .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
+    "#woo-cart-widget .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#woo-cart-widget .tag:nth-child(3)": { "en": "Elementor", "bs": "Elementor" },
+    "#woo-cart-widget .tag:nth-child(4)": { "en": "AJAX", "bs": "AJAX" },
+
+    "#stock-multiplier .tag:nth-child(1)": { "en": "PHP", "bs": "PHP" },
+    "#stock-multiplier .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#stock-multiplier .tag:nth-child(3)": { "en": "Inventory", "bs": "Zalihe" },
+
+    "#musa-app .tag:nth-child(1)": { "en": "Web App", "bs": "Web aplikacija" },
+    "#musa-app .tag:nth-child(2)": { "en": "Cultural Heritage", "bs": "Kulturno nasljeđe" },
+    "#musa-app .tag:nth-child(3)": { "en": "Frontend", "bs": "Frontend" },
+
+    "#loss-record .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
+    "#loss-record .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#loss-record .tag:nth-child(3)": { "en": "PHP", "bs": "PHP" },
+
+    "#image-seo-metadata-processor .tag:nth-child(1)": { "en": "Python", "bs": "Python" },
+    "#image-seo-metadata-processor .tag:nth-child(2)": { "en": "AI / LLM", "bs": "AI / LLM" },
+    "#image-seo-metadata-processor .tag:nth-child(3)": { "en": "SEO", "bs": "SEO" },
+
+    "#image-metadata-tool .tag:nth-child(1)": { "en": "Python", "bs": "Python" },
+    "#image-metadata-tool .tag:nth-child(2)": { "en": "AI / LLM", "bs": "AI / LLM" },
+    "#image-metadata-tool .tag:nth-child(3)": { "en": "SEO", "bs": "SEO" },
+
+    "#hiboutik-sync .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
+    "#hiboutik-sync .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#hiboutik-sync .tag:nth-child(3)": { "en": "Hiboutik API", "bs": "Hiboutik API" },
+    "#hiboutik-sync .tag:nth-child(4)": { "en": "Sync", "bs": "Sinhronizacija" },
+
+    "#expiry-dashboard .tag:nth-child(1)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#expiry-dashboard .tag:nth-child(2)": { "en": "WordPress", "bs": "WordPress" },
+    "#expiry-dashboard .tag:nth-child(3)": { "en": "PHP", "bs": "PHP" },
+    "#expiry-dashboard .tag:nth-child(4)": { "en": "Automation", "bs": "Automatizacija" },
+
+    "#review-invitation .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
+    "#review-invitation .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#review-invitation .tag:nth-child(3)": { "en": "Email", "bs": "Email" },
+
+    "#product-filter-widget .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
+    "#product-filter-widget .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#product-filter-widget .tag:nth-child(3)": { "en": "AJAX", "bs": "AJAX" },
+
+    "#seo-url-analyzer .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
+    "#seo-url-analyzer .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#seo-url-analyzer .tag:nth-child(3)": { "en": "SEO", "bs": "SEO" },
+
+    "#shoptimizer-semantic-seo .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
+    "#shoptimizer-semantic-seo .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#shoptimizer-semantic-seo .tag:nth-child(3)": { "en": "Schema", "bs": "Šema" },
+
+    "#enhanced-schema-generator .tag:nth-child(1)": { "en": "Python", "bs": "Python" },
+    "#enhanced-schema-generator .tag:nth-child(2)": { "en": "SEO", "bs": "SEO" },
+    "#enhanced-schema-generator .tag:nth-child(3)": { "en": "Schema", "bs": "Šema" },
+
+    "#semantic-search .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
+    "#semantic-search .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
+    "#semantic-search .tag:nth-child(3)": { "en": "AI / LLM", "bs": "AI / LLM" }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "personas": {
+    "default": {
+      "hero_title": {
+        "en": "Armin Maglić is an engineer and maker giving shape to ideas through software, hardware, and strategic growth.",
+        "bs": "Armin Maglić je inženjer i kreator koji daje oblik idejama kroz softver, hardver i strateški rast."
+      },
+      "hero_subtitle": {
+        "en": "Four years of freelance experience with international clients across LA, Paris, Duisburg, and Berlin, paired with local market knowledge in Bosnia and Herzegovina. I specialize in e-commerce websites with SEO at the foundation—building systems that drive real business outcomes.",
+        "bs": "Četiri godine iskstva frilensera s međunarodnim klijentima iz Los Angelesa, Pariza, Duisburga i Berlina, uz duboko poznavanje lokalnog tržišta u Bosni i Hercegovini. Specijaliziran sam za e-commerce web stranice sa SEO-om kao temeljem—gradim sisteme koji donose stvarne poslovne rezultate."
+      },
+      "hero_expertise": {
+        "en": ["semantic seo", "web dev", "product design", "rapid prototyping", "growth strategy"],
+        "bs": ["semantički seo", "web razvoj", "dizajn proizvoda", "brza izrada prototipa", "strategija rasta"]
+      },
+      "visible_project_ids": [
+        "stem-toy-technical",
+        "stem-toy-impact",
+        "tea-recipe",
+        "siegmann-ai",
+        "sublimoss",
+        "rawear-crm",
+        "content-pipeline",
+        "semantic-search"
+      ]
+    },
+    "wordpress": {
+      "hero_title": {
+        "en": "Armin Maglić builds e-commerce websites with SEO at the foundation—WooCommerce, Backend Architecture & Technical SEO.",
+        "bs": "Armin Maglić gradi e-commerce web stranice sa SEO-om kao temeljem—WooCommerce, arhitektura backenda i tehnički SEO."
+      },
+      "hero_subtitle": {
+        "en": "Four years of freelance experience with clients across LA, Paris, Duisburg, and Berlin, paired with deep local market knowledge in Bosnia and Herzegovina. Bringing founder-level ownership to every project.",
+        "bs": "Četiri godine iskstva frilensera s klijentima iz Los Angelesa, Pariza, Duisburga i Berlina, uz duboko poznavanje lokalnog tržišta u Bosni i Hercegovini. Donosim razinu vlasništva osnivača u svaki projekt."
+      },
+      "hero_expertise": {
+        "en": ["e-commerce seo", "woocommerce", "backend integrations", "technical seo", "product thinking"],
+        "bs": ["e-commerce seo", "woocommerce", "backend integracije", "tehnički seo", "product thinking"]
+      },
+      "visible_project_ids": [
+        "tea-recipe",
+        "siegmann-ai",
+        "sublimoss",
+        "rawear-crm",
+        "content-pipeline",
+        "semantic-search",
+        "content-pipeline-seo"
+      ]
+    },
+    "growth": {
+      "hero_title": {
+        "en": "Growth Engineer and Semantic SEO Specialist",
+        "bs": "Inženjer rasta i specijalist za semantički SEO"
+      },
+      "hero_subtitle": {
+        "en": "Four years of freelance experience with international clients across LA, Paris, Duisburg, and Berlin, paired with deep local market knowledge in Bosnia and Herzegovina. Scaling through technical SEO and content strategy.",
+        "bs": "Četiri godine iskustva s međunarodnim klijentima iz Los Angelesa, Pariza, Duisburga i Berlina, uz duboko poznavanje lokalnog tržišta u Bosni i Hercegovini. Skaliranje kroz tehnički SEO i strategiju sadržaja."
+      },
+      "hero_expertise": {
+        "en": ["semantic seo", "search psychology", "content strategy", "analytics", "growth strategy"],
+        "bs": ["semantički seo", "psihologija pretrage", "strategija sadržaja", "analitika", "strategija rasta"]
+      },
+      "visible_project_ids": [
+        "sublimoss",
+        "rawear-crm",
+        "content-pipeline",
+        "content-pipeline-seo",
+        "ai-mode-strategy",
+        "behavioral-psychology"
+      ]
+    }
+  }
+}
