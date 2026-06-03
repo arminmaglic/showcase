@@ -265,16 +265,26 @@
       "bs": "Ne optimizujem web stranice za algoritme. Dizajniram iskustva pretrage koja pomažu i ljudima i mašinama da dođu do istog zaključka: ovo je tačan odgovor."
     },
     "#seo .four-pillars-section .framework-title": { "en": "What I Actually Do", "bs": "Šta zapravo radim" },
+
+    "#seo .pillar-title": { "en": "Search Psychology", "bs": "Psihologija pretrage" },
+    "#seo .pillar-desc": {
+      "en": "Understanding what triggers a search, what questions appear next, what creates trust, what creates doubt, and what makes users choose one brand over another",
+      "bs": "Razumijevanje šta pokreće pretragu, koja pitanja se sljedeća pojavljuju, šta stvara povjerenje, šta stvara sumnju i šta navodi korisnike da izaberu jedan brend umjesto drugog"
+    },
     "#seo .pillar-card:nth-child(1) .pillar-title": { "en": "Search Psychology", "bs": "Psihologija pretrage" },
     "#seo .pillar-card:nth-child(1) .pillar-desc": {
       "en": "Understanding what triggers a search, what questions appear next, what creates trust, what creates doubt, and what makes users choose one brand over another",
       "bs": "Razumijevanje šta pokreće pretragu, koja pitanja se sljedeća pojavljuju, šta stvara povjerenje, šta stvara sumnju i šta navodi korisnike da izaberu jedan brend umjesto drugog"
     },
     "#seo .pillar-card:nth-child(2) .pillar-title": { "en": "Information Architecture", "bs": "Arhitektura informacija" },
+
+    "#seo .service-item:nth-child(1) span:nth-child(2)": { "en": "Technical SEO Audits", "bs": "Tehnički SEO auditi" },
     "#seo .pillar-card:nth-child(2) .pillar-desc": {
       "en": "Designing topical maps, internal linking systems, knowledge hubs, and contextual pathways where every page has a purpose and every link has a reason",
       "bs": "Dizajniranje tematskih mapa, internih sistema linkovanja, hubova znanja i kontekstualnih puteva gdje svaka stranica ima svrhu a svaki link ima razlog"
     },
+
+    "#seo .service-item:nth-child(1) span:nth-child(2)": { "en": "Technical SEO Audits", "bs": "Tehnički SEO auditi" },
     "#seo-machine .framework-title": { "en": "What the Machine Doesn't See", "bs": "Šta mašina ne vidi" },
     "#seo-machine .ps-content": {
       "en": "Every search has a visible layer (the query) and a hidden layer (the psychological reality). Traditional SEO optimizes for the query. I optimize for the reality.",
@@ -285,6 +295,55 @@
       "en": "In modern SEO, every word, link, heading, and URL is a deliberate signal. Search engines read your site like an analyst reads a document—they follow structure, verify facts, and remember consistency.",
       "bs": "U modernom SEO-u, svaka riječ, link, naslov i URL je namjenski signal. Pretraživači čitaju vaš sajt kao analitičar čita dokument—prate strukturu, provjeravaju činjenice i pamte konzistentnost."
     },
+
+    "#seo .principle-item:nth-child(1) .principle-title": { "en": "Promise and Deliver the Same Thing", "bs": "Obećaj i isporučuje istu stvar" },
+    "#seo .principle-item:nth-child(1) .principle-desc": {
+      "en": "Your URL, title, and main heading must promise the same thing. When they align, search engines categorize your page instantly. When they contradict, confidence drops.",
+      "bs": "Vaš URL, naslov i glavni naslov moraju obećavati istu stvar. Kada se slažu, pretraživači kategorizuju vašu stranicu trenutno. Kada se protivreče, povjerenje opada."
+    },
+    "#seo .principle-item:nth-child(2) .principle-title": { "en": "Order Information for How People Read", "bs": "Redoslijed informacija za to kako ljudi čitaju" },
+    "#seo .principle-item:nth-child(2) .principle-desc": {
+      "en": "Lead with benefits, follow with facts. Search engines read top-to-bottom, so put cognitive answers before technical details. Structure content for how humans actually process information.",
+      "bs": "Počni sa beneficijama, nastavi sa činjenicama. Pretraživači čitaju odo-gore-dole, tako stavi kognitivne odgovore prije tehničkih detalja. Strukturiraj sadržaj za način na koji ljudi zapravo obrađuju informacije."
+    },
+    "#seo .principle-item:nth-child(3) .principle-title": { "en": "Link Like You're Connecting Concepts", "bs": "Linkuj kao da povezuješ koncepte" },
+    "#seo .principle-item:nth-child(3) .principle-desc": {
+      "en": "Internal links aren't navigation—they're relationships between topics. When pages link logically, search engines understand your knowledge structure and crawl it efficiently.",
+      "bs": "Interni linkovi nisu navigacija—oni su odnosi između tema. Kada stranice logički linkuju, pretraživači razumiju vašu strukturu znanja i je efikasno indeksiraju."
+    },
+    "#seo .technical-note-text": {
+      "en": "This is how content becomes extractable for AI systems like Google's Knowledge Graph, ChatGPT, and Perplexity. Structured relationships beat keyword stuffing every time.",
+      "bs": "Ovako sadržaj postaje ekstraktibilan za AI sisteme kao što su Google Knowledge Graph, ChatGPT i Perplexity. Strukturirani odnose pobjeđuju gužvice ključnim riječima svaki put."
+    },
+
+    "#seo .services-section .framework-title": { "en": "What Clients Hire Me For", "bs": "Za šta me klijenti zapošljavaju" },
+    "#seo .service-item:nth-child(1) span:nth-child(2)": { "en": "Technical SEO Audits", "bs": "Tehnički SEO auditi" },
+    "#seo .service-item:nth-child(2) span:nth-child(2)": { "en": "Semantic SEO Strategy", "bs": "Semantička SEO strategija" },
+    "#seo .service-item:nth-child(3) span:nth-child(2)": { "en": "Topical Map Development", "bs": "Razvoj tematskih mapa" },
+    "#seo .service-item:nth-child(4) span:nth-child(2)": { "en": "Search Psychology Analysis", "bs": "Analiza psihologije pretrage" },
+    "#seo .service-item:nth-child(5) span:nth-child(2)": { "en": "Information Architecture Design", "bs": "Dizajn arhitekture informacija" },
+    "#seo .service-item:nth-child(6) span:nth-child(2)": { "en": "Content Brief Engineering", "bs": "Inženjering sadržajnih briefova" },
+    "#seo .service-item:nth-child(7) span:nth-child(2)": { "en": "Internal Linking Systems", "bs": "Sistemi internog linkovanja" },
+    "#seo .service-item:nth-child(8) span:nth-child(2)": { "en": "Entity-Based SEO", "bs": "Entitet-bazirani SEO" },
+    "#seo .service-item:nth-child(9) span:nth-child(2)": { "en": "Organic Growth Strategy", "bs": "Strategija organskog rasta" },
+
+    "#seo .results-section .framework-title": { "en": "Results I Aim For", "bs": "Rezultati koje težim" },
+    "#seo .results-wrong .results-label": { "en": "Instead of:", "bs": "Umjesto:" },
+    "#seo .results-right .results-label": { "en": "I focus on:", "bs": "Fokusiram se na:" },
+    "#seo .results-wrong .result-item:nth-child(1)": { "en": "More pages", "bs": "Više stranica" },
+    "#seo .results-wrong .result-item:nth-child(2)": { "en": "More keywords", "bs": "Više ključnih riječi" },
+    "#seo .results-wrong .result-item:nth-child(3)": { "en": "More content", "bs": "Više sadržaja" },
+    "#seo .results-right .result-item:nth-child(1)": { "en": "Better understanding", "bs": "Bolje razumijevanje" },
+    "#seo .results-right .result-item:nth-child(2)": { "en": "Better positioning", "bs": "Bolje pozicioniranje" },
+    "#seo .results-right .result-item:nth-child(3)": { "en": "Better trust", "bs": "Bolje povjerenje" },
+    "#seo .results-right .result-item:nth-child(4)": { "en": "Better discoverability", "bs": "Bolja vidljivost" },
+    "#seo .results-right .result-item:nth-child(5)": { "en": "Better conversions", "bs": "Bolje konverzije" },
+
+    "#seo .seo-cta-text": {
+      "en": "If your site feels like it's guessing, it is. Let's replace the guesswork with a Topical Map, a Contextual Blueprint, and a semantic network engineered to win.",
+      "bs": "Ako vaš sajt izgleda kao da pogađa, jeste. Zamenimo pogađanje sa Tematskom mapom, Kontekstualnim planom i semantičkom mrežom dizajniranom za pobjedu."
+    },
+    "#seo .seo-cta-content .cta-text": { "en": "START A CONVERSATION", "bs": "ZAPOČNITE RAZGOVOR" },
 
     "#seo .framework-block:nth-of-type(1) .framework-title": {
       "en": "The Problem: Random Content Creates Random Results",
@@ -315,16 +374,26 @@
     },
 
     "#seo .four-pillars-section .framework-title": { "en": "What I Actually Do", "bs": "Šta zapravo radim" },
+
+    "#seo .pillar-title": { "en": "Search Psychology", "bs": "Psihologija pretrage" },
+    "#seo .pillar-desc": {
+      "en": "Understanding what triggers a search, what questions appear next, what creates trust, what creates doubt, and what makes users choose one brand over another",
+      "bs": "Razumijevanje šta pokreće pretragu, koja pitanja se sljedeća pojavljuju, šta stvara povjerenje, šta stvara sumnju i šta navodi korisnike da izaberu jedan brend umjesto drugog"
+    },
     "#seo .pillar-card:nth-child(1) .pillar-title": { "en": "Search Psychology", "bs": "Psihologija pretrage" },
     "#seo .pillar-card:nth-child(1) .pillar-desc": {
       "en": "Understanding what triggers a search, what questions appear next, what creates trust, what creates doubt, and what makes users choose one brand over another",
       "bs": "Razumijevanje šta pokreće pretragu, koja pitanja se sljedeća pojavljuju, šta stvara povjerenje, šta stvara sumnju i šta navodi korisnike da izaberu jedan brend umjesto drugog"
     },
     "#seo .pillar-card:nth-child(2) .pillar-title": { "en": "Information Architecture", "bs": "Arhitektura informacija" },
+
+    "#seo .service-item:nth-child(1) span:nth-child(2)": { "en": "Technical SEO Audits", "bs": "Tehnički SEO auditi" },
     "#seo .pillar-card:nth-child(2) .pillar-desc": {
       "en": "Designing topical maps, internal linking systems, knowledge hubs, and contextual pathways where every page has a purpose and every link has a reason",
       "bs": "Dizajniranje tematskih mapa, internih sistema linkovanja, hubova znanja i kontekstualnih puteva gdje svaka stranica ima svrhu a svaki link ima razlog"
     },
+
+    "#seo .service-item:nth-child(1) span:nth-child(2)": { "en": "Technical SEO Audits", "bs": "Tehnički SEO auditi" },
 
     "#seo .framework-block:nth-of-type(3) .framework-title": { "en": "What the Machine Doesn't See", "bs": "Šta mašina ne vidi" },
     "#seo .framework-block:nth-of-type(3) .ps-content": {

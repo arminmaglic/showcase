@@ -44,6 +44,17 @@
         "rawear-crm",
         "content-pipeline",
         "semantic-search",
+        "woo-cart-widget",
+        "hiboutik-sync",
+        "image-seo-metadata-processor",
+        "image-metadata-tool",
+        "client-request-dashboard",
+        "enhanced-schema-generator",
+        "product-filter-widget",
+        "expiry-dashboard",
+        "stock-multiplier",
+        "seo-url-analyzer",
+        "shoptimizer-semantic-seo",
         "content-pipeline-seo"
       ]
     },
