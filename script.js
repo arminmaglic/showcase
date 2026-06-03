@@ -3,6 +3,9 @@
     const sections = document.querySelectorAll('.view-section');
     const mainContent = document.querySelector('.main-content');
 
+    // Keep track of active visible project IDs across persona switches
+    let activeVisibleIds = [];
+
     // Flag to prevent scroll event immediately after section switch
     let isTransitioning = false;
     let transitionTimeout = null;
@@ -54,12 +57,15 @@
     }
 
     /**
-     * Gets the next section ID in navigation order.
+     * Gets the next section ID in navigation order, respecting visible links.
      * @returns {string|null} The next section ID or null if at the end.
      */
     function getNextSectionId() {
         const activeId = getActiveSectionId();
-        const sectionOrder = Array.from(navLinks).map(link => link.getAttribute('data-section'));
+        // BUG FIX: Only include navigation links that are currently visible
+        const sectionOrder = Array.from(navLinks)
+            .filter(link => link.style.display !== 'none')
+            .map(link => link.getAttribute('data-section'));
         const currentIndex = sectionOrder.indexOf(activeId);
 
         if (currentIndex !== -1 && currentIndex < sectionOrder.length - 1) {
@@ -69,12 +75,15 @@
     }
 
     /**
-     * Gets the previous section ID in navigation order.
+     * Gets the previous section ID in navigation order, respecting visible links.
      * @returns {string|null} The previous section ID or null at the beginning.
      */
     function getPreviousSectionId() {
         const activeId = getActiveSectionId();
-        const sectionOrder = Array.from(navLinks).map(link => link.getAttribute('data-section'));
+        // BUG FIX: Only include navigation links that are currently visible
+        const sectionOrder = Array.from(navLinks)
+            .filter(link => link.style.display !== 'none')
+            .map(link => link.getAttribute('data-section'));
         const currentIndex = sectionOrder.indexOf(activeId);
 
         if (currentIndex > 0) {
@@ -132,13 +141,12 @@
 
     function applyTranslations(lang) {
         if (!translations) return;
-        
+
         Object.keys(translations).forEach(selector => {
             const elements = document.querySelectorAll(selector);
             const text = translations[selector][lang];
             if (text) {
                 elements.forEach(el => {
-                    // If it's a link in sidebar-nav, we only want to change the text node, not the ::after
                     if (el.classList.contains('sidebar-nav') || el.closest('.sidebar-nav')) {
                         el.childNodes[0].textContent = text;
                     } else {
@@ -173,16 +181,19 @@
     }
 
     async function initPortfolio() {
-        // Load configurations
+        // Reset navigation styles and block layouts
+        navLinks.forEach(link => link.style.display = '');
+        sections.forEach(sec => sec.style.display = '');
+
         try {
             const [projRes, transRes] = await Promise.all([
                 fetch('./projects.json'),
                 fetch('./translations.json')
             ]);
-            
+
             const projData = await projRes.json();
             const transData = await transRes.json();
-            
+
             translations = transData.translations;
             geoConfig = transData; // Contains country mappings at root
 
@@ -193,26 +204,29 @@
             // Handle Role/Filtering
             const urlParams = new URLSearchParams(window.location.search);
             const role = urlParams.get('role');
-            
+
             const config = projData.personas && projData.personas[role];
             if (config) {
+                // Populate active visible elements array for filter operations
+                activeVisibleIds = config.visible_project_ids || [];
+
                 const heroTitle = document.getElementById('heroTitle');
                 const heroSubtitle = document.getElementById('heroSubtitle');
 
-                // Handle hero_title (can be string or object with en/bs)
+                // Handle hero_title
                 if (heroTitle && config.hero_title) {
                     const titleText = typeof config.hero_title === 'object' ? config.hero_title[lang] || config.hero_title['en'] : config.hero_title;
                     heroTitle.textContent = titleText;
                 }
 
-                // Handle hero_subtitle (can be string or object with en/bs)
+                // Handle hero_subtitle
                 if (heroSubtitle && config.hero_subtitle) {
                     const subtitleText = typeof config.hero_subtitle === 'object' ? config.hero_subtitle[lang] || config.hero_subtitle['en'] : config.hero_subtitle;
                     heroSubtitle.textContent = subtitleText;
                 }
 
                 const expertiseList = document.getElementById('heroExpertise');
-                // Handle hero_expertise (can be array or object with en/bs arrays)
+                // Handle hero_expertise
                 if (expertiseList && config.hero_expertise) {
                     const expertiseItems = Array.isArray(config.hero_expertise) ? config.hero_expertise : (config.hero_expertise[lang] || config.hero_expertise['en']);
                     if (Array.isArray(expertiseItems)) {
@@ -226,38 +240,24 @@
                     }
                 }
 
+                // Initialize visible projects
                 const projects = document.querySelectorAll('.framework-showcase[id]');
                 projects.forEach(project => {
                     project.style.display = config.visible_project_ids.includes(project.id) ? 'block' : 'none';
                 });
 
-                const productSection = document.getElementById('product');
-                if (productSection) {
-                    const visibleInProduct = productSection.querySelectorAll('[id]:not([style*="display: none"])');
-                    if (visibleInProduct.length === 0) {
-                        productSection.style.display = 'none';
-                        const navLink = document.querySelector('.sidebar-nav a[data-section="product"]');
-                        if (navLink) navLink.style.display = 'none';
-                    }
-                }
-
-                const capabilitiesSection = document.getElementById('capabilities');
-                if (capabilitiesSection) {
-                    const visibleInCapabilities = capabilitiesSection.querySelectorAll('[id]:not([style*="display: none"])');
-                    if (visibleInCapabilities.length === 0) {
-                        capabilitiesSection.style.display = 'none';
-                        const navLink = document.querySelector('.sidebar-nav a[data-section="capabilities"]');
-                        if (navLink) navLink.style.display = 'none';
-                    }
-                }
-
-                // Hide navigation items based on persona configuration
+                // BUG FIX: Hide navigation items AND section containers based on persona configuration
                 if (config.hidden_nav && Array.isArray(config.hidden_nav)) {
                     config.hidden_nav.forEach(sectionId => {
                         const navLink = document.querySelector(`.sidebar-nav a[data-section="${sectionId}"]`);
                         if (navLink) navLink.style.display = 'none';
+                        const sectionEl = document.getElementById(sectionId);
+                        if (sectionEl) sectionEl.style.display = 'none';
                     });
                 }
+            } else {
+                // Fallback to showing all projects if no persona configuration is set
+                activeVisibleIds = Array.from(document.querySelectorAll('.framework-showcase[id]')).map(el => el.id);
             }
         } catch (err) {
             console.error('Error initializing portfolio:', err);
@@ -331,6 +331,7 @@
         }
     });
 
+    // BUG FIX: Updated category filters logic to respect the active persona setting
     document.addEventListener('click', function(event) {
         const btn = event.target.closest('.filter-btn');
         if (!btn) return;
@@ -347,6 +348,12 @@
 
         const projects = container.querySelectorAll('.framework-showcase[id]');
         projects.forEach(project => {
+            // Keep the project hidden if it is not permitted by the persona configuration
+            if (activeVisibleIds.length > 0 && !activeVisibleIds.includes(project.id)) {
+                project.style.display = 'none';
+                return;
+            }
+
             if (filterValue === 'all') {
                 project.style.display = '';
                 return;
@@ -355,7 +362,4 @@
             project.style.display = categories.includes(filterValue) ? '' : 'none';
         });
     });
-
-    // Default initialization is handled by the 'active' class in the HTML.
-    // Future expansion: Add hash-based routing support here.
 })();

@@ -35,8 +35,8 @@
         "bs": "Četiri godine frilenserskog iskustva s klijentima iz Los Angelesa, Pariza, Duisburga i Berlina, uz temeljito poznavanje lokalnog tržišta u Bosni i Hercegovini. Svaki projekat tretiram kao svoj."
       },
       "hero_expertise": {
-        "en": ["custom plugins & themes", "woocommerce rest api", "oop php", "elementor/gutenberg", "technical seo"],
-        "bs": ["custom plugins & themes", "woocommerce rest api", "oop php", "elementor/gutenberg", "tehnički seo"]
+        "en": ["custom plugins & themes", "woocommerce rest api", "search psychology", "elementor/gutenberg", "technical seo"],
+        "bs": ["custom plugins & themes", "woocommerce rest api", "psihologija pretrage", "elementor/gutenberg", "tehnički seo"]
       },
       "visible_project_ids": [
         "tea-recipe",
