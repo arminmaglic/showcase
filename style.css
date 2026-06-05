@@ -73,8 +73,9 @@ body {
 .sidebar-role {
     font-size: 0.95rem;
     color: #8a8a8a;
-    margin-top: -20px;
+    margin-top: -17px;
     font-weight: 400;
+	margin-bottom:-5px;
 }
 
 .sidebar-nav {
@@ -626,19 +627,32 @@ body {
         position: relative;
         width: 100%;
         height: auto;
-        padding: 20px 25px;
+        padding: 5px 15px;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 10px;
         flex-shrink: 0;
     }
-    .sidebar-top { flex-direction: row; flex-wrap: wrap; gap: 20px; width: 100%; }
+    .sidebar-top { flex-direction: row; flex-wrap: wrap; gap: 15px; width: 100%; }
     .sidebar-name { font-size: 1.4rem; }
     .sidebar-name .first-name, .sidebar-name .last-name { display: inline; }
     .sidebar-name .last-name { margin-left: 6px; }
-    .sidebar-nav { flex-direction: row; flex-wrap: wrap; gap: 16px; }
-    .sidebar-bottom { display: none; }
-    .main-content { margin-left: 0; margin-top: 0; padding: 40px 25px; flex: 1; overflow-y: auto; }
+    .sidebar-nav { flex-direction: row; flex-wrap: wrap; gap: 10px; }
+    .sidebar-bottom {
+        background-color: var(--bg-sidebar);
+        padding: 0px 0px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1001;
+        width: 100%;
+    }
+    .sidebar-socials { gap: 12px; }
+    .sidebar-socials a svg { width: 18px; height: 18px; }
+    .sidebar-email { font-size: 0.75rem; }
+    .sidebar-divider { display: none !important; }
+    .sidebar-lang { display: none !important; }
+    .main-content { margin-left: 0; margin-top: 0; padding: 40px 25px 80px 25px; flex: 1; overflow-y: auto; }
     .section-title { font-size: 2.2rem; }
 }
 
