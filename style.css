@@ -420,6 +420,9 @@ body {
     .expertise-item:nth-last-child(1) { border-bottom: none; }
     .cta-area { flex-direction: column; }
     .cta-button-container { justify-content: flex-start; }
+    .hero-container { padding-left: 5px; padding-right: 0px; }
+    .hero-text-side { max-width: 100%; width: 100%; }
+    .hero-headline { font-size: 1.75rem; }
 }
 
 /* FRAMEWORKS */
@@ -632,7 +635,7 @@ body {
     .sidebar-name .last-name { margin-left: 6px; }
     .sidebar-nav { flex-direction: row; flex-wrap: wrap; gap: 16px; }
     .sidebar-bottom { display: none; }
-    .main-content { margin-left: 0; padding: 40px 25px; height: auto; }
+    .main-content { margin-left: 0; padding: 40px 25px; height: 100vh; }
     .section-title { font-size: 2.2rem; }
 }
 
