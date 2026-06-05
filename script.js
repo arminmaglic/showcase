@@ -149,6 +149,8 @@
                 elements.forEach(el => {
                     if (el.classList.contains('sidebar-nav') || el.closest('.sidebar-nav')) {
                         el.childNodes[0].textContent = text;
+                    } else if (el.classList.contains('impact-pain') || el.classList.contains('impact-relief')) {
+                        el.innerHTML = text;
                     } else {
                         el.textContent = text;
                     }

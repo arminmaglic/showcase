@@ -1181,3 +1181,25 @@ body {
   font-weight: 600;
   color: var(--text-main);
 }
+
+/* Friction & Resolution Pattern for Project Showcases */
+.showcase-impact {
+    margin-top: 24px;
+    padding-top: 18px;
+    border-top: 1px dashed var(--border);
+}
+.impact-pain {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+}
+.impact-pain strong {
+    color: var(--star-a);
+}
+.impact-relief {
+    font-size: 0.95rem;
+    color: var(--text-main);
+}
+.impact-relief strong {
+    color: var(--star-r);
+}

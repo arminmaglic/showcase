@@ -18,7 +18,6 @@
         "stem-toy-impact",
         "tea-recipe",
         "siegmann-ai",
-        "sublimoss",
         "rawear-crm",
         "content-pipeline",
         "semantic-search"
@@ -28,11 +27,11 @@
       "hidden_nav": ["product"],
       "hero_title": {
         "en": "Armin Maglić builds e-commerce websites with SEO at the foundation—WooCommerce, Custom Plugin Development, Backend Architecture & Technical SEO.",
-        "bs": "Armin Maglić gradi e-commerce web stranice s integrisanim SEO postavkama—WooCommerce, razvoj custom dodataka, arhitektura backenda i tehnički SEO."
+        "bs": "Armin Maglić gradi e-commerce web stranice s integrisanim SEO postavkama: WooCommerce, razvoj prilagođenih dodataka, arhitektura backenda i tehnički SEO."
       },
       "hero_subtitle": {
         "en": "Four years of freelance experience with clients across LA, Paris, Duisburg, and Berlin, paired with deep local market knowledge in Bosnia and Herzegovina. Bringing founder-level ownership to every project.",
-        "bs": "Četiri godine frilenserskog iskustva s klijentima iz Los Angelesa, Pariza, Duisburga i Berlina, uz temeljito poznavanje lokalnog tržišta u Bosni i Hercegovini. Svaki projekat tretiram kao svoj."
+        "bs": "Četiri godine frilenserskog iskustva s klijentima iz Los Angelesa, Pariza, Duisburga i Berlina, uz lokalno tržište u Bosni i Hercegovini. Svaki projekat tretiram kao svoj."
       },
       "hero_expertise": {
         "en": ["custom plugins & themes", "woocommerce rest api", "search psychology", "elementor/gutenberg", "technical seo"],
@@ -41,14 +40,12 @@
       "visible_project_ids": [
         "tea-recipe",
         "siegmann-ai",
-        "sublimoss",
         "rawear-crm",
         "content-pipeline",
         "semantic-search",
         "woo-cart-widget",
         "hiboutik-sync",
         "image-seo-metadata-processor",
-        "image-metadata-tool",
         "client-request-dashboard",
         "enhanced-schema-generator",
         "product-filter-widget",
@@ -74,11 +71,9 @@
         "bs": ["semantički seo", "psihologija pretrage", "strategija sadržaja", "analitika", "strategija rasta"]
       },
       "visible_project_ids": [
-        "sublimoss",
         "rawear-crm",
         "content-pipeline",
         "image-seo-metadata-processor",
-        "image-metadata-tool",
         "enhanced-schema-generator",
         "seo-url-analyzer",
         "shoptimizer-semantic-seo"

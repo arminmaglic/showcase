@@ -158,7 +158,7 @@
     "#tea-recipe .tag:nth-child(4)": { "en": "Inventory", "bs": "Zalihe" },
     "#tea-recipe .tag:nth-child(5)": { "en": "Deployment & DevOps", "bs": "Implementacija i DevOps" },
 
-    "#siegmann-ai .framework-title": { "en": "🖼️ SiegmannStock AI Vision & Auto-Pricing Pipeline", "bs": "🖼️ SiegmannStock AI Vision i proces za automatsko određivanje cijena" },
+    "#siegmann-ai .framework-title": { "en": "🖼️ SiegmannStock AI Vision & Classification Pipeline", "bs": "🖼️ SiegmannStock AI Vision i proces za automatske klasifikacije fotografije" },
     "#siegmann-ai .showcase-title-area .ps-content": {
       "en": "Production AI Asset Enrichment for WooCommerce",
       "bs": "AI obogaćivanje digitalnog sadržaja za WooCommerce"
@@ -240,15 +240,15 @@
     "#rawear-crm .tag:nth-child(4)": { "en": "Behavioral Analysis", "bs": "Bihevioralna analiza" },
     "#rawear-crm .tag:nth-child(5)": { "en": "Web Scraping", "bs": "Web skrejping" },
 
-    "#content-pipeline .framework-title": { "en": "🧠 AI-Powered Content Intelligence Pipeline", "bs": "🧠 AI-pokretani proces za sadržajnu inteligenciju" },
+    "#content-pipeline .framework-title": { "en": "🧠 AI-Powered Content Intelligence Pipeline", "bs": "🧠 AI proces za sadržajnu inteligenciju" },
     "#content-pipeline .showcase-title-area .ps-content": {
       "en": "Production Infrastructure • herbomarais.fr",
       "bs": "Proizvodna infrastruktura • herbomarais.fr"
     },
     "#content-pipeline .showcase-client": { "en": "14-Step Automated System", "bs": "14-step automatizovani sistem" },
     "#content-pipeline > p.ps-content": {
-      "en": "Production infrastructure that transforms content production into a compounding data asset. Captures behavioral intelligence using Redis-backed caching to reduce LLM API costs.",
-      "bs": "Proizvodna infrastruktura koja transformiše proizvodnju sadržaja u podatkovnu vrijednost koja se vremenom akumulira. Bilježi psihološke uvide koristeći Redis keširanje radi optimizacije troškova LLM API-ja."
+      "en": "Sophisticated AI-powered pipeline designed to transform raw product data, into high-converting, SEO-optimized, and scientifically validated content for Herbomarais.fr. It automates the entire content lifecycle from research and analysis to final WooCommerce deployment.",
+      "bs": "Sofisticirani sistem za obradu podataka, pokretan umjetnom inteligencijom, dizajniran za transformaciju sirovih podataka o proizvodu u visoko konvertirajući, SEO optimiziran i naučno validiran sadržaj za Herbomarais.fr. Automatizira cijeli životni ciklus sadržaja, od istraživanja i analize do konačne implementacije WooCommerce-a."
     },
     "#content-pipeline .feature-item:nth-child(1) span:nth-child(2)": {
       "en": "Pattern Recognition: Learns which emotional states dominate product categories.",
@@ -268,32 +268,21 @@
     "#content-pipeline .tag:nth-child(4)": { "en": "LLM Agents", "bs": "LLM agenti" },
     "#content-pipeline .tag:nth-child(5)": { "en": "Redis & Caching", "bs": "Redis i keširanje" },
 
-    "#woo-cart-widget .framework-title": { "en": "🛒 WooCommerce Cart Widget", "bs": "🛒 WooCommerce widget korpe" },
+    "#woo-cart-widget .framework-title": { "en": "🔍 WooCommerce Semantic Search Enhancement", "bs": "🔍 WooCommerce Semantičko Pretraživanje" },
     "#woo-cart-widget .showcase-title-area .ps-content": {
-      "en": "Customizable WooCommerce Widget with Elementor Integration",
-      "bs": "Prilagodljivi WooCommerce widget sa Elementor integracijom"
+      "en": "Entity-Centric Search with Self-Contained Semantic Graph",
+      "bs": "Pretraga fokusirana na entitete sa samostalnim semantičkim grafom"
     },
     "#woo-cart-widget .showcase-meta .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
     "#woo-cart-widget > p.ps-content": {
-      "en": "Adds a modern, configurable cart widget to WooCommerce storefronts with Elementor compatibility. Built as a WordPress plugin with widget controls for icon style, subtotal display, and theme colors.",
-      "bs": "Dodaje moderan i prilagodljiv vidžet korpe na WooCommerce prodavnice sa Elementor kompatibilnošću. Razvijen kao WordPress dodatak s postavkama za stil ikone, prikaz međuzbira i boje teme."
-    },
-    "#woo-cart-widget .feature-item:nth-child(1) span:nth-child(2)": {
-      "en": "Widget Customization: Choose cart icon style (Cart, Bag, Basket) and toggle subtotal display.",
-      "bs": "Prilagođavanje vidžeta: Odabir stila ikone korpe (korpa, torba, košarica) i prikaz međuzbira (subtotal)."
-    },
-    "#woo-cart-widget .feature-item:nth-child(2) span:nth-child(2)": {
-      "en": "Elementor Integration: Includes a native WooCommerce Cart widget in the Elementor panel.",
-      "bs": "Elementor integracija: Uključuje nativni WooCommerce Cart vidžet u Elementor panelu."
-    },
-    "#woo-cart-widget .feature-item:nth-child(3) span:nth-child(2)": {
-      "en": "Responsive: Designed to adapt cleanly across desktop, tablet, and mobile layouts.",
-      "bs": "Responzivnost: Dizajniran za besprijekornu prilagodbu na desktopu, tabletu i mobilnim uređajima."
+      "en": "Enhances WooCommerce search with entity-centric semantic capabilities using an internal semantic graph built from product data. Supports natural language patterns like \"stones for protection\" and returns products based on semantic relationships rather than keyword matching. Completely self-contained—no external semantic engines required.",
+      "bs": "Poboljšava WooCommerce pretragu sa semantičkim kapacitetima fokusiranim na entitete koristeći interni semantički graf izgrađen od podataka o proizvodima. Podržava prirodne jezične obrasce kao što su \"kamenje za zaštitu\" i vraća proizvode na osnovu semantičkih odnosa umjesto podudaranja ključnih riječi."
     },
     "#woo-cart-widget .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
     "#woo-cart-widget .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
-    "#woo-cart-widget .tag:nth-child(3)": { "en": "Elementor", "bs": "Elementor" },
-    "#woo-cart-widget .tag:nth-child(4)": { "en": "PHP", "bs": "PHP" },
+    "#woo-cart-widget .tag:nth-child(3)": { "en": "Semantic Search", "bs": "Semantičko Pretraživanje" },
+    "#woo-cart-widget .tag:nth-child(4)": { "en": "Entity Extraction", "bs": "Ekstrakcija Entiteta" },
+    "#woo-cart-widget .tag:nth-child(5)": { "en": "PHP", "bs": "PHP" },
 
     "#hiboutik-sync .framework-title": { "en": "🔄 Hiboutik WooCommerce Sync", "bs": "🔄 Hiboutik WooCommerce sinhronizacija" },
     "#hiboutik-sync .showcase-title-area .ps-content": {
@@ -350,37 +339,6 @@
     "#image-seo-metadata-processor .tag:nth-child(2)": { "en": "AI / LLM", "bs": "AI / LLM" },
     "#image-seo-metadata-processor .tag:nth-child(3)": { "en": "SEO", "bs": "SEO" },
     "#image-seo-metadata-processor .tag:nth-child(4)": { "en": "Batch Pipeline", "bs": "Grupna obrada" },
-
-    "#image-metadata-tool .framework-title": { "en": "📸 Image Metadata Tool", "bs": "📸 Alat za metapodatke slika" },
-    "#image-metadata-tool .showcase-title-area .ps-content": {
-      "en": "Automated SEO Metadata Enrichment for E-Commerce Images",
-      "bs": "Automatizovano obogaćenje SEO metapodataka za e-commerce slike"
-    },
-    "#image-metadata-tool .showcase-meta .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
-    "#image-metadata-tool > p.ps-content": {
-      "en": "Automated image enrichment pipeline for e-commerce feeds. Reads product CSVs with image URLs, generates SEO-focused metadata via AI, runs technical SEO checks, and writes enriched output plus optimized local image copies.",
-      "bs": "Automatizovani proces obogaćivanja slika za e-commerce feedove. Čita CSV datoteke sa URL-ovima slika, generiše SEO metapodatke putem AI-ja, vrši tehničke SEO provjere i kreira lokalne optimizovane kopije slika."
-    },
-    "#image-metadata-tool .feature-item:nth-child(1) span:nth-child(2)": {
-      "en": "AI Enrichment: Uses Gemini for primary metadata generation, with OpenAI fallback.",
-      "bs": "AI obogaćivanje: Korištenje Gemini modela za primarnu generaciju metapodataka, uz OpenAI kao alternativnu opciju (fallback)."
-    },
-    "#image-metadata-tool .feature-item:nth-child(2) span:nth-child(2)": {
-      "en": "Technical SEO Checks: Validates dimensions, format, file size, and aspect ratio; recommends improvements.",
-      "bs": "Tehničke SEO provjere: Validacija dimenzija, formata, veličine datoteka i omjera stranica, uz preporuke za poboljšanje."
-    },
-    "#image-metadata-tool .feature-item:nth-child(3) span:nth-child(2)": {
-      "en": "CSV-Driven: Reads structured product CSVs, writes enriched columns, and copies renamed SEO-friendly images.",
-      "bs": "Vođeno CSV datotekama: Čitanje strukturiranih CSV datoteka proizvoda, upisivanje obogaćenih kolona i kopiranje preimenovanih SEO-friendly slika."
-    },
-    "#image-metadata-tool .feature-item:nth-child(4) span:nth-child(2)": {
-      "en": "WooCommerce Helper: Includes a WordPress snippet to expose attached WooCommerce variation/gallery images in Media Library.",
-      "bs": "WooCommerce pomoćnik: Sadrži WordPress snippet koji omogućava prikaz priloženih slika varijacija i galerija u Media Library sekciji."
-    },
-    "#image-metadata-tool .tag:nth-child(1)": { "en": "Python", "bs": "Python" },
-    "#image-metadata-tool .tag:nth-child(2)": { "en": "AI / LLM", "bs": "AI / LLM" },
-    "#image-metadata-tool .tag:nth-child(3)": { "en": "SEO", "bs": "SEO" },
-    "#image-metadata-tool .tag:nth-child(4)": { "en": "CSV Pipeline", "bs": "CSV obrada" },
 
     "#stock-multiplier .framework-title": { "en": "📦 Stock Multiplier", "bs": "📦 Množitelj zaliha" },
     "#stock-multiplier .showcase-title-area .ps-content": {
@@ -475,7 +433,7 @@
     "#client-request-dashboard .tag:nth-child(3)": { "en": "AJAX", "bs": "AJAX" },
     "#client-request-dashboard .tag:nth-child(4)": { "en": "CSV Export", "bs": "CSV izvoz" },
 
-    "#enhanced-schema-generator .framework-title": { "en": "🔗 Enhanced Schema Generator", "bs": "🔗 Poboljšani generator šeme" },
+    "#enhanced-schema-generator .framework-title": { "en": "🔗 Enhanced Schema Generator", "bs": "🔗 Poboljšani generator JSON-LD šeme" },
     "#enhanced-schema-generator .showcase-title-area .ps-content": {
       "en": "Semantic JSON-LD & Knowledge Graph Schema for WooCommerce/WordPress",
       "bs": "Semantički JSON-LD i šema grafa znanja za WooCommerce/WordPress"
@@ -541,7 +499,7 @@
     "#expiry-dashboard .framework-title": { "en": "⏰ Expiry Dashboard", "bs": "⏰ Dashboard isteka" },
     "#expiry-dashboard .showcase-title-area .ps-content": {
       "en": "DLUO Tracking & Automatic Discount Engine for WooCommerce",
-      "bs": "Praćenje DLUO-a i sistem za automatsko obračunavanje popusta za WooCommerce"
+      "bs": "Praćenje isteka roka proizvoda i sistem za automatsko obračunavanje popusta za WooCommerce"
     },
     "#expiry-dashboard .showcase-meta .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
     "#expiry-dashboard > p.ps-content": {
@@ -665,7 +623,7 @@
     "#shoptimizer-semantic-seo .framework-title": { "en": "🧠 Shoptimizer Semantic SEO", "bs": "🧠 Shoptimizer semantički SEO" },
     "#shoptimizer-semantic-seo .showcase-title-area .ps-content": {
       "en": "Entity-First Structured Data & JSON-LD Generation for WordPress",
-      "bs": "Entitet-prva strukturirana podataka i generacija JSON-LD za WordPress"
+      "bs": "Entitetska strukturirana podataka i generacija JSON-LD za WordPress"
     },
     "#shoptimizer-semantic-seo .showcase-client": { "en": "Client: soulpeddler.de", "bs": "Klijent: soulpeddler.de" },
     "#shoptimizer-semantic-seo > p.ps-content": {
@@ -790,7 +748,7 @@
     ".approach-right .approach-label": { "en": "✓ Optimize for the Why (Q1)", "bs": "✓ Optimizuj za zašto (Q1)" },
     ".approach-right .approach-desc": {
       "en": "One headline: \"Don't ruin your trip with the wrong boots\" + Three questions to diagnose actual need",
-      "bs": "Jedan naslov: \"Ne pokvarite svoje putovanje pogrešnim čizmama\" + Tri pitanja za dijagnozu stvarne potrebe"
+      "bs": "Jedan naslov: \"Ne kvarite svoje putovanje pogrešnim čizmama\" + Tri pitanja za dijagnozu stvarne potrebe"
     },
     ".approach-right .approach-result": { "en": "Result: Conversion", "bs": "Rezultat: Konverzija" },
 
@@ -917,6 +875,158 @@
     ".about-personal .about-text:nth-child(3)": {
       "en": "Currently based in Tešanj, open to opportunities where I can bring both technical depth and business awareness to meaningful work.",
       "bs": "Trenutno živim u Tešnju, otvoren za prilike gdje mogu donijeti i tehničku dubinu i poslovnu svijest značajnom radu."
+    },
+    "#tea-recipe .impact-pain": {
+      "en": "<strong>Friction:</strong> Manual ingredient cost calculations and paper logging took hours of overhead and risked audit failures.",
+      "bs": "<strong>Problem:</strong> Ručni izračuno troškova sastojaka i papirno vođenje evidencije trajali su sate i ugrožavali uspjeh inventura."
+    },
+    "#tea-recipe .impact-relief": {
+      "en": "<strong>Resolution:</strong> Automated POS API sync calculates live recipe costs and generates digital, compliant lot tracking logs.",
+      "bs": "<strong>Rješenje:</strong> Automatizovana POS API sinhronizacija izračunava troškove recepata u stvarnom vremenu i generiše digitalne, usaglašene evidencije lotova."
+    },
+    "#siegmann-ai .impact-pain": {
+      "en": "<strong>Friction:</strong> Manual processing, classification and categorization of 16 thousand of stock photography assets was slow process and costed a lot.",
+      "bs": "<strong>Problem:</strong> Ručno obrađivanje, klasifikacija i kategorizacija 16 hiljada slika bio je spor proces koji je mnogo koštao."
+    },
+    "#siegmann-ai .impact-relief": {
+      "en": "<strong>Resolution:</strong> Multi-modal AI classifies, routes, and dynamically prices assets in bulk using a custom YAML-driven rules engine drasticly reducing costs.",
+      "bs": "<strong>Rješenje:</strong> Višemodalni AI klasifikuje, usmjerava i dinamički određuje fotografije u velikom broju koristeći YAML pravila, drastično smanjivajući trošak."
+    },
+    "#sublimoss .impact-pain": {
+      "en": "<strong>Friction:</strong> Complex nutritional specs failed to connect with French wellness customers, limiting market penetration.",
+      "bs": "<strong>Problem:</strong> Složene nutritivne specifikacije nisu uspjele povezati sa francuskim wellness kupcima, ograničavajući prodor na tržište."
+    },
+    "#sublimoss .impact-relief": {
+      "en": "<strong>Resolution:</strong> Translated technical benefits into high-conversion narratives using psychological clustering and lean design principles, driving measurable organic traffic growth.",
+      "bs": "<strong>Rješenje:</strong> Preveo tehničke benefite u visoko-konverzne narative koristeći psihološko klasteriranje i lean design principe, generišući mjerljiv organski rast prometa."
+    },
+    "#rawear-crm .impact-pain": {
+      "en": "<strong>Friction:</strong> Generic B2B outreach failed to resonate with prospects and wasted sales team time on low-probability leads.",
+      "bs": "<strong>Problem:</strong> Generički B2B outreach nije resonovao sa prospects i trošio vrijeme sales tima na low-probability leade."
+    },
+    "#rawear-crm .impact-relief": {
+      "en": "<strong>Resolution:</strong> Behavioral psychology + AI intelligence maps fear patterns and cognitive hooks to optimal sales strategies for hyper-personalized outreach.",
+      "bs": "<strong>Rješenje:</strong> Psihologija ponašanja + AI intelligencija mapira obrasce na optimalne prodajne strategije za hiper-personalizirani pristup potencijalnim klijentima."
+    },
+    "#content-pipeline .impact-pain": {
+      "en": "<strong>Friction:</strong> The client used ChatGPT to create product descriptions that were not making any sales. Content production lacked behavioral intelligence and wasted LLM API costs on ineffective optimization cycles.",
+      "bs": "<strong>Problem:</strong> Klijent je koristio ChatGPT za kreiranje opisa proizvoda koji nisu ostvarivali prodaju. Produkciji sadržaja je nedostajala bihevioralna inteligencija, a troškovi LLM API-ja su se trošili na neefikasne cikluse optimizacije."
+    },
+    "#content-pipeline .impact-relief": {
+      "en": "<strong>Resolution:</strong> Redis-backed caching captures behavioral patterns and reduces API costs by 60% while improving semantic relevance for long-tail keywords.",
+      "bs": "<strong>Rješenje:</strong> Redis-backed caching snima behavioral patterne i smanjuje API troškove za 60% dok poboljšava semantičku relevantnost za long-tail ključne riječi."
+    },
+    "#woo-cart-widget .impact-pain": {
+      "en": "<strong>Friction:</strong> Literal keyword search couldn't handle natural language queries like \"stones for protection,\" missing customer intent.",
+      "bs": "<strong>Problem:</strong> Obična tražilica nije bila dovoljna da rukuje prirodnim jezičnim upitima kao što su \"kamenje za zaštitu\", propuštajući namjeru kupca i njegov odlazak sa stranice."
+    },
+    "#woo-cart-widget .impact-relief": {
+      "en": "<strong>Resolution:</strong> Entity-centric semantic graph parses patterns and relationships from product data, enabling natural language search without external engines.",
+      "bs": "<strong>Rješenje:</strong> Semantički graf fokusiran na entitete parsira obrasce i odnose iz podataka o proizvodima, omogućavajući pretragu prirodnim jezikom."
+    },
+    "#hiboutik-sync .impact-pain": {
+      "en": "<strong>Friction:</strong> Discrepancies between physical POS systems and online inventory caused manual desyncs and accidental overselling on busy weekends.",
+      "bs": "<strong>Problem:</strong> Neusklađenost između fizičkih POS sistema i online inventara izazivala je ručne desynce i slučajno overselling na prometnim vikendima."
+    },
+    "#hiboutik-sync .impact-relief": {
+      "en": "<strong>Resolution:</strong> A secure HMAC background engine treats the POS as single source of truth, importing and validating stock quantities directly with POS databases.",
+      "bs": "<strong>Rješenje:</strong> Siguran HMAC background engine tretira POS kao single source of truth, importujući i validirajući količine zaliha direktno sa POS bazom podataka."
+    },
+    "#image-seo-metadata-processor .impact-pain": {
+      "en": "<strong>Friction:</strong> Manual image optimization for SEO was time-consuming, inconsistent across products, and delayed content launches.",
+      "bs": "<strong>Problem:</strong> Ručna optimizacija slika za SEO je bila vremenski zahtjevna, nekonzistentna među proizvodima i odgađala lansiranje sadržaja."
+    },
+    "#image-seo-metadata-processor .impact-relief": {
+      "en": "<strong>Resolution:</strong> Parallel Gemini 2.5 Flash batch processing with content hash caching reduces API costs by 60% while generating consistent, SEO-ready metadata at scale.",
+      "bs": "<strong>Rješenje:</strong> Paralelna obrada s Gemini 2.5 Flash i cachingom smanjuje API troškove za 60% dok generiše konzistentne, SEO-ready metapodatke u skaliranom obimu."
+    },
+    "#stock-multiplier .impact-pain": {
+      "en": "<strong>Friction:</strong> Setting custom bulk-buy stock modifiers required tedious manual updates on individual WooCommerce variable products.",
+      "bs": "<strong>Problem:</strong> Postavljanje prilagođenih modifikatora zaliha za kupovinu na veliko zahtijevalo je zamorno ručno ažuriranje pojedinačnih varijabilnih proizvoda WooCommerce-a."
+    },
+    "#stock-multiplier .impact-relief": {
+      "en": "<strong>Resolution:</strong> AJAX-driven manager allows store owners to apply quantity multipliers globally or in bulk without reloading pages.",
+      "bs": "<strong>Rješenje:</strong> AJAX menadžer omogućava vlasniku trgovine da primjenjuju multiplikatore količine globalno ili skupno bez ponovnog učitavanja stranica."
+    },
+    "#musa-app .impact-pain": {
+      "en": "<strong>Friction:</strong> The museum lacked an engaging digital platform to showcase the poet's work, legacy, and historical context for visitors.",
+      "bs": "<strong>Problem:</strong> Muzej je nedostajao angažirajuću digitalnu platformu za prezentaciju rada pjesnika, nasljeđa i historijskog konteksta za posjetitelje."
+    },
+    "#musa-app .impact-relief": {
+      "en": "<strong>Resolution:</strong> Designed a focused storytelling web app optimized for visitor engagement around biography, poems, and historical context with clean navigation.",
+      "bs": "<strong>Rješenje:</strong> Dizajnirao fokusiranu storytelling web aplikaciju optimiziranu za visitor engagement oko biografije, pjesama i historijskog konteksta sa čistom navigacijom."
+    },
+    "#client-request-dashboard .impact-pain": {
+      "en": "<strong>Friction:</strong> Staff tracked product requests across scattered spreadsheets and email chains with no unified workflow or audit trail.",
+      "bs": "<strong>Problem:</strong> Osoblje je pratilo zahtjeve za proizvodima putem raštrkanih tablica i lanaca e-pošte bez objedinjenog toka rada ili revizijskog traga."
+    },
+    "#client-request-dashboard .impact-relief": {
+      "en": "<strong>Resolution:</strong> Centralized dashboard provides single-place logging, categorization, status workflow management, and CSV export for reporting.",
+      "bs": "<strong>Rješenje:</strong> Centralizirana kontrolna ploča omogućava evidentiranje na jednom mjestu, kategorizaciju, upravljanje statusom radnog toka i izvoz CSV datoteka za izvještavanje."
+    },
+    "#enhanced-schema-generator .impact-pain": {
+      "en": "<strong>Friction:</strong> Search engines couldn't properly extract structured content, leading to missed rich result opportunities and poor entity recognition.",
+      "bs": "<strong>Problem:</strong> Tražilice nisu mogle pravilno izdvojiti strukturirani sadržaj, što je dovodilo do propuštenih prilika za bogate rezultate i lošeg prepoznavanja entiteta."
+    },
+    "#enhanced-schema-generator .impact-relief": {
+      "en": "<strong>Resolution:</strong> Multi-entity JSON-LD knowledge graphs enable AI systems to extract structured content while improving search engine entity recognition and rich result eligibility.",
+      "bs": "<strong>Rješenje:</strong> Višeentitetski JSON-LD grafovi znanja omogućavaju AI sistemima da izdvajaju strukturirani sadržaj, a istovremeno poboljšavaju prepoznavanje entiteta pretraživača i podobnost za obogaćene rezultate."
+    },
+    "#product-filter-widget .impact-pain": {
+      "en": "<strong>Friction:</strong> Customers couldn't effectively narrow product catalogs by relevant categories and attributes, leading to frustrated search experiences.",
+      "bs": "<strong>Problem:</strong> Kupci nisu mogli efikasno suziti kataloge proizvoda po relevantnim kategorijama i atributima, što je dovodilo do frustrirajućih iskustava pretraživanja."
+    },
+    "#product-filter-widget .impact-relief": {
+      "en": "<strong>Resolution:</strong> Lightweight AJAX-enabled widget provides responsive filtering with real-time option loading and simple clear actions across desktop and mobile.",
+      "bs": "<strong>Rješenje:</strong> Lagani AJAX widget pruža responzivno filtriranje s učitavanjem opcija u stvarnom vremenu i jednostavnim radnjama brisanja na desktopu i mobilnim uređajima."
+    },
+    "#expiry-dashboard .impact-pain": {
+      "en": "<strong>Friction:</strong> Time-sensitive inventory tracking was manual, leading to unnecessary waste from expired products and missed discount opportunities.",
+      "bs": "<strong>Problem:</strong> Praćenje zaliha osjetljivih na vremenski period bilo je ručno, što je dovodilo do nepotrebnog rasipanja proizvoda s isteklim rokom trajanja i propuštenih prilika za popuste."
+    },
+    "#expiry-dashboard .impact-relief": {
+      "en": "<strong>Resolution:</strong> Automated expiry date tracking with progressive discounting as products near expiration, including admin oversight and cart integration.",
+      "bs": "<strong>Rješenje:</strong> Automatsko praćenje datuma isteka s progresivnim popustima kako se proizvodi bliže isteku, uključujući administratorski nadzor i integraciju košarice."
+    },
+    "#review-invitation .impact-pain": {
+      "en": "<strong>Friction:</strong> Review collection was manual and inconsistent, resulting in missed opportunities for social proof and customer feedback.",
+      "bs": "<strong>Problem:</strong> Prikupljanje recenzija bilo je ručno i nedosljedno, što je rezultiralo propuštenim prilikama za društveni dokaz i povratne informacije kupaca."
+    },
+    "#review-invitation .impact-relief": {
+      "en": "<strong>Resolution:</strong> Automated post-purchase email invitations with configurable delays, templated content, and direct per-product review links to help grow product reviews.",
+      "bs": "<strong>Rješenje:</strong> Automatske e-poruke s pozivnicama nakon kupovine s konfigurabilnim kašnjenjima, predloškom sadržaja i direktnim linkovima za recenzije po proizvodu kako bi se povećao broj recenzija proizvoda."
+    },
+    "#loss-record .impact-pain": {
+      "en": "<strong>Friction:</strong> Perishable inventory losses were logged on paper with no reporting capabilities, making audits and inventory write-offs difficult to track.",
+      "bs": "<strong>Problem:</strong> Gubici kvarljive robe evidentirani su na papiru bez mogućnosti izvještavanja, što je otežavalo praćenje revizija i otpisa zaliha."
+    },
+    "#loss-record .impact-relief": {
+      "en": "<strong>Resolution:</strong> Modern card-based interface optimized for mobile with fast AJAX operations, CSV export, and comprehensive inventory write-off tracking.",
+      "bs": "<strong>Rješenje:</strong> Moderni interfejs baziran na karticama optimizovan za mobilne uređaje sa brzim AJAX operacijama, CSV izvozom i sveobuhvatnim praćenjem otpisa zaliha."
+    },
+    "#seo-url-analyzer .impact-pain": {
+      "en": "<strong>Friction:</strong> Technical SEO audits were time-consuming and plugin conflicts caused indexing issues without clear visibility into URL states.",
+      "bs": "<strong>Problem:</strong> Tehničke SEO revizije su oduzimale mnogo vremena, a sukobi s dodacima uzrokovali su probleme s indeksiranjem bez jasne vidljivosti stanja URL-ova."
+    },
+    "#seo-url-analyzer .impact-relief": {
+      "en": "<strong>Resolution:</strong> Dashboard identifies URL patterns, meta robots/canonical status, and plugin conflicts before making optimization changes with clear SEO recommendations.",
+      "bs": "<strong>Rješenje:</strong> Kontrolna ploča identificira URL obrasce, meta robote/kanonski status i konflikte dodataka prije nego što napravi promjene optimizacije s jasnim SEO preporukama."
+    },
+    "#shoptimizer-semantic-seo .impact-pain": {
+      "en": "<strong>Friction:</strong> WordPress lacked robust semantic entity management and Wikidata integration, limiting knowledge graph capabilities.",
+      "bs": "<strong>Problem:</strong> WordPressu je nedostajalo robusno upravljanje semantičkim entitetima i integracija Wikidata, što je ograničavalo mogućnosti grafa znanja."
+    },
+    "#shoptimizer-semantic-seo .impact-relief": {
+      "en": "<strong>Resolution:</strong> Plugin defines primary/related topics, validates against Wikidata, and outputs interconnected JSON-LD for posts, pages, and products with confidence scoring.",
+      "bs": "<strong>Rješenje:</strong> Dodatak definira primarne/povezane teme, vrši validaciju u odnosu na Wikidata i ispisuje međusobno povezane JSON-LD datoteke za objave, stranice i proizvode s pouzdanim bodovanjem."
+    },
+    "#semantic-search .impact-pain": {
+      "en": "<strong>Friction:</strong> Literal keyword search missed customer intent, leading to abandoned carts and missed conversion opportunities.",
+      "bs": "<strong>Problem:</strong> Doslovna pretraga ključnih riječi promašila je namjeru kupca, što je dovelo do napuštenih košarica i propuštenih prilika za konverziju."
+    },
+    "#semantic-search .impact-relief": {
+      "en": "<strong>Resolution:</strong> Vector search parses emotional and conceptual intent, leveraging a local embedding cache to maintain sub-100ms speeds.",
+      "bs": "<strong>Rješenje:</strong> Vektorska pretraga analizira emocionalnu i konceptualnu namjeru, koristeći lokalni predmemorij za ugradnju kako bi održala brzine ispod 100 ms."
     },
 
     "#contact .section-label": { "en": "Contact", "bs": "Kontakt" },
