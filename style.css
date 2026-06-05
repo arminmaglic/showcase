@@ -211,7 +211,7 @@ body {
 
 .hero-text-side {
     flex: 1;
-    max-width: 650px;
+    max-width: 400px;
 }
 
 .hero-intro-label {
