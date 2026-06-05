@@ -654,6 +654,8 @@ body {
     .sidebar-lang { display: none !important; }
     .main-content { margin-left: 0; margin-top: 0; padding: 40px 25px 80px 25px; flex: 1; overflow-y: auto; }
     .section-title { font-size: 2.2rem; }
+    .framework-title { font-size: 1rem; }
+    .framework-showcase { padding: 15px; }
 }
 
 /* Screenshot Modal */

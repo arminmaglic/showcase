@@ -217,7 +217,7 @@
       "en": "Behavioral Psychology + AI-Powered B2B Outreach System",
       "bs": "Bihevioralna psihologija + B2B komunikacijski sistem vođen AI-jem"
     },
-    "#rawear-crm .showcase-client": { "en": "Full-Stack CRM Dashboard", "bs": "Full-Stack CRM dashboard" },
+    "#rawear-crm .showcase-client": { "en": "Full-Stack CRM Dashboard", "bs": "Full-Stack CRM kontrolna ploča" },
     "#rawear-crm > p.ps-content": {
       "en": "Full-Stack CRM combining behavioral psychology with AI-powered sales intelligence for hyper-personalized B2B outreach. Analyzes fear patterns, identifies cognitive hooks, and maps behavioral signals to optimal sales strategies using AJAX for responsive workflows.",
       "bs": "Full-Stack CRM koji kombinuje bihevioralnu psihologiju sa prodajnom inteligencijom na bazi AI-a za hiper-personalizovanu B2B komunikaciju. Analizira obrasce straha, identifikuje kognitivne okidače i mapira bihevioralne signale u optimalne prodajne strategije uz korištenje AJAX-a."
