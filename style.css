@@ -633,7 +633,7 @@ body {
         gap: 10px;
         flex-shrink: 0;
     }
-    .sidebar-top { flex-direction: row; flex-wrap: wrap; gap: 15px; width: 100%; }
+    .sidebar-top { flex-direction: row; flex-wrap: wrap; gap: 20px; width: 100%; }
     .sidebar-name { font-size: 1.4rem; }
     .sidebar-name .first-name, .sidebar-name .last-name { display: inline; }
     .sidebar-name .last-name { margin-left: 6px; }
