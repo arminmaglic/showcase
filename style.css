@@ -1224,3 +1224,330 @@ body {
 .impact-relief strong {
     color: var(--star-r);
 }
+
+/* ============================================
+   CONTENT STRATEGY — Storyboard Timeline
+   ============================================ */
+
+/* Storyboard Card wrapper */
+.storyboard-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 30px;
+    margin-top: 24px;
+}
+
+/* Meta info (Format / Objective) */
+.storyboard-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+}
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.meta-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+.meta-value {
+    font-size: 0.9rem;
+    color: var(--text-main);
+    line-height: 1.5;
+}
+
+/* Timeline of phases */
+.storyboard-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Single phase block */
+.storyboard-phase {
+    background: var(--section-bg);
+    border-radius: 4px;
+    padding: 20px 22px;
+    border-left: 4px solid var(--border);
+}
+.storyboard-phase.phase-hook {
+    border-left-color: var(--star-s);
+}
+.storyboard-phase.phase-body {
+    border-left-color: var(--star-t);
+}
+.storyboard-phase.phase-cta {
+    border-left-color: var(--star-r);
+}
+
+/* Phase header: time tag + name */
+.phase-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed var(--border);
+}
+.phase-time {
+    font-family: "Courier New", monospace;
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 3px;
+    background: var(--accent);
+    color: var(--text-main);
+    letter-spacing: 0.02em;
+}
+.phase-hook .phase-time { background: rgba(74, 111, 165, 0.15); color: var(--star-s); }
+.phase-body .phase-time { background: rgba(237, 174, 73, 0.18); color: #b8791a; }
+.phase-cta .phase-time { background: rgba(0, 121, 140, 0.15); color: var(--star-r); }
+
+.phase-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-main);
+}
+
+/* Phase body rows */
+.phase-body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.phase-row {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 16px;
+    align-items: start;
+}
+.phase-row-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    color: var(--text-muted);
+    padding-top: 2px;
+}
+.phase-row-content {
+    font-size: 0.9rem;
+    color: var(--text-main);
+    line-height: 1.6;
+}
+
+/* Psychology callout inside a phase */
+.phase-psychology {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 16px;
+    align-items: start;
+    margin-top: 4px;
+    padding: 14px 16px;
+    background: #fff;
+    border-left: 3px solid var(--star-a);
+    border-radius: 4px;
+}
+.phase-psychology .phase-row-label {
+    color: var(--star-a);
+}
+
+/* Responsive: stack label above content on narrow screens */
+@media (max-width: 640px) {
+    .storyboard-card { padding: 20px; }
+    .phase-row,
+    .phase-psychology {
+        grid-template-columns: 1fr;
+        gap: 6px;
+    }
+    .phase-row-label {
+        padding-top: 0;
+    }
+}
+
+/* ============================================
+   CONTENT STRATEGY — Format Headers, Blog & Landing Maps
+   ============================================ */
+
+/* Format section header (divides the three formats) */
+.content-format-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin: 50px 0 28px 0;
+    padding-bottom: 18px;
+    border-bottom: 2px solid var(--border);
+}
+.content-format-icon {
+    font-size: 1.8rem;
+    line-height: 1;
+    flex-shrink: 0;
+    padding-top: 4px;
+}
+.content-format-label {
+    display: block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.content-format-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin: 0 0 6px 0;
+}
+.content-format-desc {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Content map subtitle (used inside blog/landing cards) */
+.contentmap-subtitle {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-weight: 700;
+    color: var(--text-muted);
+    margin: 24px 0 12px 0;
+}
+.contentmap-subtitle:first-of-type {
+    margin-top: 4px;
+}
+
+/* Heading outline list (H1/H2/H3 hierarchy) */
+.outline-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-left: 2px solid var(--border);
+}
+.outline-list li {
+    padding: 6px 0 6px 16px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text-main);
+    position: relative;
+}
+.outline-list li::before {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 14px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--border);
+}
+.outline-h1 {
+    font-weight: 700;
+    font-size: 0.98rem;
+    padding-left: 16px;
+}
+.outline-h1::before { background: var(--star-r); }
+.outline-h2 {
+    font-weight: 600;
+    padding-left: 36px;
+    color: #333;
+}
+.outline-h2::before { background: var(--star-t); left: 15px; }
+.outline-h3 {
+    font-weight: 400;
+    padding-left: 56px;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+.outline-h3::before { background: var(--accent); left: 35px; width: 6px; height: 6px; top: 15px; }
+
+/* Sample copy block (monospace-feel quote) */
+.sample-copy {
+    background: var(--section-bg);
+    border-left: 3px solid var(--star-s);
+    padding: 14px 18px;
+    border-radius: 4px;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--text-main);
+    font-style: italic;
+}
+.sample-sub {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    font-style: normal;
+}
+
+/* Landing page section sequence */
+.landing-sequence {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.landing-section-row {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    gap: 14px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--section-bg);
+    border-radius: 4px;
+    border-left: 3px solid var(--star-t);
+}
+.landing-step {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--star-t);
+    color: #fff;
+    font-size: 0.82rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.landing-section-body {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.landing-section-name {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-main);
+}
+.landing-function {
+    font-size: 0.74rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--star-r);
+    font-weight: 600;
+}
+.landing-section-body .sample-copy {
+    margin-top: 4px;
+    font-size: 0.84rem;
+    padding: 10px 14px;
+}
+
+/* Responsive: format header stacks on mobile */
+@media (max-width: 640px) {
+    .content-format-header { gap: 12px; margin: 36px 0 20px 0; }
+    .content-format-icon { font-size: 1.5rem; }
+    .content-format-title { font-size: 1.02rem; }
+    .landing-section-row { grid-template-columns: 28px 1fr; gap: 10px; padding: 12px; }
+    .landing-step { width: 24px; height: 24px; font-size: 0.74rem; }
+}
