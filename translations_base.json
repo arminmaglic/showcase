@@ -158,7 +158,7 @@
     "#tea-recipe .tag:nth-child(4)": { "en": "Inventory", "bs": "Zalihe" },
     "#tea-recipe .tag:nth-child(5)": { "en": "Deployment & DevOps", "bs": "Implementacija i DevOps" },
 
-    "#siegmann-ai .framework-title": { "en": "🖼️ SiegmannStock AI Vision & Classification Pipeline", "bs": "🖼️ SiegmannStock AI Vision i proces za automatske klasifikacije fotografije" },
+    "#siegmann-ai .framework-title": { "en": "🖼️ SiegmannStock AI Vision & Auto-Pricing Pipeline", "bs": "🖼️ SiegmannStock AI Vision i proces za automatsko određivanje cijena" },
     "#siegmann-ai .showcase-title-area .ps-content": {
       "en": "Production AI Asset Enrichment for WooCommerce",
       "bs": "AI obogaćivanje digitalnog sadržaja za WooCommerce"
@@ -217,7 +217,7 @@
       "en": "Behavioral Psychology + AI-Powered B2B Outreach System",
       "bs": "Bihevioralna psihologija + B2B komunikacijski sistem vođen AI-jem"
     },
-    "#rawear-crm .showcase-client": { "en": "Full-Stack CRM Dashboard", "bs": "Full-Stack CRM kontrolna ploča" },
+    "#rawear-crm .showcase-client": { "en": "Full-Stack CRM Dashboard", "bs": "Full-Stack CRM dashboard" },
     "#rawear-crm > p.ps-content": {
       "en": "Full-Stack CRM combining behavioral psychology with AI-powered sales intelligence for hyper-personalized B2B outreach. Analyzes fear patterns, identifies cognitive hooks, and maps behavioral signals to optimal sales strategies using AJAX for responsive workflows.",
       "bs": "Full-Stack CRM koji kombinuje bihevioralnu psihologiju sa prodajnom inteligencijom na bazi AI-a za hiper-personalizovanu B2B komunikaciju. Analizira obrasce straha, identifikuje kognitivne okidače i mapira bihevioralne signale u optimalne prodajne strategije uz korištenje AJAX-a."
@@ -240,15 +240,15 @@
     "#rawear-crm .tag:nth-child(4)": { "en": "Behavioral Analysis", "bs": "Bihevioralna analiza" },
     "#rawear-crm .tag:nth-child(5)": { "en": "Web Scraping", "bs": "Web skrejping" },
 
-    "#content-pipeline .framework-title": { "en": "🧠 AI-Powered Content Intelligence Pipeline", "bs": "🧠 AI proces za sadržajnu inteligenciju" },
+    "#content-pipeline .framework-title": { "en": "🧠 AI-Powered Content Intelligence Pipeline", "bs": "🧠 AI-pokretani proces za sadržajnu inteligenciju" },
     "#content-pipeline .showcase-title-area .ps-content": {
       "en": "Production Infrastructure • herbomarais.fr",
       "bs": "Proizvodna infrastruktura • herbomarais.fr"
     },
     "#content-pipeline .showcase-client": { "en": "14-Step Automated System", "bs": "14-step automatizovani sistem" },
     "#content-pipeline > p.ps-content": {
-      "en": "Sophisticated AI-powered pipeline designed to transform raw product data, into high-converting, SEO-optimized, and scientifically validated content for Herbomarais.fr. It automates the entire content lifecycle from research and analysis to final WooCommerce deployment.",
-      "bs": "Sofisticirani sistem za obradu podataka, pokretan umjetnom inteligencijom, dizajniran za transformaciju sirovih podataka o proizvodu u visoko konvertirajući, SEO optimiziran i naučno validiran sadržaj za Herbomarais.fr. Automatizira cijeli životni ciklus sadržaja, od istraživanja i analize do konačne implementacije WooCommerce-a."
+      "en": "Production infrastructure that transforms content production into a compounding data asset. Captures behavioral intelligence using Redis-backed caching to reduce LLM API costs.",
+      "bs": "Proizvodna infrastruktura koja transformiše proizvodnju sadržaja u podatkovnu vrijednost koja se vremenom akumulira. Bilježi psihološke uvide koristeći Redis keširanje radi optimizacije troškova LLM API-ja."
     },
     "#content-pipeline .feature-item:nth-child(1) span:nth-child(2)": {
       "en": "Pattern Recognition: Learns which emotional states dominate product categories.",
@@ -268,21 +268,32 @@
     "#content-pipeline .tag:nth-child(4)": { "en": "LLM Agents", "bs": "LLM agenti" },
     "#content-pipeline .tag:nth-child(5)": { "en": "Redis & Caching", "bs": "Redis i keširanje" },
 
-    "#woo-cart-widget .framework-title": { "en": "🔍 WooCommerce Semantic Search Enhancement", "bs": "🔍 WooCommerce Semantičko Pretraživanje" },
+    "#woo-cart-widget .framework-title": { "en": "🛒 WooCommerce Cart Widget", "bs": "🛒 WooCommerce widget korpe" },
     "#woo-cart-widget .showcase-title-area .ps-content": {
-      "en": "Entity-Centric Search with Self-Contained Semantic Graph",
-      "bs": "Pretraga fokusirana na entitete sa samostalnim semantičkim grafom"
+      "en": "Customizable WooCommerce Widget with Elementor Integration",
+      "bs": "Prilagodljivi WooCommerce widget sa Elementor integracijom"
     },
     "#woo-cart-widget .showcase-meta .showcase-client": { "en": "WordPress / WooCommerce", "bs": "WordPress / WooCommerce" },
     "#woo-cart-widget > p.ps-content": {
-      "en": "Enhances WooCommerce search with entity-centric semantic capabilities using an internal semantic graph built from product data. Supports natural language patterns like \"stones for protection\" and returns products based on semantic relationships rather than keyword matching. Completely self-contained—no external semantic engines required.",
-      "bs": "Poboljšava WooCommerce pretragu sa semantičkim kapacitetima fokusiranim na entitete koristeći interni semantički graf izgrađen od podataka o proizvodima. Podržava prirodne jezične obrasce kao što su \"kamenje za zaštitu\" i vraća proizvode na osnovu semantičkih odnosa umjesto podudaranja ključnih riječi."
+      "en": "Adds a modern, configurable cart widget to WooCommerce storefronts with Elementor compatibility. Built as a WordPress plugin with widget controls for icon style, subtotal display, and theme colors.",
+      "bs": "Dodaje moderan i prilagodljiv vidžet korpe na WooCommerce prodavnice sa Elementor kompatibilnošću. Razvijen kao WordPress dodatak s postavkama za stil ikone, prikaz međuzbira i boje teme."
+    },
+    "#woo-cart-widget .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "Widget Customization: Choose cart icon style (Cart, Bag, Basket) and toggle subtotal display.",
+      "bs": "Prilagođavanje vidžeta: Odabir stila ikone korpe (korpa, torba, košarica) i prikaz međuzbira (subtotal)."
+    },
+    "#woo-cart-widget .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Elementor Integration: Includes a native WooCommerce Cart widget in the Elementor panel.",
+      "bs": "Elementor integracija: Uključuje nativni WooCommerce Cart vidžet u Elementor panelu."
+    },
+    "#woo-cart-widget .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "Responsive: Designed to adapt cleanly across desktop, tablet, and mobile layouts.",
+      "bs": "Responzivnost: Dizajniran za besprijekornu prilagodbu na desktopu, tabletu i mobilnim uređajima."
     },
     "#woo-cart-widget .tag:nth-child(1)": { "en": "WordPress", "bs": "WordPress" },
     "#woo-cart-widget .tag:nth-child(2)": { "en": "WooCommerce", "bs": "WooCommerce" },
-    "#woo-cart-widget .tag:nth-child(3)": { "en": "Semantic Search", "bs": "Semantičko Pretraživanje" },
-    "#woo-cart-widget .tag:nth-child(4)": { "en": "Entity Extraction", "bs": "Ekstrakcija Entiteta" },
-    "#woo-cart-widget .tag:nth-child(5)": { "en": "PHP", "bs": "PHP" },
+    "#woo-cart-widget .tag:nth-child(3)": { "en": "Elementor", "bs": "Elementor" },
+    "#woo-cart-widget .tag:nth-child(4)": { "en": "PHP", "bs": "PHP" },
 
     "#hiboutik-sync .framework-title": { "en": "🔄 Hiboutik WooCommerce Sync", "bs": "🔄 Hiboutik WooCommerce sinhronizacija" },
     "#hiboutik-sync .showcase-title-area .ps-content": {
@@ -339,6 +350,37 @@
     "#image-seo-metadata-processor .tag:nth-child(2)": { "en": "AI / LLM", "bs": "AI / LLM" },
     "#image-seo-metadata-processor .tag:nth-child(3)": { "en": "SEO", "bs": "SEO" },
     "#image-seo-metadata-processor .tag:nth-child(4)": { "en": "Batch Pipeline", "bs": "Grupna obrada" },
+
+    "#image-metadata-tool .framework-title": { "en": "📸 Image Metadata Tool", "bs": "📸 Alat za metapodatke slika" },
+    "#image-metadata-tool .showcase-title-area .ps-content": {
+      "en": "Automated SEO Metadata Enrichment for E-Commerce Images",
+      "bs": "Automatizovano obogaćenje SEO metapodataka za e-commerce slike"
+    },
+    "#image-metadata-tool .showcase-meta .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
+    "#image-metadata-tool > p.ps-content": {
+      "en": "Automated image enrichment pipeline for e-commerce feeds. Reads product CSVs with image URLs, generates SEO-focused metadata via AI, runs technical SEO checks, and writes enriched output plus optimized local image copies.",
+      "bs": "Automatizovani proces obogaćivanja slika za e-commerce feedove. Čita CSV datoteke sa URL-ovima slika, generiše SEO metapodatke putem AI-ja, vrši tehničke SEO provjere i kreira lokalne optimizovane kopije slika."
+    },
+    "#image-metadata-tool .feature-item:nth-child(1) span:nth-child(2)": {
+      "en": "AI Enrichment: Uses Gemini for primary metadata generation, with OpenAI fallback.",
+      "bs": "AI obogaćivanje: Korištenje Gemini modela za primarnu generaciju metapodataka, uz OpenAI kao alternativnu opciju (fallback)."
+    },
+    "#image-metadata-tool .feature-item:nth-child(2) span:nth-child(2)": {
+      "en": "Technical SEO Checks: Validates dimensions, format, file size, and aspect ratio; recommends improvements.",
+      "bs": "Tehničke SEO provjere: Validacija dimenzija, formata, veličine datoteka i omjera stranica, uz preporuke za poboljšanje."
+    },
+    "#image-metadata-tool .feature-item:nth-child(3) span:nth-child(2)": {
+      "en": "CSV-Driven: Reads structured product CSVs, writes enriched columns, and copies renamed SEO-friendly images.",
+      "bs": "Vođeno CSV datotekama: Čitanje strukturiranih CSV datoteka proizvoda, upisivanje obogaćenih kolona i kopiranje preimenovanih SEO-friendly slika."
+    },
+    "#image-metadata-tool .feature-item:nth-child(4) span:nth-child(2)": {
+      "en": "WooCommerce Helper: Includes a WordPress snippet to expose attached WooCommerce variation/gallery images in Media Library.",
+      "bs": "WooCommerce pomoćnik: Sadrži WordPress snippet koji omogućava prikaz priloženih slika varijacija i galerija u Media Library sekciji."
+    },
+    "#image-metadata-tool .tag:nth-child(1)": { "en": "Python", "bs": "Python" },
+    "#image-metadata-tool .tag:nth-child(2)": { "en": "AI / LLM", "bs": "AI / LLM" },
+    "#image-metadata-tool .tag:nth-child(3)": { "en": "SEO", "bs": "SEO" },
+    "#image-metadata-tool .tag:nth-child(4)": { "en": "CSV Pipeline", "bs": "CSV obrada" },
 
     "#stock-multiplier .framework-title": { "en": "📦 Stock Multiplier", "bs": "📦 Množitelj zaliha" },
     "#stock-multiplier .showcase-title-area .ps-content": {
@@ -433,7 +475,7 @@
     "#client-request-dashboard .tag:nth-child(3)": { "en": "AJAX", "bs": "AJAX" },
     "#client-request-dashboard .tag:nth-child(4)": { "en": "CSV Export", "bs": "CSV izvoz" },
 
-    "#enhanced-schema-generator .framework-title": { "en": "🔗 Enhanced Schema Generator", "bs": "🔗 Poboljšani generator JSON-LD šeme" },
+    "#enhanced-schema-generator .framework-title": { "en": "🔗 Enhanced Schema Generator", "bs": "🔗 Poboljšani generator šeme" },
     "#enhanced-schema-generator .showcase-title-area .ps-content": {
       "en": "Semantic JSON-LD & Knowledge Graph Schema for WooCommerce/WordPress",
       "bs": "Semantički JSON-LD i šema grafa znanja za WooCommerce/WordPress"
@@ -499,7 +541,7 @@
     "#expiry-dashboard .framework-title": { "en": "⏰ Expiry Dashboard", "bs": "⏰ Dashboard isteka" },
     "#expiry-dashboard .showcase-title-area .ps-content": {
       "en": "DLUO Tracking & Automatic Discount Engine for WooCommerce",
-      "bs": "Praćenje isteka roka proizvoda i sistem za automatsko obračunavanje popusta za WooCommerce"
+      "bs": "Praćenje DLUO-a i sistem za automatsko obračunavanje popusta za WooCommerce"
     },
     "#expiry-dashboard .showcase-meta .showcase-client": { "en": "herbomarais.fr ecosystem", "bs": "herbomarais.fr ekosistem" },
     "#expiry-dashboard > p.ps-content": {
@@ -623,7 +665,7 @@
     "#shoptimizer-semantic-seo .framework-title": { "en": "🧠 Shoptimizer Semantic SEO", "bs": "🧠 Shoptimizer semantički SEO" },
     "#shoptimizer-semantic-seo .showcase-title-area .ps-content": {
       "en": "Entity-First Structured Data & JSON-LD Generation for WordPress",
-      "bs": "Entitetska strukturirana podataka i generacija JSON-LD za WordPress"
+      "bs": "Entitet-prva strukturirana podataka i generacija JSON-LD za WordPress"
     },
     "#shoptimizer-semantic-seo .showcase-client": { "en": "Client: soulpeddler.de", "bs": "Klijent: soulpeddler.de" },
     "#shoptimizer-semantic-seo > p.ps-content": {
@@ -748,7 +790,7 @@
     ".approach-right .approach-label": { "en": "✓ Optimize for the Why (Q1)", "bs": "✓ Optimizuj za zašto (Q1)" },
     ".approach-right .approach-desc": {
       "en": "One headline: \"Don't ruin your trip with the wrong boots\" + Three questions to diagnose actual need",
-      "bs": "Jedan naslov: \"Ne kvarite svoje putovanje pogrešnim čizmama\" + Tri pitanja za dijagnozu stvarne potrebe"
+      "bs": "Jedan naslov: \"Ne pokvarite svoje putovanje pogrešnim čizmama\" + Tri pitanja za dijagnozu stvarne potrebe"
     },
     ".approach-right .approach-result": { "en": "Result: Conversion", "bs": "Rezultat: Konverzija" },
 
@@ -810,264 +852,6 @@
       "bs": "Ako vaš sajt izgleda kao da nagađa, tako i jeste. Zamijenimo nagađanje tematskom mapom, kontekstualnim planom i semantičkom mrežom dizajniranom za pobjedu."
     },
     "#seo .seo-cta-content .cta-text": { "en": "START A CONVERSATION", "bs": "ZAPOČNITE RAZGOVOR" },
-
-    ".sidebar-nav a[data-section='content']": {
-      "en": "Content Strategy",
-      "bs": "Strategija sadržaja"
-    },
-
-    "#content .section-label": { "en": "Content", "bs": "Sadržaj" },
-    "#content .section-title": { "en": "Content Strategy", "bs": "Strategija sadržaja" },
-    "#content .section-desc": {
-      "en": "Three formats, one method — every piece of content solves for the psychological reality behind the query or action: short-form video, long-form articles, and landing pages.",
-      "bs": "Tri formata, jedna metoda — svaki komad sadržaja rješava psihološku stvarnost iza upita ili akcije: kratki video, dugi članci i landing stranice."
-    },
-
-    "#content-intro .framework-title": { "en": "One Method, Three Formats", "bs": "Jedna metoda, tri formata" },
-    "#content-intro > p.ps-content:nth-child(2)": {
-      "en": "Content isn't divided by channel — it's divided by the job it has to do. A 15-second Reel, a 1500-word article, and a landing page all answer the same underlying question: <em>what is the reader actually trying to resolve?</em> The format changes, the psychology doesn't.",
-      "bs": "Sadržaj se ne dijeli po kanalu — dijeli se po poslu koji mora obaviti. Reel od 15 sekundi, članak od 1500 riječi i landing stranica svi odgovaraju na isto osnovno pitanje: <em>šta čitalac zapravo pokušava riješiti?</em> Format se mijenja, psihologija ne."
-    },
-    "#content-intro > p.ps-content:nth-child(3)": {
-      "en": "Creative directors value a sharp concept and a structural blueprint more than finished execution. Agencies already have editors, writers, and designers — what they need is someone who understands how each format actually works: the seconds in a Reel, the heading hierarchy in an article, the section order on a landing page, and the psychological trigger behind every decision.",
-      "bs": "Kreativni direktori više cijene oštar koncept i strukturni plan nego gotovo izvođenje. Agencije ionako imaju montažere, pisce i dizajnere — ono što im treba je neko ko razumije kako svaki format zaista funkcioniše: sekunde u Reelu, hijerarhiju naslova u članku, redoslijed sekcija na landing stranici i psihološki okidač iza svake odluke."
-    },
-    "#content-intro > p.ps-content:nth-child(4)": {
-      "en": "Below are three concepts broken down to production-ready blueprints — short-form video storyboards, a long-form article map, and a landing page section blueprint.",
-      "bs": "Ispod su tri koncepta razrađena do plana spremnog za produkciju — storyboarde kratkog videa, mapu dugog članka i plan sekcija landing stranice."
-    },
-
-    "#format-video .content-format-label": { "en": "Format 1", "bs": "Format 1" },
-    "#format-video .content-format-title": { "en": "Short-Form Video — Reels & TikTok", "bs": "Kratki video — Reels i TikTok" },
-    "#format-video .content-format-desc": {
-      "en": "Thinking in seconds: the hook, the body, and the CTA, each engineered to a psychological trigger.",
-      "bs": "Razmišljanje u sekundama: hook, body i CTA, svaki konstruisan za psihološki okidač."
-    },
-
-    "#storyboard-furniture .framework-title": { "en": "Storyboard #1 — Premium Furniture Brand", "bs": "Scenarij #1 — Premium brend namještaja" },
-    "#storyboard-furniture .meta-item:nth-child(1) .meta-label": { "en": "Format", "bs": "Format" },
-    "#storyboard-furniture .meta-item:nth-child(1) .meta-value": { "en": "Reels / TikTok (9:16)", "bs": "Reels / TikTok (9:16)" },
-    "#storyboard-furniture .meta-item:nth-child(2) .meta-label": { "en": "Objective", "bs": "Cilj" },
-    "#storyboard-furniture .meta-item:nth-child(2) .meta-value": {
-      "en": "Brand awareness by resolving the customer's \"hidden conflict\" (visceral need)",
-      "bs": "Povećanje svijesti o brendu kroz rješavanje \"skrivenog konflikta\" kupca (visceralna potreba)"
-    },
-    "#storyboard-furniture .phase-hook .phase-name": { "en": "The Hook / Attention", "bs": "Hook / Pažnja" },
-    "#storyboard-furniture .phase-body .phase-name": { "en": "The Body / Education", "bs": "Body / Edukacija" },
-    "#storyboard-furniture .phase-cta .phase-name": { "en": "The CTA / Action", "bs": "CTA / Akcija" },
-    "#storyboard-furniture .phase-hook .phase-row:nth-child(1) .phase-row-content": {
-      "en": "Close-up of hands running across a rough, massive wood-grain table texture, then a hard cut to cheap, wobbly mass-produced furniture.",
-      "bs": "Krupan kadar ruku koje prelaze preko grube, masivne drvene teksture stola, pa nagli rez na jeftini, rasklimani masovni namještaj."
-    },
-    "#storyboard-furniture .phase-hook .phase-row:nth-child(2) .phase-row-content": {
-      "en": "\"Why does your apartment look like a $50 hotel room?\"",
-      "bs": "\"Zašto vaš stan izgleda kao hotelska soba od 50$?\""
-    },
-    "#storyboard-furniture .phase-hook .phase-psychology .phase-row-content": {
-      "en": "Provocation and interception of attention at a visceral level. The viewer recognizes themselves in the problem.",
-      "bs": "Provokacija i presretanje pažnje na visceralnom nivou. Gledalac se prepoznaje u problemu."
-    },
-    "#storyboard-furniture .phase-body .phase-row:nth-child(1) .phase-row-content": {
-      "en": "Dynamic, rapid cuts of the handcrafted production process, focusing on the artisans signing the product card.",
-      "bs": "Dinamični, kratki rezovi procesa ručne izrade, fokus na stolare koji potpisuju karticu proizvoda."
-    },
-    "#storyboard-furniture .phase-body .phase-row:nth-child(2) .phase-row-content": {
-      "en": "\"Most furniture today is built to last until the next move. When you buy premium, you're not paying for wood — you're paying for tradition, and for knowing exactly which master built your piece.\"",
-      "bs": "\"Većina namještaja danas se pravi da traje do sljedeće selidbe. Kada kupujete premium, ne plaćate drvo — plaćate tradiciju i činjenicu da tačno znate koji je majstor napravio vaš komad.\""
-    },
-    "#storyboard-furniture .phase-body .phase-psychology .phase-row-content": {
-      "en": "Resolving the cognitive conflict, building trust through transparency and provenance.",
-      "bs": "Rješavanje kognitivnog konflikta, građenje povjerenja kroz transparentnost i porijeklo."
-    },
-    "#storyboard-furniture .phase-cta .phase-row:nth-child(1) .phase-row-content": {
-      "en": "Aesthetic shot of the finished living room with that table, a coffee cup being set down on the surface.",
-      "bs": "Estetski prikaz gotovog dnevnog boravka sa tim stolom, spuštanje šoljice kafe na sto."
-    },
-    "#storyboard-furniture .phase-cta .phase-row:nth-child(2) .phase-row-content": {
-      "en": "\"Stop buying temporary solutions. Link in bio.\"",
-      "bs": "\"Prestanite kupovati privremena rješenja. Link u opisu profila.\""
-    },
-    "#storyboard-furniture .phase-cta .phase-psychology .phase-row-content": {
-      "en": "Identity reinforcement — the viewer pictures themselves in the finished scene and converts.",
-      "bs": "Ojačavanje identiteta — gledalac se zamišlja u gotovoj sceni i konvertuje."
-    },
-
-    "#storyboard-tea .framework-title": { "en": "Storyboard #2 — Herbal Tea & Wellness Brand", "bs": "Scenarij #2 — Brend biljnog čaja i wellnessa" },
-    "#storyboard-tea .meta-item:nth-child(1) .meta-label": { "en": "Format", "bs": "Format" },
-    "#storyboard-tea .meta-item:nth-child(1) .meta-value": { "en": "Reels / TikTok (9:16)", "bs": "Reels / TikTok (9:16)" },
-    "#storyboard-tea .meta-item:nth-child(2) .meta-label": { "en": "Objective", "bs": "Cilj" },
-    "#storyboard-tea .meta-item:nth-child(2) .meta-value": {
-      "en": "Shift perception from \"tea\" to \"evening ritual\" — resolving the customer's hidden identity need",
-      "bs": "Pomak percepcije sa \"čaja\" na \"večernji ritual\" — rješavanje skrivene identitetske potrebe kupca"
-    },
-    "#storyboard-tea .phase-hook .phase-name": { "en": "The Hook / Attention", "bs": "Hook / Pažnja" },
-    "#storyboard-tea .phase-body .phase-name": { "en": "The Body / Education", "bs": "Body / Edukacija" },
-    "#storyboard-tea .phase-cta .phase-name": { "en": "The CTA / Action", "bs": "CTA / Akcija" },
-    "#storyboard-tea .phase-hook .phase-row:nth-child(1) .phase-row-content": {
-      "en": "A phone buzzing with notifications on a bedside table at night, then a hand silently turning it face-down. Cut to steam rising from a cup in low light.",
-      "bs": "Telefon koji vibrira sa obavještenjima na noćnom ormariću uveče, zatim ruka koja ga tiho okreće na lice. Rez na paru koja se diže iz šoljice u prigušenom svjetlu."
-    },
-    "#storyboard-tea .phase-hook .phase-row:nth-child(2) .phase-row-content": {
-      "en": "\"Your evening is not a to-do list.\"",
-      "bs": "\"Vaša večer nije to-do lista.\""
-    },
-    "#storyboard-tea .phase-hook .phase-psychology .phase-row-content": {
-      "en": "Naming a guilt the viewer carries but never articulates — the feeling that rest must be earned. Pattern interrupt on an emotional level.",
-      "bs": "Imenovanje krivnje koju gledalac nosi ali je nikad ne izgovori — osjećaj da se odmor mora zaslužiti. Prekid obrasca na emocionalnom nivou."
-    },
-    "#storyboard-tea .phase-body .phase-row:nth-child(1) .phase-row-content": {
-      "en": "Slow macro shots: dried herbs crumbling between fingers, a label being stamped with a harvest date, water blooming the blend. No fast cuts — pacing signals calm.",
-      "bs": "Spori makro kadrovi: osušeno bilje se mrvi među prstima, pečat sa datumom berbe se utiskuje na etiketu, voda otvara mješavinu. Bez brzih rezova — tempo signalizira mir."
-    },
-    "#storyboard-tea .phase-body .phase-row:nth-child(2) .phase-row-content": {
-      "en": "\"Chamomile picked at full bloom, verbena from a single field. Not a product — a 10-minute permission slip to end the day on your terms.\"",
-      "bs": "\"Kamilica ubrana u punom cvatu, verbena sa jedne jedine parcele. Ne proizvod — nego 10-minutna dozvola da završite dan na svoj način.\""
-    },
-    "#storyboard-tea .phase-body .phase-psychology .phase-row-content": {
-      "en": "Selling permission to rest, not a beverage. Specifics (harvest date, single field) convert the ritual from vague to trustworthy.",
-      "bs": "Prodaje se dozvola za odmor, ne napitak. Specifičnosti (datum berbe, jedna parcela) pretvar ritual iz neodređenog u pouzdanog."
-    },
-    "#storyboard-tea .phase-cta .phase-row:nth-child(1) .phase-row-content": {
-      "en": "The cup on a nightstand next to the still face down phone. A hand pulls a blanket up. Screen fades to the brand mark.",
-      "bs": "Šoljica na noćnom ormariću pored telefona i dalje okrenutog na lice. Ruka navlači ćebe. Ekran blijedi u žig brenda."
-    },
-    "#storyboard-tea .phase-cta .phase-row:nth-child(2) .phase-row-content": {
-      "en": "\"Reclaim your evening. First ritual on us — link in bio.\"",
-      "bs": "\"Povratite svoju večer. Prvi ritual na naš račun — link u opisu profila.\""
-    },
-    "#storyboard-tea .phase-cta .phase-psychology .phase-row-content": {
-      "en": "Low-friction first step (\"on us\") removes the last objection. The CTA sells identity (\"someone who reclaims their evening\"), not tea.",
-      "bs": "Prvi korak bez trenja (\"na naš račun\") uklanja posljednji prigovor. CTA prodaje identitet (\"neko ko vraća svoju večer\"), ne čaj."
-    },
-
-    "#format-blog .content-format-label": { "en": "Format 2", "bs": "Format 2" },
-    "#format-blog .content-format-title": { "en": "Long-Form Blog & Article", "bs": "Dugi blog i članak" },
-    "#format-blog .content-format-desc": {
-      "en": "Heading hierarchy, intent mapping, and a psychological thread that carries the reader from query to resolution.",
-      "bs": "Hijerarhija naslova, mapiranje intencije i psihološka nit koja vodi čitaoca od upita do rješenja."
-    },
-
-    "#contentmap-sea-moss .framework-title": { "en": "Content Map — herbomarais.fr · \"Iodine in Sea Moss & the Thyroid\"", "bs": "Mapa sadržaja — herbomarais.fr · \"Jod u Sea Moss-u i štitna žlijezda\"" },
-    "#contentmap-sea-moss .meta-item:nth-child(1) .meta-label": { "en": "Format", "bs": "Format" },
-    "#contentmap-sea-moss .meta-item:nth-child(1) .meta-value": { "en": "Long-form expert article (2000+ words, published)", "bs": "Dugi stručni članak (2000+ riječi, objavljen)" },
-    "#contentmap-sea-moss .meta-item:nth-child(2) .meta-label": { "en": "Primary keyword", "bs": "Primarni keyword" },
-    "#contentmap-sea-moss .meta-item:nth-child(2) .meta-value": { "en": "iodine in sea moss / sea moss thyroid", "bs": "jod u sea moss-u / sea moss štitna žlijezda" },
-    "#contentmap-sea-moss .meta-item:nth-child(3) .meta-label": { "en": "Search intent", "bs": "Intencija pretrage" },
-    "#contentmap-sea-moss .meta-item:nth-child(3) .meta-value": { "en": "Informational → Transactional (fear resolution before purchase)", "bs": "Informativna → Transakcijska (rješavanje straha prije kupovine)" },
-    "#contentmap-sea-moss .meta-item:nth-child(4) .meta-label": { "en": "Target persona", "bs": "Ciljna persona" },
-    "#contentmap-sea-moss .meta-item:nth-child(4) .meta-value": {
-      "en": "\"The Cautious Buyer\" — interested in Sea Moss but blocked by the thyroid fear",
-      "bs": "\"Oprezni kupac\" — zainteresiran za Sea Moss ali blokiran strahom od štitne žlijezde"
-    },
-
-    "#sm-sub-intent": { "en": "Intent Analysis", "bs": "Analiza intencije" },
-    "#contentmap-sea-moss .approach-wrong .approach-label": { "en": "What the search sees", "bs": "Što pretraga vidi" },
-    "#contentmap-sea-moss .approach-wrong .approach-desc": {
-      "en": "An informational query about whether Sea Moss is safe for the thyroid because of its iodine content.",
-      "bs": "Informativni upit o tome da li je Sea Moss siguran za štitnu žlijezdu zbog sadržaja joda."
-    },
-    "#contentmap-sea-moss .approach-right .approach-label": { "en": "What's actually happening", "bs": "Šta se zapravo dešava" },
-    "#contentmap-sea-moss .approach-right .approach-desc": {
-      "en": "A buyer ready to purchase who hit a health warning and is now quietly terrified of \"overdosing\" their thyroid — and looking for permission to proceed.",
-      "bs": "Kupac spreman na kupovinu koji je naišao na zdravstveno upozorenje i sada je potiho prestrašen da će \"preopteretiti\" svoju štitnu žlijezdu — i traži dozvolu da nastavi."
-    },
-
-    "#sm-sub-outline": { "en": "Heading Outline", "bs": "Struktura naslova" },
-    "#sm-h1": { "en": "H1: Iodine in Sea Moss: The Thyroid Question, Decoded", "bs": "H1: Jod u Sea Moss-u: Pitanje štitne žlijezde, dekodirano" },
-    "#sm-h2-1": { "en": "H2: Why the Sea Moss species decides your iodine exposure", "bs": "H2: Zašto vrsta Sea Moss-a određuje vašu izloženost jodu" },
-    "#sm-h3-1": { "en": "H3: Eucheuma cottonii (red) vs. brown algae — the taxonomic error everyone makes", "bs": "H3: Eucheuma cottonii (crvena) vs. smeđe alge — taksonomska greška koju svi prave" },
-    "#sm-h2-2": { "en": "H2: The \"serving translator\" — converting EFSA limits into kitchen spoons", "bs": "H2: \"Prevodilac porcija\" — konverzija EFSA limita u kuhinjske kašike" },
-    "#sm-h2-3": { "en": "H2: Decoding the alerts — who the health warnings actually address", "bs": "H2: Dekodiranje upozorenja — kome se zapravo obraćaju zdravstvena upozorenja" },
-    "#sm-h3-2": { "en": "H3: Hashimoto's, Graves', pregnancy — the three populations that actually need caution", "bs": "H3: Hashimoto, Graves, trudnoća — tri populacije kojima zaista treba oprez" },
-    "#sm-h2-4": { "en": "H2: If you take levothyroxine: what I tell my clients", "bs": "H2: Ako uzimate levotiroksin: šta kažem klijentima" },
-    "#sm-h2-5": { "en": "H2: The biological role of iodine and the thyroid's adaptation mechanisms", "bs": "H2: Biološka uloga joda i mehanizmi adaptacije štitne žlijezde" },
-    "#sm-h2-6": { "en": "H2: A practical 5-step protocol for safe daily consumption", "bs": "H2: Praktični 5-koračni protokol za sigurnu dnevnu konzumaciju" },
-
-    "#sm-sub-evidence": { "en": "Evidence Anchor", "bs": "Dokazni oslonac" },
-    "#sm-evidence .phase-row-content": {
-      "en": "Article cites the actual lab certificate (SGS Nederland B.V., lot SP26-009681.001) with measured iodine values per gram — instead of vague \"rich in iodine\" claims. This is what converts a defensive reader into a buyer: the fear is met with a number, not a reassurance.",
-      "bs": "Članak citira stvarni laboratorijski certifikat (SGS Nederland B.V., lot SP26-009681.001) s izmjerenim vrijednostima joda po gramu — umjesto nejasnih tvrdnji \"bogat jodom\". Ovo je ono što pretvara defanzivnog čitaoca u kupca: strah se susreće s brojem, ne s uvjeravanjem."
-    },
-
-    "#sm-sub-thread": { "en": "The Psychological Thread", "bs": "Psihološka nit" },
-    "#sm-thread .phase-row-content": {
-      "en": "Validate the fear first (\"will this overload my thyroid?\") instead of dismissing it — the reader is already bracing for a sales pitch. Then redirect blame from Sea Moss to the <em>alga category</em>: the danger comes from confusing red Sea Moss with brown algae, not from the product itself. The \"serving translator\" section converts abstract micrograms into kitchen spoons the reader can actually measure; the levothyroxine section addresses the one population that genuinely needs caution (building credibility by not lying); the protocol section delivers the promised permission to proceed.",
-      "bs": "Prvo validirajte strah (\"da li će ovo preopteretiti moju štitnu žlijezdu?\") umjesto da ga odbacite — čitalac se već priprema za prodajni govor. Zatim preusmjerite krivicu sa Sea Moss-a na <em>kategoriju alge</em>: opasnost dolazi od brkanja crvenog Sea Moss-a sa smeđim algama, ne od samog proizvoda. Sekcija \"prevodilac porcija\" pretvara apstraktne mikrogram u kuhinjske kašike koje čitalac zaista može izmjeriti; sekcija o levotiroksinu adresira jedinu populaciju kojoj zaista treba oprez (gradeći kredibilitet tako što ne laže); sekcija protokola isporučuje obećanu dozvolu da se nastavi."
-    },
-
-    "#sm-sub-linking": { "en": "Internal Linking Strategy", "bs": "Strategija internog linkovanja" },
-    "#sm-linking .phase-row-content": {
-      "en": "Article sits at the intersection of three topical clusters — <strong>iodine &amp; thyroid</strong> (health authority), <strong>Sea Moss species</strong> (product differentiation), and <strong>daily protocol</strong> (lifestyle). Links to: the Sea Moss product page (transactional), the Eucheuma cottonii cultivar page (entity), and the broader thyroid hub (topical authority). This intersection is what makes it rankable against generic health sites that treat \"sea moss\" as a single substance.",
-      "bs": "Članak sjedi na presjeku tri topička klastera — <strong>jod i štitna žlijezda</strong> (zdravstveni autoritet), <strong>vrste Sea Moss-a</strong> (diferencijacija proizvoda) i <strong>dnevni protokol</strong> (lifestyle). Linka ka: stranici proizvoda Sea Moss (transakcijska), stranici sorte Eucheuma cottonii (entitet), i širem thyroid hub-u (topički autoritet). Ovaj presjek je ono što ga čini rangabilnim protiv generičkih zdravstvenih sajtova koji tretiraju \"sea moss\" kao jednu supstancu."
-    },
-
-    "#format-landing .content-format-label": { "en": "Format 3", "bs": "Format 3" },
-    "#format-landing .content-format-title": { "en": "Landing Page Copy", "bs": "Tekst landing stranice" },
-    "#format-landing .content-format-desc": {
-      "en": "Section order is psychology: Problem → Tension → Proof → Relief → CTA. Every block has a function.",
-      "bs": "Redoslijed sekcija je psihologija: Problem → Tenzija → Dokaz → Olakšanje → CTA. Svaki blok ima funkciju."
-    },
-
-    "#landing-siegmann .framework-title": { "en": "Section Blueprint — SiegmannStock.com · License Tier Page", "bs": "Plan sekcija — SiegmannStock.com · stranica za licencne tier-ove" },
-    "#landing-siegmann .meta-item:nth-child(1) .meta-label": { "en": "Format", "bs": "Format" },
-    "#landing-siegmann .meta-item:nth-child(1) .meta-value": { "en": "Conversion landing page", "bs": "Konverzijska landing stranica" },
-    "#landing-siegmann .meta-item:nth-child(2) .meta-label": { "en": "Conversion goal", "bs": "Cilj konverzije" },
-    "#landing-siegmann .meta-item:nth-child(2) .meta-value": { "en": "Tier upgrade (Standard → Extended license)", "bs": "Nadogradnja tier-a (Standard → Extended licenca)" },
-    "#landing-siegmann .meta-item:nth-child(3) .meta-label": { "en": "Target persona", "bs": "Ciljna persona" },
-    "#landing-siegmann .meta-item:nth-child(3) .meta-value": {
-      "en": "\"The Cautious Buyer\" — designer who's been burned by stock-photo lawsuits before",
-      "bs": "\"Oprezni kupac\" — dizajner koga su već pekle tužbe oko stock-fotografija"
-    },
-
-    "#lsub-sequence": { "en": "Section Sequence & Psychological Function", "bs": "Sekvenca sekcija i psihološka funkcija" },
-    "#landing-siegmann .landing-section-row:nth-child(1) .landing-section-name": { "en": "Hero", "bs": "Hero" },
-    "#landing-siegmann .landing-section-row:nth-child(1) .landing-function": { "en": "Function: Name the relief, not the product", "bs": "Funkcija: Imenujte olakšanje, ne proizvod" },
-    "#landing-siegmann .landing-section-row:nth-child(1) .sample-copy": {
-      "en": "\"Stock photos you'll never have to second-guess in a client meeting.\" Subhead: Every image on SiegmannStock is pre-cleared for commercial use — with AI-verified license metadata baked in.",
-      "bs": "\"Stock-fotografije koje nikad nećete morati preispitivati na sastanku s klijentom.\" Podnaslov: Svaka slika na SiegmannStocku je prethodno odobrena za komercijalnu upotrebu — s AI-verifikovanim metapodacima licence ugrađenim unutar."
-    },
-    "#landing-siegmann .landing-section-row:nth-child(2) .landing-section-name": { "en": "The Problem (Fear)", "bs": "Problem (Strah)" },
-    "#landing-siegmann .landing-section-row:nth-child(2) .landing-function": { "en": "Function: Surface the nightmare the reader is trying to avoid", "bs": "Funkcija: Iznesite noćnu moru koju čitalac pokušava izbjeći" },
-    "#landing-siegmann .landing-section-row:nth-child(2) .sample-copy": {
-      "en": "\"You downloaded a 'free' image three years ago. Last month, you got a letter from a stock agency demanding €2,400. We've heard this story 200 times this year.\"",
-      "bs": "\"Preuzeli ste 'besplatnu' sliku prije tri godine. Prošli mjesec dobili ste pismo od stock-agencije sa zahtjevom od 2.400 €. Čuli smo ovu priču 200 puta ove godine.\""
-    },
-    "#landing-siegmann .landing-section-row:nth-child(3) .landing-section-name": { "en": "The Tension (Doubt)", "bs": "Tenzija (Sumnja)" },
-    "#landing-siegmann .landing-section-row:nth-child(3) .landing-function": { "en": "Function: Articulate the objection before the reader can", "bs": "Funkcija: Izrazite prigovor prije nego čitalac" },
-    "#landing-siegmann .landing-section-row:nth-child(3) .sample-copy": {
-      "en": "\"'But how is yours different from every other stock site?' — Because every image is scored by an AI model that reads the actual license terms, not just the file name. You see the clearance level before you download, not after.\"",
-      "bs": "\"'Ali u čemu je vaša razlika od svakog drugog stock sajta?' — Zato što je svaka slika ocijenjena AI modelom koji čita stvarne uslove licence, ne samo ime fajla. Nivo odobrenja vidite prije preuzimanja, ne nakon.\""
-    },
-    "#landing-siegmann .landing-section-row:nth-child(4) .landing-section-name": { "en": "Proof (Trust)", "bs": "Dokaz (Povjerenje)" },
-    "#landing-siegmann .landing-section-row:nth-child(4) .landing-function": { "en": "Function: Replace emotion with evidence", "bs": "Funkcija: Zamijenite emociju dokazima" },
-    "#landing-siegmann .landing-section-row:nth-child(4) .sample-copy": {
-      "en": "\"Trusted by 1,200+ agencies. Each asset carries a machine-readable license manifest. Zero takedown notices in 18 months.\"",
-      "bs": "\"Vjeruje nam 1.200+ agencija. Svaki asset nosi mašinski čitljiv manifest licence. Nula obavijesti o uklanjanju u 18 mjeseci.\""
-    },
-    "#landing-siegmann .landing-section-row:nth-child(5) .landing-section-name": { "en": "Relief (The Tier Map)", "bs": "Olakšanje (Mapa tier-ova)" },
-    "#landing-siegmann .landing-section-row:nth-child(5) .landing-function": { "en": "Function: Make the safe choice the obvious choice", "bs": "Funkcija: Učinite siguran izbor očitim izborom" },
-    "#landing-siegmann .landing-section-row:nth-child(5) .sample-copy": {
-      "en": "\"Standard covers 90% of uses. Extended covers the 10% that get people sued — print runs over 100k, merchandising, and templated resale. Most designers upgrade after their first close call, not before.\"",
-      "bs": "\"Standard pokriva 90% upotreba. Extended pokriva 10% zbog kojih ljudi završe na sudu — tiraži preko 100k, merchandise i preprodaju šablona. Većina dizajnera nadograđuje nakon prvog bliskog susreta, ne prije.\""
-    },
-    "#landing-siegmann .landing-section-row:nth-child(6) .landing-section-name": { "en": "CTA (Action)", "bs": "CTA (Akcija)" },
-    "#landing-siegmann .landing-section-row:nth-child(6) .landing-function": { "en": "Function: Remove the last objection with a low-friction first step", "bs": "Funkcija: Uklonite posljednji prigovor prvim korakom bez trenja" },
-    "#landing-siegmann .landing-section-row:nth-child(6) .sample-copy": {
-      "en": "\"Start with 5 free AI-cleared images. No card. Upgrade only when a project actually needs Extended.\"",
-      "bs": "\"Krenite s 5 besplatnih AI-odobrenih slika. Bez kartice. Nadogradi se tek kada projekat zaista treba Extended.\""
-    },
-
-    "#lsub-why": { "en": "Why This Order Works", "bs": "Zašto ovaj redoslijed radi" },
-    "#landing-siegmann .phase-psychology .phase-row-content": {
-      "en": "Notice the CTA is <em>not</em> \"buy Extended.\" It's \"start free.\" The page sells safety, not a tier — the upgrade happens later, when the reader has already experienced relief. Leading with the Hero's promise (relief) and burying the fear (Problem) in section 2 lets the reader admit their anxiety privately instead of feeling sold to. This is the inverse of most stock-photo landing pages, which lead with \"10% off\" and lose the cautious buyer in the first three seconds.",
-      "bs": "Primijetite da CTA <em>nije</em> \"kupi Extended.\" Nego \"kreni besplatno.\" Stranica prodaje sigurnost, ne tier — nadogradnja se dešava kasnije, kada je čitalac već iskusio olakšanje. Vođenje Hero obećanjem (olakšanje) i zakopavanje straha (Problem) u sekciji 2 omogućava čitaocu da prizna anksioznost privatno umjesto da se osjeća da mu se prodaje. Ovo je inverzno od većine landing stranica stock-fotografija, koje vode sa \"10% popusta\" i gube opreznog kupca u prve tri sekunde."
-    },
-
-    "#content .seo-cta-text": {
-      "en": "Three formats, one method: every piece of content engineered around the psychological reality behind the query. If you need content strategy that works across video, articles, and landing pages — let's talk.",
-      "bs": "Tri formata, jedna metoda: svaki komad sadržaja konstruisan oko psihološke stvarnosti iza upita. Ako vam treba strategija sadržaja koja radi na videu, člancima i landing stranicama — razgovarajmo."
-    },
-    "#content .seo-cta-content .cta-text": { "en": "START A CONVERSATION", "bs": "ZAPOČNITE RAZGOVOR" },
 
     "#capabilities .section-label": { "en": "Core Mastery", "bs": "Temeljna stručnost" },
     "#capabilities .section-title": { "en": "10 Years of Building", "bs": "10 godina izgradnje" },
@@ -1134,161 +918,7 @@
       "en": "Currently based in Tešanj, open to opportunities where I can bring both technical depth and business awareness to meaningful work.",
       "bs": "Trenutno živim u Tešnju, otvoren za prilike gdje mogu donijeti i tehničku dubinu i poslovnu svijest značajnom radu."
     },
-    "#tea-recipe .impact-pain": {
-      "en": "<strong>Friction:</strong> Manual ingredient cost calculations and paper logging took hours of overhead and risked audit failures.",
-      "bs": "<strong>Problem:</strong> Ručni izračuno troškova sastojaka i papirno vođenje evidencije trajali su sate i ugrožavali uspjeh inventura."
-    },
-    "#tea-recipe .impact-relief": {
-      "en": "<strong>Resolution:</strong> Automated POS API sync calculates live recipe costs and generates digital, compliant lot tracking logs.",
-      "bs": "<strong>Rješenje:</strong> Automatizovana POS API sinhronizacija izračunava troškove recepata u stvarnom vremenu i generiše digitalne, usaglašene evidencije lotova."
-    },
-    "#siegmann-ai .impact-pain": {
-      "en": "<strong>Friction:</strong> Manual processing, classification and categorization of 16 thousand of stock photography assets was slow process and costed a lot.",
-      "bs": "<strong>Problem:</strong> Ručno obrađivanje, klasifikacija i kategorizacija 16 hiljada slika bio je spor proces koji je mnogo koštao."
-    },
-    "#siegmann-ai .impact-relief": {
-      "en": "<strong>Resolution:</strong> Multi-modal AI classifies, routes, and dynamically prices assets in bulk using a custom YAML-driven rules engine drasticly reducing costs.",
-      "bs": "<strong>Rješenje:</strong> Višemodalni AI klasifikuje, usmjerava i dinamički određuje fotografije u velikom broju koristeći YAML pravila, drastično smanjivajući trošak."
-    },
-    "#sublimoss .impact-pain": {
-      "en": "<strong>Friction:</strong> Complex nutritional specs failed to connect with French wellness customers, limiting market penetration.",
-      "bs": "<strong>Problem:</strong> Složene nutritivne specifikacije nisu uspjele povezati sa francuskim wellness kupcima, ograničavajući prodor na tržište."
-    },
-    "#sublimoss .impact-relief": {
-      "en": "<strong>Resolution:</strong> Translated technical benefits into high-conversion narratives using psychological clustering and lean design principles, driving measurable organic traffic growth.",
-      "bs": "<strong>Rješenje:</strong> Preveo tehničke benefite u visoko-konverzne narative koristeći psihološko klasteriranje i lean design principe, generišući mjerljiv organski rast prometa."
-    },
-    "#rawear-crm .impact-pain": {
-      "en": "<strong>Friction:</strong> Generic B2B outreach failed to resonate with prospects and wasted sales team time on low-probability leads.",
-      "bs": "<strong>Problem:</strong> Generički B2B outreach nije resonovao sa prospects i trošio vrijeme sales tima na low-probability leade."
-    },
-    "#rawear-crm .impact-relief": {
-      "en": "<strong>Resolution:</strong> Behavioral psychology + AI intelligence maps fear patterns and cognitive hooks to optimal sales strategies for hyper-personalized outreach.",
-      "bs": "<strong>Rješenje:</strong> Psihologija ponašanja + AI intelligencija mapira obrasce na optimalne prodajne strategije za hiper-personalizirani pristup potencijalnim klijentima."
-    },
-    "#content-pipeline .impact-pain": {
-      "en": "<strong>Friction:</strong> The client used ChatGPT to create product descriptions that were not making any sales. Content production lacked behavioral intelligence and wasted LLM API costs on ineffective optimization cycles.",
-      "bs": "<strong>Problem:</strong> Klijent je koristio ChatGPT za kreiranje opisa proizvoda koji nisu ostvarivali prodaju. Produkciji sadržaja je nedostajala bihevioralna inteligencija, a troškovi LLM API-ja su se trošili na neefikasne cikluse optimizacije."
-    },
-    "#content-pipeline .impact-relief": {
-      "en": "<strong>Resolution:</strong> Redis-backed caching captures behavioral patterns and reduces API costs by 60% while improving semantic relevance for long-tail keywords.",
-      "bs": "<strong>Rješenje:</strong> Redis-backed caching snima behavioral patterne i smanjuje API troškove za 60% dok poboljšava semantičku relevantnost za long-tail ključne riječi."
-    },
-    "#woo-cart-widget .impact-pain": {
-      "en": "<strong>Friction:</strong> Literal keyword search couldn't handle natural language queries like \"stones for protection,\" missing customer intent.",
-      "bs": "<strong>Problem:</strong> Obična tražilica nije bila dovoljna da rukuje prirodnim jezičnim upitima kao što su \"kamenje za zaštitu\", propuštajući namjeru kupca i njegov odlazak sa stranice."
-    },
-    "#woo-cart-widget .impact-relief": {
-      "en": "<strong>Resolution:</strong> Entity-centric semantic graph parses patterns and relationships from product data, enabling natural language search without external engines.",
-      "bs": "<strong>Rješenje:</strong> Semantički graf fokusiran na entitete parsira obrasce i odnose iz podataka o proizvodima, omogućavajući pretragu prirodnim jezikom."
-    },
-    "#hiboutik-sync .impact-pain": {
-      "en": "<strong>Friction:</strong> Discrepancies between physical POS systems and online inventory caused manual desyncs and accidental overselling on busy weekends.",
-      "bs": "<strong>Problem:</strong> Neusklađenost između fizičkih POS sistema i online inventara izazivala je ručne desynce i slučajno overselling na prometnim vikendima."
-    },
-    "#hiboutik-sync .impact-relief": {
-      "en": "<strong>Resolution:</strong> A secure HMAC background engine treats the POS as single source of truth, importing and validating stock quantities directly with POS databases.",
-      "bs": "<strong>Rješenje:</strong> Siguran HMAC background engine tretira POS kao single source of truth, importujući i validirajući količine zaliha direktno sa POS bazom podataka."
-    },
-    "#image-seo-metadata-processor .impact-pain": {
-      "en": "<strong>Friction:</strong> Manual image optimization for SEO was time-consuming, inconsistent across products, and delayed content launches.",
-      "bs": "<strong>Problem:</strong> Ručna optimizacija slika za SEO je bila vremenski zahtjevna, nekonzistentna među proizvodima i odgađala lansiranje sadržaja."
-    },
-    "#image-seo-metadata-processor .impact-relief": {
-      "en": "<strong>Resolution:</strong> Parallel Gemini 2.5 Flash batch processing with content hash caching reduces API costs by 60% while generating consistent, SEO-ready metadata at scale.",
-      "bs": "<strong>Rješenje:</strong> Paralelna obrada s Gemini 2.5 Flash i cachingom smanjuje API troškove za 60% dok generiše konzistentne, SEO-ready metapodatke u skaliranom obimu."
-    },
-    "#stock-multiplier .impact-pain": {
-      "en": "<strong>Friction:</strong> Setting custom bulk-buy stock modifiers required tedious manual updates on individual WooCommerce variable products.",
-      "bs": "<strong>Problem:</strong> Postavljanje prilagođenih modifikatora zaliha za kupovinu na veliko zahtijevalo je zamorno ručno ažuriranje pojedinačnih varijabilnih proizvoda WooCommerce-a."
-    },
-    "#stock-multiplier .impact-relief": {
-      "en": "<strong>Resolution:</strong> AJAX-driven manager allows store owners to apply quantity multipliers globally or in bulk without reloading pages.",
-      "bs": "<strong>Rješenje:</strong> AJAX menadžer omogućava vlasniku trgovine da primjenjuju multiplikatore količine globalno ili skupno bez ponovnog učitavanja stranica."
-    },
-    "#musa-app .impact-pain": {
-      "en": "<strong>Friction:</strong> The museum lacked an engaging digital platform to showcase the poet's work, legacy, and historical context for visitors.",
-      "bs": "<strong>Problem:</strong> Muzej je nedostajao angažirajuću digitalnu platformu za prezentaciju rada pjesnika, nasljeđa i historijskog konteksta za posjetitelje."
-    },
-    "#musa-app .impact-relief": {
-      "en": "<strong>Resolution:</strong> Designed a focused storytelling web app optimized for visitor engagement around biography, poems, and historical context with clean navigation.",
-      "bs": "<strong>Rješenje:</strong> Dizajnirao fokusiranu storytelling web aplikaciju optimiziranu za visitor engagement oko biografije, pjesama i historijskog konteksta sa čistom navigacijom."
-    },
-    "#client-request-dashboard .impact-pain": {
-      "en": "<strong>Friction:</strong> Staff tracked product requests across scattered spreadsheets and email chains with no unified workflow or audit trail.",
-      "bs": "<strong>Problem:</strong> Osoblje je pratilo zahtjeve za proizvodima putem raštrkanih tablica i lanaca e-pošte bez objedinjenog toka rada ili revizijskog traga."
-    },
-    "#client-request-dashboard .impact-relief": {
-      "en": "<strong>Resolution:</strong> Centralized dashboard provides single-place logging, categorization, status workflow management, and CSV export for reporting.",
-      "bs": "<strong>Rješenje:</strong> Centralizirana kontrolna ploča omogućava evidentiranje na jednom mjestu, kategorizaciju, upravljanje statusom radnog toka i izvoz CSV datoteka za izvještavanje."
-    },
-    "#enhanced-schema-generator .impact-pain": {
-      "en": "<strong>Friction:</strong> Search engines couldn't properly extract structured content, leading to missed rich result opportunities and poor entity recognition.",
-      "bs": "<strong>Problem:</strong> Tražilice nisu mogle pravilno izdvojiti strukturirani sadržaj, što je dovodilo do propuštenih prilika za bogate rezultate i lošeg prepoznavanja entiteta."
-    },
-    "#enhanced-schema-generator .impact-relief": {
-      "en": "<strong>Resolution:</strong> Multi-entity JSON-LD knowledge graphs enable AI systems to extract structured content while improving search engine entity recognition and rich result eligibility.",
-      "bs": "<strong>Rješenje:</strong> Višeentitetski JSON-LD grafovi znanja omogućavaju AI sistemima da izdvajaju strukturirani sadržaj, a istovremeno poboljšavaju prepoznavanje entiteta pretraživača i podobnost za obogaćene rezultate."
-    },
-    "#product-filter-widget .impact-pain": {
-      "en": "<strong>Friction:</strong> Customers couldn't effectively narrow product catalogs by relevant categories and attributes, leading to frustrated search experiences.",
-      "bs": "<strong>Problem:</strong> Kupci nisu mogli efikasno suziti kataloge proizvoda po relevantnim kategorijama i atributima, što je dovodilo do frustrirajućih iskustava pretraživanja."
-    },
-    "#product-filter-widget .impact-relief": {
-      "en": "<strong>Resolution:</strong> Lightweight AJAX-enabled widget provides responsive filtering with real-time option loading and simple clear actions across desktop and mobile.",
-      "bs": "<strong>Rješenje:</strong> Lagani AJAX widget pruža responzivno filtriranje s učitavanjem opcija u stvarnom vremenu i jednostavnim radnjama brisanja na desktopu i mobilnim uređajima."
-    },
-    "#expiry-dashboard .impact-pain": {
-      "en": "<strong>Friction:</strong> Time-sensitive inventory tracking was manual, leading to unnecessary waste from expired products and missed discount opportunities.",
-      "bs": "<strong>Problem:</strong> Praćenje zaliha osjetljivih na vremenski period bilo je ručno, što je dovodilo do nepotrebnog rasipanja proizvoda s isteklim rokom trajanja i propuštenih prilika za popuste."
-    },
-    "#expiry-dashboard .impact-relief": {
-      "en": "<strong>Resolution:</strong> Automated expiry date tracking with progressive discounting as products near expiration, including admin oversight and cart integration.",
-      "bs": "<strong>Rješenje:</strong> Automatsko praćenje datuma isteka s progresivnim popustima kako se proizvodi bliže isteku, uključujući administratorski nadzor i integraciju košarice."
-    },
-    "#review-invitation .impact-pain": {
-      "en": "<strong>Friction:</strong> Review collection was manual and inconsistent, resulting in missed opportunities for social proof and customer feedback.",
-      "bs": "<strong>Problem:</strong> Prikupljanje recenzija bilo je ručno i nedosljedno, što je rezultiralo propuštenim prilikama za društveni dokaz i povratne informacije kupaca."
-    },
-    "#review-invitation .impact-relief": {
-      "en": "<strong>Resolution:</strong> Automated post-purchase email invitations with configurable delays, templated content, and direct per-product review links to help grow product reviews.",
-      "bs": "<strong>Rješenje:</strong> Automatske e-poruke s pozivnicama nakon kupovine s konfigurabilnim kašnjenjima, predloškom sadržaja i direktnim linkovima za recenzije po proizvodu kako bi se povećao broj recenzija proizvoda."
-    },
-    "#loss-record .impact-pain": {
-      "en": "<strong>Friction:</strong> Perishable inventory losses were logged on paper with no reporting capabilities, making audits and inventory write-offs difficult to track.",
-      "bs": "<strong>Problem:</strong> Gubici kvarljive robe evidentirani su na papiru bez mogućnosti izvještavanja, što je otežavalo praćenje revizija i otpisa zaliha."
-    },
-    "#loss-record .impact-relief": {
-      "en": "<strong>Resolution:</strong> Modern card-based interface optimized for mobile with fast AJAX operations, CSV export, and comprehensive inventory write-off tracking.",
-      "bs": "<strong>Rješenje:</strong> Moderni interfejs baziran na karticama optimizovan za mobilne uređaje sa brzim AJAX operacijama, CSV izvozom i sveobuhvatnim praćenjem otpisa zaliha."
-    },
-    "#seo-url-analyzer .impact-pain": {
-      "en": "<strong>Friction:</strong> Technical SEO audits were time-consuming and plugin conflicts caused indexing issues without clear visibility into URL states.",
-      "bs": "<strong>Problem:</strong> Tehničke SEO revizije su oduzimale mnogo vremena, a sukobi s dodacima uzrokovali su probleme s indeksiranjem bez jasne vidljivosti stanja URL-ova."
-    },
-    "#seo-url-analyzer .impact-relief": {
-      "en": "<strong>Resolution:</strong> Dashboard identifies URL patterns, meta robots/canonical status, and plugin conflicts before making optimization changes with clear SEO recommendations.",
-      "bs": "<strong>Rješenje:</strong> Kontrolna ploča identificira URL obrasce, meta robote/kanonski status i konflikte dodataka prije nego što napravi promjene optimizacije s jasnim SEO preporukama."
-    },
-    "#shoptimizer-semantic-seo .impact-pain": {
-      "en": "<strong>Friction:</strong> WordPress lacked robust semantic entity management and Wikidata integration, limiting knowledge graph capabilities.",
-      "bs": "<strong>Problem:</strong> WordPressu je nedostajalo robusno upravljanje semantičkim entitetima i integracija Wikidata, što je ograničavalo mogućnosti grafa znanja."
-    },
-    "#shoptimizer-semantic-seo .impact-relief": {
-      "en": "<strong>Resolution:</strong> Plugin defines primary/related topics, validates against Wikidata, and outputs interconnected JSON-LD for posts, pages, and products with confidence scoring.",
-      "bs": "<strong>Rješenje:</strong> Dodatak definira primarne/povezane teme, vrši validaciju u odnosu na Wikidata i ispisuje međusobno povezane JSON-LD datoteke za objave, stranice i proizvode s pouzdanim bodovanjem."
-    },
-    "#semantic-search .impact-pain": {
-      "en": "<strong>Friction:</strong> Literal keyword search missed customer intent, leading to abandoned carts and missed conversion opportunities.",
-      "bs": "<strong>Problem:</strong> Doslovna pretraga ključnih riječi promašila je namjeru kupca, što je dovelo do napuštenih košarica i propuštenih prilika za konverziju."
-    },
-    "#semantic-search .impact-relief": {
-      "en": "<strong>Resolution:</strong> Vector search parses emotional and conceptual intent, leveraging a local embedding cache to maintain sub-100ms speeds.",
-      "bs": "<strong>Rješenje:</strong> Vektorska pretraga analizira emocionalnu i konceptualnu namjeru, koristeći lokalni predmemorij za ugradnju kako bi održala brzine ispod 100 ms."
-    },
 
     "#contact .section-label": { "en": "Contact", "bs": "Kontakt" },
     "#contact .section-title": { "en": "Let's build something", "bs": "Izgradimo nešto zajedno" },
     "#contact .section-desc": { "en": "Email: armin.maglic@gmail.com", "bs": "E-mail: armin.maglic@gmail.com" }
-  }
-}
