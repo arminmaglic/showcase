@@ -819,22 +819,14 @@
     "#content .section-label": { "en": "Content", "bs": "Sadržaj" },
     "#content .section-title": { "en": "Content Strategy", "bs": "Strategija sadržaja" },
     "#content .section-desc": {
-      "en": "Three formats, one method — every piece of content solves for the psychological reality behind the query or action: short-form video, long-form articles, and landing pages.",
-      "bs": "Tri formata, jedna metoda — svaki komad sadržaja rješava psihološku stvarnost iza upita ili akcije: kratki video, dugi članci i landing stranice."
+      "en": "Every piece of content solves for the psychological reality behind the query or action: short-form video, long-form articles, and landing pages.",
+      "bs": "Svaki komad sadržaja rješava psihološku stvarnost iza upita ili akcije: kratki video, dugi članci i landing stranice."
     },
 
     "#content-intro .framework-title": { "en": "One Method, Three Formats", "bs": "Jedna metoda, tri formata" },
     "#content-intro > p.ps-content:nth-child(2)": {
       "en": "Content isn't divided by channel — it's divided by the job it has to do. A 15-second Reel, a 1500-word article, and a landing page all answer the same underlying question: <em>what is the reader actually trying to resolve?</em> The format changes, the psychology doesn't.",
       "bs": "Sadržaj se ne dijeli po kanalu — dijeli se po poslu koji mora obaviti. Reel od 15 sekundi, članak od 1500 riječi i landing stranica svi odgovaraju na isto osnovno pitanje: <em>šta čitalac zapravo pokušava riješiti?</em> Format se mijenja, psihologija ne."
-    },
-    "#content-intro > p.ps-content:nth-child(3)": {
-      "en": "Creative directors value a sharp concept and a structural blueprint more than finished execution. Agencies already have editors, writers, and designers — what they need is someone who understands how each format actually works: the seconds in a Reel, the heading hierarchy in an article, the section order on a landing page, and the psychological trigger behind every decision.",
-      "bs": "Kreativni direktori više cijene oštar koncept i strukturni plan nego gotovo izvođenje. Agencije ionako imaju montažere, pisce i dizajnere — ono što im treba je neko ko razumije kako svaki format zaista funkcioniše: sekunde u Reelu, hijerarhiju naslova u članku, redoslijed sekcija na landing stranici i psihološki okidač iza svake odluke."
-    },
-    "#content-intro > p.ps-content:nth-child(4)": {
-      "en": "Below are three concepts broken down to production-ready blueprints — short-form video storyboards, a long-form article map, and a landing page section blueprint.",
-      "bs": "Ispod su tri koncepta razrađena do plana spremnog za produkciju — storyboarde kratkog videa, mapu dugog članka i plan sekcija landing stranice."
     },
 
     "#format-video .content-format-label": { "en": "Format 1", "bs": "Format 1" },
@@ -1000,72 +992,9 @@
       "en": "Article sits at the intersection of three topical clusters — <strong>iodine &amp; thyroid</strong> (health authority), <strong>Sea Moss species</strong> (product differentiation), and <strong>daily protocol</strong> (lifestyle). Links to: the Sea Moss product page (transactional), the Eucheuma cottonii cultivar page (entity), and the broader thyroid hub (topical authority). This intersection is what makes it rankable against generic health sites that treat \"sea moss\" as a single substance.",
       "bs": "Članak sjedi na presjeku tri topička klastera — <strong>jod i štitna žlijezda</strong> (zdravstveni autoritet), <strong>vrste Sea Moss-a</strong> (diferencijacija proizvoda) i <strong>dnevni protokol</strong> (lifestyle). Linka ka: stranici proizvoda Sea Moss (transakcijska), stranici sorte Eucheuma cottonii (entitet), i širem thyroid hub-u (topički autoritet). Ovaj presjek je ono što ga čini rangabilnim protiv generičkih zdravstvenih sajtova koji tretiraju \"sea moss\" kao jednu supstancu."
     },
-
-    "#format-landing .content-format-label": { "en": "Format 3", "bs": "Format 3" },
-    "#format-landing .content-format-title": { "en": "Landing Page Copy", "bs": "Tekst landing stranice" },
-    "#format-landing .content-format-desc": {
-      "en": "Section order is psychology: Problem → Tension → Proof → Relief → CTA. Every block has a function.",
-      "bs": "Redoslijed sekcija je psihologija: Problem → Tenzija → Dokaz → Olakšanje → CTA. Svaki blok ima funkciju."
-    },
-
-    "#landing-siegmann .framework-title": { "en": "Section Blueprint — SiegmannStock.com · License Tier Page", "bs": "Plan sekcija — SiegmannStock.com · stranica za licencne tier-ove" },
-    "#landing-siegmann .meta-item:nth-child(1) .meta-label": { "en": "Format", "bs": "Format" },
-    "#landing-siegmann .meta-item:nth-child(1) .meta-value": { "en": "Conversion landing page", "bs": "Konverzijska landing stranica" },
-    "#landing-siegmann .meta-item:nth-child(2) .meta-label": { "en": "Conversion goal", "bs": "Cilj konverzije" },
-    "#landing-siegmann .meta-item:nth-child(2) .meta-value": { "en": "Tier upgrade (Standard → Extended license)", "bs": "Nadogradnja tier-a (Standard → Extended licenca)" },
-    "#landing-siegmann .meta-item:nth-child(3) .meta-label": { "en": "Target persona", "bs": "Ciljna persona" },
-    "#landing-siegmann .meta-item:nth-child(3) .meta-value": {
-      "en": "\"The Cautious Buyer\" — designer who's been burned by stock-photo lawsuits before",
-      "bs": "\"Oprezni kupac\" — dizajner koga su već pekle tužbe oko stock-fotografija"
-    },
-
-    "#lsub-sequence": { "en": "Section Sequence & Psychological Function", "bs": "Sekvenca sekcija i psihološka funkcija" },
-    "#landing-siegmann .landing-section-row:nth-child(1) .landing-section-name": { "en": "Hero", "bs": "Hero" },
-    "#landing-siegmann .landing-section-row:nth-child(1) .landing-function": { "en": "Function: Name the relief, not the product", "bs": "Funkcija: Imenujte olakšanje, ne proizvod" },
-    "#landing-siegmann .landing-section-row:nth-child(1) .sample-copy": {
-      "en": "\"Stock photos you'll never have to second-guess in a client meeting.\" Subhead: Every image on SiegmannStock is pre-cleared for commercial use — with AI-verified license metadata baked in.",
-      "bs": "\"Stock-fotografije koje nikad nećete morati preispitivati na sastanku s klijentom.\" Podnaslov: Svaka slika na SiegmannStocku je prethodno odobrena za komercijalnu upotrebu — s AI-verifikovanim metapodacima licence ugrađenim unutar."
-    },
-    "#landing-siegmann .landing-section-row:nth-child(2) .landing-section-name": { "en": "The Problem (Fear)", "bs": "Problem (Strah)" },
-    "#landing-siegmann .landing-section-row:nth-child(2) .landing-function": { "en": "Function: Surface the nightmare the reader is trying to avoid", "bs": "Funkcija: Iznesite noćnu moru koju čitalac pokušava izbjeći" },
-    "#landing-siegmann .landing-section-row:nth-child(2) .sample-copy": {
-      "en": "\"You downloaded a 'free' image three years ago. Last month, you got a letter from a stock agency demanding €2,400. We've heard this story 200 times this year.\"",
-      "bs": "\"Preuzeli ste 'besplatnu' sliku prije tri godine. Prošli mjesec dobili ste pismo od stock-agencije sa zahtjevom od 2.400 €. Čuli smo ovu priču 200 puta ove godine.\""
-    },
-    "#landing-siegmann .landing-section-row:nth-child(3) .landing-section-name": { "en": "The Tension (Doubt)", "bs": "Tenzija (Sumnja)" },
-    "#landing-siegmann .landing-section-row:nth-child(3) .landing-function": { "en": "Function: Articulate the objection before the reader can", "bs": "Funkcija: Izrazite prigovor prije nego čitalac" },
-    "#landing-siegmann .landing-section-row:nth-child(3) .sample-copy": {
-      "en": "\"'But how is yours different from every other stock site?' — Because every image is scored by an AI model that reads the actual license terms, not just the file name. You see the clearance level before you download, not after.\"",
-      "bs": "\"'Ali u čemu je vaša razlika od svakog drugog stock sajta?' — Zato što je svaka slika ocijenjena AI modelom koji čita stvarne uslove licence, ne samo ime fajla. Nivo odobrenja vidite prije preuzimanja, ne nakon.\""
-    },
-    "#landing-siegmann .landing-section-row:nth-child(4) .landing-section-name": { "en": "Proof (Trust)", "bs": "Dokaz (Povjerenje)" },
-    "#landing-siegmann .landing-section-row:nth-child(4) .landing-function": { "en": "Function: Replace emotion with evidence", "bs": "Funkcija: Zamijenite emociju dokazima" },
-    "#landing-siegmann .landing-section-row:nth-child(4) .sample-copy": {
-      "en": "\"Trusted by 1,200+ agencies. Each asset carries a machine-readable license manifest. Zero takedown notices in 18 months.\"",
-      "bs": "\"Vjeruje nam 1.200+ agencija. Svaki asset nosi mašinski čitljiv manifest licence. Nula obavijesti o uklanjanju u 18 mjeseci.\""
-    },
-    "#landing-siegmann .landing-section-row:nth-child(5) .landing-section-name": { "en": "Relief (The Tier Map)", "bs": "Olakšanje (Mapa tier-ova)" },
-    "#landing-siegmann .landing-section-row:nth-child(5) .landing-function": { "en": "Function: Make the safe choice the obvious choice", "bs": "Funkcija: Učinite siguran izbor očitim izborom" },
-    "#landing-siegmann .landing-section-row:nth-child(5) .sample-copy": {
-      "en": "\"Standard covers 90% of uses. Extended covers the 10% that get people sued — print runs over 100k, merchandising, and templated resale. Most designers upgrade after their first close call, not before.\"",
-      "bs": "\"Standard pokriva 90% upotreba. Extended pokriva 10% zbog kojih ljudi završe na sudu — tiraži preko 100k, merchandise i preprodaju šablona. Većina dizajnera nadograđuje nakon prvog bliskog susreta, ne prije.\""
-    },
-    "#landing-siegmann .landing-section-row:nth-child(6) .landing-section-name": { "en": "CTA (Action)", "bs": "CTA (Akcija)" },
-    "#landing-siegmann .landing-section-row:nth-child(6) .landing-function": { "en": "Function: Remove the last objection with a low-friction first step", "bs": "Funkcija: Uklonite posljednji prigovor prvim korakom bez trenja" },
-    "#landing-siegmann .landing-section-row:nth-child(6) .sample-copy": {
-      "en": "\"Start with 5 free AI-cleared images. No card. Upgrade only when a project actually needs Extended.\"",
-      "bs": "\"Krenite s 5 besplatnih AI-odobrenih slika. Bez kartice. Nadogradi se tek kada projekat zaista treba Extended.\""
-    },
-
-    "#lsub-why": { "en": "Why This Order Works", "bs": "Zašto ovaj redoslijed radi" },
-    "#landing-siegmann .phase-psychology .phase-row-content": {
-      "en": "Notice the CTA is <em>not</em> \"buy Extended.\" It's \"start free.\" The page sells safety, not a tier — the upgrade happens later, when the reader has already experienced relief. Leading with the Hero's promise (relief) and burying the fear (Problem) in section 2 lets the reader admit their anxiety privately instead of feeling sold to. This is the inverse of most stock-photo landing pages, which lead with \"10% off\" and lose the cautious buyer in the first three seconds.",
-      "bs": "Primijetite da CTA <em>nije</em> \"kupi Extended.\" Nego \"kreni besplatno.\" Stranica prodaje sigurnost, ne tier — nadogradnja se dešava kasnije, kada je čitalac već iskusio olakšanje. Vođenje Hero obećanjem (olakšanje) i zakopavanje straha (Problem) u sekciji 2 omogućava čitaocu da prizna anksioznost privatno umjesto da se osjeća da mu se prodaje. Ovo je inverzno od većine landing stranica stock-fotografija, koje vode sa \"10% popusta\" i gube opreznog kupca u prve tri sekunde."
-    },
-
     "#content .seo-cta-text": {
-      "en": "Three formats, one method: every piece of content engineered around the psychological reality behind the query. If you need content strategy that works across video, articles, and landing pages — let's talk.",
-      "bs": "Tri formata, jedna metoda: svaki komad sadržaja konstruisan oko psihološke stvarnosti iza upita. Ako vam treba strategija sadržaja koja radi na videu, člancima i landing stranicama — razgovarajmo."
+      "en": "Every piece of content engineered around the psychological reality behind the query. If you need content strategy that works across video, articles, and landing pages — let's talk.",
+      "bs": "Svaki komad sadržaja konstruisan oko psihološke stvarnosti iza upita. Ako vam treba strategija sadržaja koja radi na videu, člancima i landing stranicama — razgovarajmo."
     },
     "#content .seo-cta-content .cta-text": { "en": "START A CONVERSATION", "bs": "ZAPOČNITE RAZGOVOR" },
 
